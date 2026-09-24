@@ -1,0 +1,4530 @@
+{
+  "version": 1,
+  "pack_sha256": "35eb357cbca8b91cf6d31aa7c8f4e0f5252a6eb26a0347904c356ccfd5d7561d",
+  "palette": "shared256",
+  "base_manifest_sha256": "75c8421b1fb045d85126fb0f67a8670cb53e81c271da1f78aceb20d92f65e94d",
+  "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+  "report_sha256": "9bad8d02ce5ad097f4a34c8a747bb86d5f29c31faf9c770bdf79832ae8a19617",
+  "assets": {
+    "cafe": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/cafe.png",
+      "sha256": "41d6ecc23f89674581c16b252385bc2c0c109823c6ae88619aa75bcfc3113834",
+      "size": [
+        100,
+        90
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/buildings.png",
+        "source_sha256": "a5ecb86dadaae04ab8a10b469fb67e38a6dbc3b602a79bd47c8f9e345d2ebc13",
+        "prompt": "output/imagegen/art-v2/prompts/buildings.txt",
+        "prompt_sha256": "6549b834d335777f5c073c7c2d49a218f92c190b2d4b46603bf9b06aae15ca31",
+        "reference_sha256": "c1c491176b04939b710a4df28a392bb05c80f310cd3d0b8f4fe194528dc965d4",
+        "source_rect": [
+          56,
+          76,
+          400,
+          360
+        ],
+        "native_size": [
+          100,
+          90
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "410df0d701a87d63b2ef793e9f6fc6e19004cbbf642b913ed2112525e981ff38",
+        "sha256": "41d6ecc23f89674581c16b252385bc2c0c109823c6ae88619aa75bcfc3113834",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "buildings",
+            "raw_source": "output/imagegen/art-v2/sources/buildings.png",
+            "raw_sha256": "1b1e08fb1af77c71ee2aa4f583c0f1baeb55fbf7f8a6f0b5f8a3245e3786aea0",
+            "aligned_sha256": "a5ecb86dadaae04ab8a10b469fb67e38a6dbc3b602a79bd47c8f9e345d2ebc13",
+            "measurement": {
+              "id": "cafe",
+              "source_rect": [
+                40,
+                73,
+                433,
+                407
+              ],
+              "native_canvas": [
+                100,
+                90
+              ],
+              "native_placement": [
+                2,
+                0,
+                96,
+                90
+              ],
+              "reference_scale": 4
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/buildings-generation.json",
+            "sha256": "d3dc133c5426d526f3d215415f79f2c93c700f2845b4e4fc8419a4bdba7c2bcc",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/buildings.png",
+            "raw_sha256": "1b1e08fb1af77c71ee2aa4f583c0f1baeb55fbf7f8a6f0b5f8a3245e3786aea0"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "native_rect": [
+            0,
+            0,
+            100,
+            90
+          ]
+        }
+      }
+    },
+    "homes": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/homes.png",
+      "sha256": "b13bdae9a719c6a1cf3eda42c19e80a2ad1dcf46ff76bf89ee8d0b5fa5593fb9",
+      "size": [
+        96,
+        76
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/buildings.png",
+        "source_sha256": "a5ecb86dadaae04ab8a10b469fb67e38a6dbc3b602a79bd47c8f9e345d2ebc13",
+        "prompt": "output/imagegen/art-v2/prompts/buildings.txt",
+        "prompt_sha256": "6549b834d335777f5c073c7c2d49a218f92c190b2d4b46603bf9b06aae15ca31",
+        "reference_sha256": "c1c491176b04939b710a4df28a392bb05c80f310cd3d0b8f4fe194528dc965d4",
+        "source_rect": [
+          576,
+          104,
+          384,
+          304
+        ],
+        "native_size": [
+          96,
+          76
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "35f06c1f288c90008b2c0ee8a8f7cd905d165d9936cb2cfd39669b0355d5e5cf",
+        "sha256": "b13bdae9a719c6a1cf3eda42c19e80a2ad1dcf46ff76bf89ee8d0b5fa5593fb9",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "buildings",
+            "raw_source": "output/imagegen/art-v2/sources/buildings.png",
+            "raw_sha256": "1b1e08fb1af77c71ee2aa4f583c0f1baeb55fbf7f8a6f0b5f8a3245e3786aea0",
+            "aligned_sha256": "a5ecb86dadaae04ab8a10b469fb67e38a6dbc3b602a79bd47c8f9e345d2ebc13",
+            "measurement": {
+              "id": "homes",
+              "source_rect": [
+                558,
+                118,
+                462,
+                352
+              ],
+              "native_canvas": [
+                96,
+                76
+              ],
+              "native_placement": [
+                0,
+                3,
+                96,
+                73
+              ],
+              "reference_scale": 4
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/buildings-generation.json",
+            "sha256": "d3dc133c5426d526f3d215415f79f2c93c700f2845b4e4fc8419a4bdba7c2bcc",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/buildings.png",
+            "raw_sha256": "1b1e08fb1af77c71ee2aa4f583c0f1baeb55fbf7f8a6f0b5f8a3245e3786aea0"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            128,
+            0,
+            128,
+            128
+          ],
+          "native_rect": [
+            128,
+            0,
+            96,
+            76
+          ]
+        }
+      }
+    },
+    "alma_home": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/alma_home.png",
+      "sha256": "c3e91b395a66c588369173cb2c72cd234de41fcf4ba706e1576f2479a4227e79",
+      "size": [
+        68,
+        74
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/buildings.png",
+        "source_sha256": "a5ecb86dadaae04ab8a10b469fb67e38a6dbc3b602a79bd47c8f9e345d2ebc13",
+        "prompt": "output/imagegen/art-v2/prompts/buildings.txt",
+        "prompt_sha256": "6549b834d335777f5c073c7c2d49a218f92c190b2d4b46603bf9b06aae15ca31",
+        "reference_sha256": "c1c491176b04939b710a4df28a392bb05c80f310cd3d0b8f4fe194528dc965d4",
+        "source_rect": [
+          1144,
+          108,
+          272,
+          296
+        ],
+        "native_size": [
+          68,
+          74
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "6316cebfb916b4904c54501633182bc3f1bbcd48fbf0b1d010608bf5e026c832",
+        "sha256": "c3e91b395a66c588369173cb2c72cd234de41fcf4ba706e1576f2479a4227e79",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "buildings",
+            "raw_source": "output/imagegen/art-v2/sources/buildings.png",
+            "raw_sha256": "1b1e08fb1af77c71ee2aa4f583c0f1baeb55fbf7f8a6f0b5f8a3245e3786aea0",
+            "aligned_sha256": "a5ecb86dadaae04ab8a10b469fb67e38a6dbc3b602a79bd47c8f9e345d2ebc13",
+            "measurement": {
+              "id": "alma_home",
+              "source_rect": [
+                1152,
+                102,
+                336,
+                368
+              ],
+              "native_canvas": [
+                68,
+                74
+              ],
+              "native_placement": [
+                0,
+                0,
+                68,
+                74
+              ],
+              "reference_scale": 4
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/buildings-generation.json",
+            "sha256": "d3dc133c5426d526f3d215415f79f2c93c700f2845b4e4fc8419a4bdba7c2bcc",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/buildings.png",
+            "raw_sha256": "1b1e08fb1af77c71ee2aa4f583c0f1baeb55fbf7f8a6f0b5f8a3245e3786aea0"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            256,
+            0,
+            128,
+            128
+          ],
+          "native_rect": [
+            256,
+            0,
+            68,
+            74
+          ]
+        }
+      }
+    },
+    "workshop": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/workshop.png",
+      "sha256": "4f213d34b0a9cc9058a7c1442f33b4aeb45e98e9312c0020c816a2c7aab00769",
+      "size": [
+        110,
+        72
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/buildings.png",
+        "source_sha256": "a5ecb86dadaae04ab8a10b469fb67e38a6dbc3b602a79bd47c8f9e345d2ebc13",
+        "prompt": "output/imagegen/art-v2/prompts/buildings.txt",
+        "prompt_sha256": "6549b834d335777f5c073c7c2d49a218f92c190b2d4b46603bf9b06aae15ca31",
+        "reference_sha256": "c1c491176b04939b710a4df28a392bb05c80f310cd3d0b8f4fe194528dc965d4",
+        "source_rect": [
+          36,
+          624,
+          440,
+          288
+        ],
+        "native_size": [
+          110,
+          72
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "8524219208186824a724e8f7e0647d228147dfdc1c6b36398785fe226a13c6dd",
+        "sha256": "4f213d34b0a9cc9058a7c1442f33b4aeb45e98e9312c0020c816a2c7aab00769",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "buildings",
+            "raw_source": "output/imagegen/art-v2/sources/buildings.png",
+            "raw_sha256": "1b1e08fb1af77c71ee2aa4f583c0f1baeb55fbf7f8a6f0b5f8a3245e3786aea0",
+            "aligned_sha256": "a5ecb86dadaae04ab8a10b469fb67e38a6dbc3b602a79bd47c8f9e345d2ebc13",
+            "measurement": {
+              "id": "workshop",
+              "source_rect": [
+                39,
+                612,
+                511,
+                330
+              ],
+              "native_canvas": [
+                110,
+                72
+              ],
+              "native_placement": [
+                1,
+                2,
+                108,
+                70
+              ],
+              "reference_scale": 4
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/buildings-generation.json",
+            "sha256": "d3dc133c5426d526f3d215415f79f2c93c700f2845b4e4fc8419a4bdba7c2bcc",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/buildings.png",
+            "raw_sha256": "1b1e08fb1af77c71ee2aa4f583c0f1baeb55fbf7f8a6f0b5f8a3245e3786aea0"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            384,
+            0,
+            128,
+            128
+          ],
+          "native_rect": [
+            384,
+            0,
+            110,
+            72
+          ]
+        }
+      }
+    },
+    "player_home": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/player_home.png",
+      "sha256": "36e21efc587e140206769d1a4b4dfb9d9e91096533bd1f7d69c3cb974207e17e",
+      "size": [
+        70,
+        70
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/buildings.png",
+        "source_sha256": "a5ecb86dadaae04ab8a10b469fb67e38a6dbc3b602a79bd47c8f9e345d2ebc13",
+        "prompt": "output/imagegen/art-v2/prompts/buildings.txt",
+        "prompt_sha256": "6549b834d335777f5c073c7c2d49a218f92c190b2d4b46603bf9b06aae15ca31",
+        "reference_sha256": "c1c491176b04939b710a4df28a392bb05c80f310cd3d0b8f4fe194528dc965d4",
+        "source_rect": [
+          628,
+          628,
+          280,
+          280
+        ],
+        "native_size": [
+          70,
+          70
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "c3efa2a9748840c166eabad9c178681e2db5f2e5537c25e9b9bdb2e99217aa0a",
+        "sha256": "36e21efc587e140206769d1a4b4dfb9d9e91096533bd1f7d69c3cb974207e17e",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "buildings",
+            "raw_source": "output/imagegen/art-v2/sources/buildings.png",
+            "raw_sha256": "1b1e08fb1af77c71ee2aa4f583c0f1baeb55fbf7f8a6f0b5f8a3245e3786aea0",
+            "aligned_sha256": "a5ecb86dadaae04ab8a10b469fb67e38a6dbc3b602a79bd47c8f9e345d2ebc13",
+            "measurement": {
+              "id": "player_home",
+              "source_rect": [
+                646,
+                602,
+                344,
+                340
+              ],
+              "native_canvas": [
+                70,
+                70
+              ],
+              "native_placement": [
+                0,
+                1,
+                70,
+                69
+              ],
+              "reference_scale": 4
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/buildings-generation.json",
+            "sha256": "d3dc133c5426d526f3d215415f79f2c93c700f2845b4e4fc8419a4bdba7c2bcc",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/buildings.png",
+            "raw_sha256": "1b1e08fb1af77c71ee2aa4f583c0f1baeb55fbf7f8a6f0b5f8a3245e3786aea0"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            512,
+            0,
+            128,
+            128
+          ],
+          "native_rect": [
+            512,
+            0,
+            70,
+            70
+          ]
+        }
+      }
+    },
+    "shop": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/shop.png",
+      "sha256": "10f13a0cccaab6957aa9e957206dd551bc2e8d4c31fc6870700c99a2980f6e61",
+      "size": [
+        54,
+        46
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/buildings.png",
+        "source_sha256": "a5ecb86dadaae04ab8a10b469fb67e38a6dbc3b602a79bd47c8f9e345d2ebc13",
+        "prompt": "output/imagegen/art-v2/prompts/buildings.txt",
+        "prompt_sha256": "6549b834d335777f5c073c7c2d49a218f92c190b2d4b46603bf9b06aae15ca31",
+        "reference_sha256": "c1c491176b04939b710a4df28a392bb05c80f310cd3d0b8f4fe194528dc965d4",
+        "source_rect": [
+          1172,
+          676,
+          216,
+          184
+        ],
+        "native_size": [
+          54,
+          46
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "aed13931cb19cd2ae78f396b4c19ea7ed8d447ee73fc307c723dea1fe2acf7e7",
+        "sha256": "10f13a0cccaab6957aa9e957206dd551bc2e8d4c31fc6870700c99a2980f6e61",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "buildings",
+            "raw_source": "output/imagegen/art-v2/sources/buildings.png",
+            "raw_sha256": "1b1e08fb1af77c71ee2aa4f583c0f1baeb55fbf7f8a6f0b5f8a3245e3786aea0",
+            "aligned_sha256": "a5ecb86dadaae04ab8a10b469fb67e38a6dbc3b602a79bd47c8f9e345d2ebc13",
+            "measurement": {
+              "id": "shop",
+              "source_rect": [
+                1146,
+                648,
+                326,
+                283
+              ],
+              "native_canvas": [
+                54,
+                46
+              ],
+              "native_placement": [
+                0,
+                0,
+                53,
+                46
+              ],
+              "reference_scale": 4
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/buildings-generation.json",
+            "sha256": "d3dc133c5426d526f3d215415f79f2c93c700f2845b4e4fc8419a4bdba7c2bcc",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/buildings.png",
+            "raw_sha256": "1b1e08fb1af77c71ee2aa4f583c0f1baeb55fbf7f8a6f0b5f8a3245e3786aea0"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            640,
+            0,
+            128,
+            128
+          ],
+          "native_rect": [
+            640,
+            0,
+            54,
+            46
+          ]
+        }
+      }
+    },
+    "tree": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/tree.png",
+      "sha256": "7ddb4ce7ea9a96a4fe9d743a6884e8d9e782446240e6b18dc44be8353a308e87",
+      "size": [
+        42,
+        56
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/outdoors.png",
+        "source_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+        "prompt": "output/imagegen/art-v2/prompts/outdoors.txt",
+        "prompt_sha256": "7a010cb976301e1b93d43e779fc13361ad5ae8e10419711066028134f02d6928",
+        "reference_sha256": "aa3c3d93dd6ad581bf90d4e851b0bb32aca4bbab7d6643a1394c34b10075f71a",
+        "source_rect": [
+          44,
+          16,
+          168,
+          224
+        ],
+        "native_size": [
+          42,
+          56
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "cb926bc99e13bbbf3917117a07c692e9f7666f5bc9b7d86ee437f760b831878c",
+        "sha256": "7ddb4ce7ea9a96a4fe9d743a6884e8d9e782446240e6b18dc44be8353a308e87",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "outdoors",
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84",
+            "aligned_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+            "measurement": {
+              "id": "tree",
+              "source_rect": [
+                31,
+                46,
+                207,
+                215
+              ],
+              "native_canvas": [
+                42,
+                56
+              ],
+              "native_placement": [
+                0,
+                12,
+                42,
+                44
+              ],
+              "reference_scale": 4
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/outdoors-generation.json",
+            "sha256": "91191e8425dbf8a1fe55dafeef99f3d1a8edd85c0fe09fc98bf3a054e7e84659",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            768,
+            0,
+            128,
+            128
+          ],
+          "native_rect": [
+            768,
+            0,
+            42,
+            56
+          ]
+        }
+      }
+    },
+    "tree_small": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/tree_small.png",
+      "sha256": "b23ef18d01266075be6b70cb243ecf41af7e105eb8441722624b18b28b502dcd",
+      "size": [
+        33,
+        47
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/outdoors.png",
+        "source_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+        "prompt": "output/imagegen/art-v2/prompts/outdoors.txt",
+        "prompt_sha256": "7a010cb976301e1b93d43e779fc13361ad5ae8e10419711066028134f02d6928",
+        "reference_sha256": "aa3c3d93dd6ad581bf90d4e851b0bb32aca4bbab7d6643a1394c34b10075f71a",
+        "source_rect": [
+          318,
+          34,
+          132,
+          188
+        ],
+        "native_size": [
+          33,
+          47
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "65dcf437f705a384203336ed48b6688102413a060262cac9f4ba6ddda9e09797",
+        "sha256": "b23ef18d01266075be6b70cb243ecf41af7e105eb8441722624b18b28b502dcd",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "outdoors",
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84",
+            "aligned_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+            "measurement": {
+              "id": "tree_small",
+              "source_rect": [
+                315,
+                49,
+                148,
+                197
+              ],
+              "native_canvas": [
+                33,
+                47
+              ],
+              "native_placement": [
+                0,
+                4,
+                32,
+                43
+              ],
+              "reference_scale": 4
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/outdoors-generation.json",
+            "sha256": "91191e8425dbf8a1fe55dafeef99f3d1a8edd85c0fe09fc98bf3a054e7e84659",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            896,
+            0,
+            128,
+            128
+          ],
+          "native_rect": [
+            896,
+            0,
+            33,
+            47
+          ]
+        }
+      }
+    },
+    "fountain": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/fountain.png",
+      "sha256": "3d837c826c9cb0b812b8db5dbe5ad9bcc2050ed66020f857c8cb5f2f4906d009",
+      "size": [
+        61,
+        46
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/outdoors.png",
+        "source_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+        "prompt": "output/imagegen/art-v2/prompts/outdoors.txt",
+        "prompt_sha256": "7a010cb976301e1b93d43e779fc13361ad5ae8e10419711066028134f02d6928",
+        "reference_sha256": "aa3c3d93dd6ad581bf90d4e851b0bb32aca4bbab7d6643a1394c34b10075f71a",
+        "source_rect": [
+          548,
+          59,
+          183,
+          138
+        ],
+        "native_size": [
+          61,
+          46
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "17f0022e47ea48560422dcb0822dd2052511e067a3707e456cfd2a18f84212d8",
+        "sha256": "3d837c826c9cb0b812b8db5dbe5ad9bcc2050ed66020f857c8cb5f2f4906d009",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "outdoors",
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84",
+            "aligned_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+            "measurement": {
+              "id": "fountain",
+              "source_rect": [
+                528,
+                62,
+                224,
+                175
+              ],
+              "native_canvas": [
+                61,
+                46
+              ],
+              "native_placement": [
+                1,
+                0,
+                59,
+                46
+              ],
+              "reference_scale": 3
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/outdoors-generation.json",
+            "sha256": "91191e8425dbf8a1fe55dafeef99f3d1a8edd85c0fe09fc98bf3a054e7e84659",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            1024,
+            0,
+            128,
+            128
+          ],
+          "native_rect": [
+            1024,
+            0,
+            61,
+            46
+          ]
+        }
+      }
+    },
+    "bench": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/bench.png",
+      "sha256": "356a488d5f96006a550d02e432d42879c0124a04d7474ff7d558cad4f7f27ce6",
+      "size": [
+        36,
+        18
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/outdoors.png",
+        "source_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+        "prompt": "output/imagegen/art-v2/prompts/outdoors.txt",
+        "prompt_sha256": "7a010cb976301e1b93d43e779fc13361ad5ae8e10419711066028134f02d6928",
+        "reference_sha256": "aa3c3d93dd6ad581bf90d4e851b0bb32aca4bbab7d6643a1394c34b10075f71a",
+        "source_rect": [
+          788,
+          74,
+          216,
+          108
+        ],
+        "native_size": [
+          36,
+          18
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "8d04a0921890374e49766f06bc8916eb72282b7acd488489cd78ee59cbfd6163",
+        "sha256": "356a488d5f96006a550d02e432d42879c0124a04d7474ff7d558cad4f7f27ce6",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "outdoors",
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84",
+            "aligned_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+            "measurement": {
+              "id": "bench",
+              "source_rect": [
+                802,
+                93,
+                197,
+                124
+              ],
+              "native_canvas": [
+                36,
+                18
+              ],
+              "native_placement": [
+                3,
+                0,
+                29,
+                18
+              ],
+              "reference_scale": 6
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/outdoors-generation.json",
+            "sha256": "91191e8425dbf8a1fe55dafeef99f3d1a8edd85c0fe09fc98bf3a054e7e84659",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            0,
+            128,
+            128,
+            128
+          ],
+          "native_rect": [
+            0,
+            128,
+            36,
+            18
+          ]
+        }
+      }
+    },
+    "cafe_table": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/cafe_table.png",
+      "sha256": "a9920f788f29cee181e7db198035b96075187e9ff43d8f9fc848d3a9af604816",
+      "size": [
+        38,
+        23
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/outdoors.png",
+        "source_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+        "prompt": "output/imagegen/art-v2/prompts/outdoors.txt",
+        "prompt_sha256": "7a010cb976301e1b93d43e779fc13361ad5ae8e10419711066028134f02d6928",
+        "reference_sha256": "aa3c3d93dd6ad581bf90d4e851b0bb32aca4bbab7d6643a1394c34b10075f71a",
+        "source_rect": [
+          33,
+          326,
+          190,
+          115
+        ],
+        "native_size": [
+          38,
+          23
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "b66dbdff092ae1307d0e639b17c234c7378bd739764c12a0fea2a1de803c2bf4",
+        "sha256": "a9920f788f29cee181e7db198035b96075187e9ff43d8f9fc848d3a9af604816",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "outdoors",
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84",
+            "aligned_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+            "measurement": {
+              "id": "cafe_table",
+              "source_rect": [
+                32,
+                319,
+                198,
+                143
+              ],
+              "native_canvas": [
+                38,
+                23
+              ],
+              "native_placement": [
+                3,
+                0,
+                32,
+                23
+              ],
+              "reference_scale": 5
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/outdoors-generation.json",
+            "sha256": "91191e8425dbf8a1fe55dafeef99f3d1a8edd85c0fe09fc98bf3a054e7e84659",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            128,
+            128,
+            128,
+            128
+          ],
+          "native_rect": [
+            128,
+            128,
+            38,
+            23
+          ]
+        }
+      }
+    },
+    "flowerpot": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/flowerpot.png",
+      "sha256": "a67f132aa83999f8d3a9f5974843faf4ea24ad7ce2b6bc8fac5177f6ec88ca34",
+      "size": [
+        12,
+        16
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/outdoors.png",
+        "source_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+        "prompt": "output/imagegen/art-v2/prompts/outdoors.txt",
+        "prompt_sha256": "7a010cb976301e1b93d43e779fc13361ad5ae8e10419711066028134f02d6928",
+        "reference_sha256": "aa3c3d93dd6ad581bf90d4e851b0bb32aca4bbab7d6643a1394c34b10075f71a",
+        "source_rect": [
+          348,
+          336,
+          72,
+          96
+        ],
+        "native_size": [
+          12,
+          16
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "2abb9559593dc3ba5edee975d0821e7e26bc4a7c39c6cd3c9affc5719093ebee",
+        "sha256": "a67f132aa83999f8d3a9f5974843faf4ea24ad7ce2b6bc8fac5177f6ec88ca34",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "outdoors",
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84",
+            "aligned_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+            "measurement": {
+              "id": "flowerpot",
+              "source_rect": [
+                338,
+                330,
+                99,
+                123
+              ],
+              "native_canvas": [
+                12,
+                16
+              ],
+              "native_placement": [
+                0,
+                1,
+                12,
+                15
+              ],
+              "reference_scale": 6
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/outdoors-generation.json",
+            "sha256": "91191e8425dbf8a1fe55dafeef99f3d1a8edd85c0fe09fc98bf3a054e7e84659",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            256,
+            128,
+            128,
+            128
+          ],
+          "native_rect": [
+            256,
+            128,
+            12,
+            16
+          ]
+        }
+      }
+    },
+    "fence": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/fence.png",
+      "sha256": "c2ebe5af8afb7e460a811c3c35899d8c7d642e753d8e48ecc77cac8a1989aaaf",
+      "size": [
+        32,
+        17
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/outdoors.png",
+        "source_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+        "prompt": "output/imagegen/art-v2/prompts/outdoors.txt",
+        "prompt_sha256": "7a010cb976301e1b93d43e779fc13361ad5ae8e10419711066028134f02d6928",
+        "reference_sha256": "aa3c3d93dd6ad581bf90d4e851b0bb32aca4bbab7d6643a1394c34b10075f71a",
+        "source_rect": [
+          544,
+          333,
+          192,
+          102
+        ],
+        "native_size": [
+          32,
+          17
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "03777df9dc38da36fa869c0f4f4232b0f4343ad913fa69ddabd07bdaa1cb3bb0",
+        "sha256": "c2ebe5af8afb7e460a811c3c35899d8c7d642e753d8e48ecc77cac8a1989aaaf",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "outdoors",
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84",
+            "aligned_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+            "measurement": {
+              "id": "fence",
+              "source_rect": [
+                534,
+                336,
+                210,
+                120
+              ],
+              "native_canvas": [
+                32,
+                17
+              ],
+              "native_placement": [
+                0,
+                0,
+                30,
+                17
+              ],
+              "reference_scale": 6
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/outdoors-generation.json",
+            "sha256": "91191e8425dbf8a1fe55dafeef99f3d1a8edd85c0fe09fc98bf3a054e7e84659",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            384,
+            128,
+            128,
+            128
+          ],
+          "native_rect": [
+            384,
+            128,
+            32,
+            17
+          ]
+        }
+      }
+    },
+    "bunting": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/bunting.png",
+      "sha256": "9b65e77557f6587d17fa399769ef69f8bfc892bf25e4c36c93b7ceab064407ae",
+      "size": [
+        96,
+        23
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/outdoors.png",
+        "source_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+        "prompt": "output/imagegen/art-v2/prompts/outdoors.txt",
+        "prompt_sha256": "7a010cb976301e1b93d43e779fc13361ad5ae8e10419711066028134f02d6928",
+        "reference_sha256": "aa3c3d93dd6ad581bf90d4e851b0bb32aca4bbab7d6643a1394c34b10075f71a",
+        "source_rect": [
+          800,
+          361,
+          192,
+          46
+        ],
+        "native_size": [
+          96,
+          23
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "45287097f5bb99523dfc6509bb8232780c240d753e4288c640d219831a873199",
+        "sha256": "9b65e77557f6587d17fa399769ef69f8bfc892bf25e4c36c93b7ceab064407ae",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "outdoors",
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84",
+            "aligned_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+            "measurement": {
+              "id": "bunting",
+              "source_rect": [
+                803,
+                355,
+                197,
+                78
+              ],
+              "native_canvas": [
+                96,
+                23
+              ],
+              "native_placement": [
+                18,
+                0,
+                58,
+                23
+              ],
+              "reference_scale": 2
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/outdoors-generation.json",
+            "sha256": "91191e8425dbf8a1fe55dafeef99f3d1a8edd85c0fe09fc98bf3a054e7e84659",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            512,
+            128,
+            128,
+            128
+          ],
+          "native_rect": [
+            512,
+            128,
+            96,
+            23
+          ]
+        }
+      }
+    },
+    "lamp": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/lamp.png",
+      "sha256": "d53b3ed93e7cd4016199c768d180529f60bcf465a9cfd80006b42bdf298026b0",
+      "size": [
+        10,
+        39
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/outdoors.png",
+        "source_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+        "prompt": "output/imagegen/art-v2/prompts/outdoors.txt",
+        "prompt_sha256": "7a010cb976301e1b93d43e779fc13361ad5ae8e10419711066028134f02d6928",
+        "reference_sha256": "aa3c3d93dd6ad581bf90d4e851b0bb32aca4bbab7d6643a1394c34b10075f71a",
+        "source_rect": [
+          103,
+          542,
+          50,
+          195
+        ],
+        "native_size": [
+          10,
+          39
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "582ee584803f707d04c7c8767196ace47e87133cdf4d0ebc35fdb82121698be8",
+        "sha256": "d53b3ed93e7cd4016199c768d180529f60bcf465a9cfd80006b42bdf298026b0",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "outdoors",
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84",
+            "aligned_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+            "measurement": {
+              "id": "lamp",
+              "source_rect": [
+                108,
+                522,
+                51,
+                224
+              ],
+              "native_canvas": [
+                10,
+                39
+              ],
+              "native_placement": [
+                1,
+                4,
+                8,
+                35
+              ],
+              "reference_scale": 5
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/outdoors-generation.json",
+            "sha256": "91191e8425dbf8a1fe55dafeef99f3d1a8edd85c0fe09fc98bf3a054e7e84659",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            640,
+            128,
+            128,
+            128
+          ],
+          "native_rect": [
+            640,
+            128,
+            10,
+            39
+          ]
+        }
+      }
+    },
+    "garden_left": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/garden_left.png",
+      "sha256": "570d80920c6ffc07792d20c547f9105a363cf00e7d4008532c84406165572166",
+      "size": [
+        24,
+        22
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/outdoors.png",
+        "source_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+        "prompt": "output/imagegen/art-v2/prompts/outdoors.txt",
+        "prompt_sha256": "7a010cb976301e1b93d43e779fc13361ad5ae8e10419711066028134f02d6928",
+        "reference_sha256": "aa3c3d93dd6ad581bf90d4e851b0bb32aca4bbab7d6643a1394c34b10075f71a",
+        "source_rect": [
+          312,
+          574,
+          144,
+          132
+        ],
+        "native_size": [
+          24,
+          22
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "5649f65b5a60c09a6906c630a1352ae28f07736b4f05dcb58e1744eb9f329839",
+        "sha256": "570d80920c6ffc07792d20c547f9105a363cf00e7d4008532c84406165572166",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "outdoors",
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84",
+            "aligned_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+            "measurement": {
+              "id": "garden_left",
+              "source_rect": [
+                295,
+                574,
+                170,
+                148
+              ],
+              "native_canvas": [
+                24,
+                22
+              ],
+              "native_placement": [
+                0,
+                1,
+                24,
+                21
+              ],
+              "reference_scale": 6
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/outdoors-generation.json",
+            "sha256": "91191e8425dbf8a1fe55dafeef99f3d1a8edd85c0fe09fc98bf3a054e7e84659",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            768,
+            128,
+            128,
+            128
+          ],
+          "native_rect": [
+            768,
+            128,
+            24,
+            22
+          ]
+        }
+      }
+    },
+    "garden_right": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/garden_right.png",
+      "sha256": "7d10f3ee4894caf4009f4a429e41a71f1d6b9451a6f9596c921eb43aadd14288",
+      "size": [
+        24,
+        22
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/outdoors.png",
+        "source_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+        "prompt": "output/imagegen/art-v2/prompts/outdoors.txt",
+        "prompt_sha256": "7a010cb976301e1b93d43e779fc13361ad5ae8e10419711066028134f02d6928",
+        "reference_sha256": "aa3c3d93dd6ad581bf90d4e851b0bb32aca4bbab7d6643a1394c34b10075f71a",
+        "source_rect": [
+          568,
+          574,
+          144,
+          132
+        ],
+        "native_size": [
+          24,
+          22
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "77d7bb5c889c45222606868781a511d51e4d8c952eda35db481a1d2a3eb5cbe5",
+        "sha256": "7d10f3ee4894caf4009f4a429e41a71f1d6b9451a6f9596c921eb43aadd14288",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "outdoors",
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84",
+            "aligned_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+            "measurement": {
+              "id": "garden_right",
+              "source_rect": [
+                560,
+                574,
+                168,
+                148
+              ],
+              "native_canvas": [
+                24,
+                22
+              ],
+              "native_placement": [
+                0,
+                1,
+                24,
+                21
+              ],
+              "reference_scale": 6
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/outdoors-generation.json",
+            "sha256": "91191e8425dbf8a1fe55dafeef99f3d1a8edd85c0fe09fc98bf3a054e7e84659",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            896,
+            128,
+            128,
+            128
+          ],
+          "native_rect": [
+            896,
+            128,
+            24,
+            22
+          ]
+        }
+      }
+    },
+    "planter": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/planter.png",
+      "sha256": "652adec6ef9d4f5d0d9f2549cd0295f854e9d340fb800144bf19f02637721738",
+      "size": [
+        42,
+        28
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/outdoors.png",
+        "source_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+        "prompt": "output/imagegen/art-v2/prompts/outdoors.txt",
+        "prompt_sha256": "7a010cb976301e1b93d43e779fc13361ad5ae8e10419711066028134f02d6928",
+        "reference_sha256": "aa3c3d93dd6ad581bf90d4e851b0bb32aca4bbab7d6643a1394c34b10075f71a",
+        "source_rect": [
+          791,
+          570,
+          210,
+          140
+        ],
+        "native_size": [
+          42,
+          28
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "35c7ca0eb9514791cd07f8e33f9be78534b15be7a596d3e52fbc9ec3e5cc6875",
+        "sha256": "652adec6ef9d4f5d0d9f2549cd0295f854e9d340fb800144bf19f02637721738",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "outdoors",
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84",
+            "aligned_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+            "measurement": {
+              "id": "planter",
+              "source_rect": [
+                798,
+                595,
+                203,
+                124
+              ],
+              "native_canvas": [
+                42,
+                28
+              ],
+              "native_placement": [
+                3,
+                6,
+                36,
+                22
+              ],
+              "reference_scale": 5
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/outdoors-generation.json",
+            "sha256": "91191e8425dbf8a1fe55dafeef99f3d1a8edd85c0fe09fc98bf3a054e7e84659",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            1024,
+            128,
+            128,
+            128
+          ],
+          "native_rect": [
+            1024,
+            128,
+            42,
+            28
+          ]
+        }
+      }
+    },
+    "planter_seeded": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/planter_seeded.png",
+      "sha256": "320adc52e17ce9394dfc7b67cfa6f81447312e03d54fab3fb99e756d86bd40f8",
+      "size": [
+        42,
+        28
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/outdoors.png",
+        "source_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+        "prompt": "output/imagegen/art-v2/prompts/outdoors.txt",
+        "prompt_sha256": "7a010cb976301e1b93d43e779fc13361ad5ae8e10419711066028134f02d6928",
+        "reference_sha256": "aa3c3d93dd6ad581bf90d4e851b0bb32aca4bbab7d6643a1394c34b10075f71a",
+        "source_rect": [
+          23,
+          826,
+          210,
+          140
+        ],
+        "native_size": [
+          42,
+          28
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "cfffe3ade9eb028e4528300c1a5fed56b435d40b7329538103db29c2bd321535",
+        "sha256": "320adc52e17ce9394dfc7b67cfa6f81447312e03d54fab3fb99e756d86bd40f8",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "outdoors",
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84",
+            "aligned_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+            "measurement": {
+              "id": "planter_seeded",
+              "source_rect": [
+                28,
+                826,
+                211,
+                149
+              ],
+              "native_canvas": [
+                42,
+                28
+              ],
+              "native_placement": [
+                2,
+                1,
+                38,
+                27
+              ],
+              "reference_scale": 5
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/outdoors-generation.json",
+            "sha256": "91191e8425dbf8a1fe55dafeef99f3d1a8edd85c0fe09fc98bf3a054e7e84659",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            0,
+            256,
+            128,
+            128
+          ],
+          "native_rect": [
+            0,
+            256,
+            42,
+            28
+          ]
+        }
+      }
+    },
+    "item_oil": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/item_oil.png",
+      "sha256": "8c18a2dcb4fc4fea1d1c7d5ca46d73325695f12e5c68dbe549fd2dd8cbd24882",
+      "size": [
+        18,
+        24
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/outdoors.png",
+        "source_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+        "prompt": "output/imagegen/art-v2/prompts/outdoors.txt",
+        "prompt_sha256": "7a010cb976301e1b93d43e779fc13361ad5ae8e10419711066028134f02d6928",
+        "reference_sha256": "aa3c3d93dd6ad581bf90d4e851b0bb32aca4bbab7d6643a1394c34b10075f71a",
+        "source_rect": [
+          330,
+          824,
+          108,
+          144
+        ],
+        "native_size": [
+          18,
+          24
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "0edbafe17d6e630a657630a5be9ab24fa89f3a6c80fbb96c0c8d3de726113c9c",
+        "sha256": "8c18a2dcb4fc4fea1d1c7d5ca46d73325695f12e5c68dbe549fd2dd8cbd24882",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "outdoors",
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84",
+            "aligned_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+            "measurement": {
+              "id": "item_oil",
+              "source_rect": [
+                341,
+                807,
+                97,
+                168
+              ],
+              "native_canvas": [
+                18,
+                24
+              ],
+              "native_placement": [
+                2,
+                0,
+                14,
+                24
+              ],
+              "reference_scale": 6
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/outdoors-generation.json",
+            "sha256": "91191e8425dbf8a1fe55dafeef99f3d1a8edd85c0fe09fc98bf3a054e7e84659",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            128,
+            256,
+            128,
+            128
+          ],
+          "native_rect": [
+            128,
+            256,
+            18,
+            24
+          ]
+        }
+      }
+    },
+    "item_seeds": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/item_seeds.png",
+      "sha256": "0f96c25475f9746c93314abc6737c72d3c303d38db37ac167ab9bd64e0d70fe2",
+      "size": [
+        22,
+        24
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/outdoors.png",
+        "source_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+        "prompt": "output/imagegen/art-v2/prompts/outdoors.txt",
+        "prompt_sha256": "7a010cb976301e1b93d43e779fc13361ad5ae8e10419711066028134f02d6928",
+        "reference_sha256": "aa3c3d93dd6ad581bf90d4e851b0bb32aca4bbab7d6643a1394c34b10075f71a",
+        "source_rect": [
+          574,
+          824,
+          132,
+          144
+        ],
+        "native_size": [
+          22,
+          24
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "2819c2baec6032c79736775bf95c9ebe0ce20a63a0ca887df81c39ad093ea130",
+        "sha256": "0f96c25475f9746c93314abc6737c72d3c303d38db37ac167ab9bd64e0d70fe2",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "outdoors",
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84",
+            "aligned_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+            "measurement": {
+              "id": "item_seeds",
+              "source_rect": [
+                563,
+                831,
+                162,
+                148
+              ],
+              "native_canvas": [
+                22,
+                24
+              ],
+              "native_placement": [
+                0,
+                4,
+                22,
+                20
+              ],
+              "reference_scale": 6
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/outdoors-generation.json",
+            "sha256": "91191e8425dbf8a1fe55dafeef99f3d1a8edd85c0fe09fc98bf3a054e7e84659",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            256,
+            256,
+            128,
+            128
+          ],
+          "native_rect": [
+            256,
+            256,
+            22,
+            24
+          ]
+        }
+      }
+    },
+    "item_tea": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/item_tea.png",
+      "sha256": "4b21f9a2fc4ca315418b8bec8f21d392ff6a83db313bdd81d9e179832129fda5",
+      "size": [
+        22,
+        24
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/outdoors.png",
+        "source_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+        "prompt": "output/imagegen/art-v2/prompts/outdoors.txt",
+        "prompt_sha256": "7a010cb976301e1b93d43e779fc13361ad5ae8e10419711066028134f02d6928",
+        "reference_sha256": "aa3c3d93dd6ad581bf90d4e851b0bb32aca4bbab7d6643a1394c34b10075f71a",
+        "source_rect": [
+          830,
+          824,
+          132,
+          144
+        ],
+        "native_size": [
+          22,
+          24
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "68eb8bda0bb63da73d5c0ecf76b673bc6b15993dce40cce9f39461fd4be5eca3",
+        "sha256": "4b21f9a2fc4ca315418b8bec8f21d392ff6a83db313bdd81d9e179832129fda5",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "outdoors",
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84",
+            "aligned_sha256": "0bb99e52175dab427f6c2784c73671637b20dd559ca0a6a1b3082add186bb085",
+            "measurement": {
+              "id": "item_tea",
+              "source_rect": [
+                834,
+                819,
+                134,
+                163
+              ],
+              "native_canvas": [
+                22,
+                24
+              ],
+              "native_placement": [
+                1,
+                0,
+                20,
+                24
+              ],
+              "reference_scale": 6
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/outdoors-generation.json",
+            "sha256": "91191e8425dbf8a1fe55dafeef99f3d1a8edd85c0fe09fc98bf3a054e7e84659",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/outdoors.png",
+            "raw_sha256": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            384,
+            256,
+            128,
+            128
+          ],
+          "native_rect": [
+            384,
+            256,
+            22,
+            24
+          ]
+        }
+      }
+    },
+    "bed": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/bed.png",
+      "sha256": "6489c8045b3838c04a77dedba19ff0ba5918dcbf7fe0846430206683b6181edf",
+      "size": [
+        26,
+        38
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/interiors.png",
+        "source_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+        "prompt": "output/imagegen/art-v2/prompts/interiors.txt",
+        "prompt_sha256": "94b7d30b0f4f975b386eabca99e9f758291c7b1648ee5063c47a336d5740e7c5",
+        "reference_sha256": "28d0e4198f8058913677e0131529fb4643fd712494506ed19e51ea3bfdb0efc9",
+        "source_rect": [
+          63,
+          33,
+          130,
+          190
+        ],
+        "native_size": [
+          26,
+          38
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "ba5ec77bea0bb96af4b55ab72d4d6d452fe85b36d4b9b86d8e714183549009ea",
+        "sha256": "6489c8045b3838c04a77dedba19ff0ba5918dcbf7fe0846430206683b6181edf",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "interiors",
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76",
+            "aligned_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+            "measurement": {
+              "id": "bed",
+              "source_rect": [
+                52,
+                48,
+                150,
+                221
+              ],
+              "native_canvas": [
+                26,
+                38
+              ],
+              "native_placement": [
+                1,
+                3,
+                24,
+                35
+              ],
+              "reference_scale": 5
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/interiors-generation.json",
+            "sha256": "4bcf8781c47498b71118c5ade81a44aec7497f09e4d6a1a2865d943a7ded6ea7",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            512,
+            256,
+            128,
+            128
+          ],
+          "native_rect": [
+            512,
+            256,
+            26,
+            38
+          ]
+        }
+      }
+    },
+    "table": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/table.png",
+      "sha256": "989797dcccac79e78ee15c3e393353a87a132d131548a946d42460332bb08529",
+      "size": [
+        40,
+        27
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/interiors.png",
+        "source_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+        "prompt": "output/imagegen/art-v2/prompts/interiors.txt",
+        "prompt_sha256": "94b7d30b0f4f975b386eabca99e9f758291c7b1648ee5063c47a336d5740e7c5",
+        "reference_sha256": "28d0e4198f8058913677e0131529fb4643fd712494506ed19e51ea3bfdb0efc9",
+        "source_rect": [
+          284,
+          60,
+          200,
+          135
+        ],
+        "native_size": [
+          40,
+          27
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "10f27283e81c7236b7c47ace3b041b0c21a47d583cbcf1ee48b2612bd4f6600a",
+        "sha256": "989797dcccac79e78ee15c3e393353a87a132d131548a946d42460332bb08529",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "interiors",
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76",
+            "aligned_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+            "measurement": {
+              "id": "table",
+              "source_rect": [
+                280,
+                91,
+                215,
+                144
+              ],
+              "native_canvas": [
+                40,
+                27
+              ],
+              "native_placement": [
+                0,
+                1,
+                39,
+                26
+              ],
+              "reference_scale": 5
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/interiors-generation.json",
+            "sha256": "4bcf8781c47498b71118c5ade81a44aec7497f09e4d6a1a2865d943a7ded6ea7",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            640,
+            256,
+            128,
+            128
+          ],
+          "native_rect": [
+            640,
+            256,
+            40,
+            27
+          ]
+        }
+      }
+    },
+    "cabinet": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/cabinet.png",
+      "sha256": "fee14b1916efc63726fd20a24d309cdf406422f34072177ede1e4c16eff98733",
+      "size": [
+        40,
+        28
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/interiors.png",
+        "source_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+        "prompt": "output/imagegen/art-v2/prompts/interiors.txt",
+        "prompt_sha256": "94b7d30b0f4f975b386eabca99e9f758291c7b1648ee5063c47a336d5740e7c5",
+        "reference_sha256": "28d0e4198f8058913677e0131529fb4643fd712494506ed19e51ea3bfdb0efc9",
+        "source_rect": [
+          540,
+          58,
+          200,
+          140
+        ],
+        "native_size": [
+          40,
+          28
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "1c47f8adb02a65d8ea4704ff2763dcbbec3198938faa2c8a09ef1035217d88a4",
+        "sha256": "fee14b1916efc63726fd20a24d309cdf406422f34072177ede1e4c16eff98733",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "interiors",
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76",
+            "aligned_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+            "measurement": {
+              "id": "cabinet",
+              "source_rect": [
+                536,
+                77,
+                214,
+                168
+              ],
+              "native_canvas": [
+                40,
+                28
+              ],
+              "native_placement": [
+                2,
+                0,
+                36,
+                28
+              ],
+              "reference_scale": 5
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/interiors-generation.json",
+            "sha256": "4bcf8781c47498b71118c5ade81a44aec7497f09e4d6a1a2865d943a7ded6ea7",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            768,
+            256,
+            128,
+            128
+          ],
+          "native_rect": [
+            768,
+            256,
+            40,
+            28
+          ]
+        }
+      }
+    },
+    "bookshelf": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/bookshelf.png",
+      "sha256": "e764428dd5d59c2cae625f6a09154073d3f3d1671e91032ac949459ed0a19d60",
+      "size": [
+        30,
+        27
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/interiors.png",
+        "source_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+        "prompt": "output/imagegen/art-v2/prompts/interiors.txt",
+        "prompt_sha256": "94b7d30b0f4f975b386eabca99e9f758291c7b1648ee5063c47a336d5740e7c5",
+        "reference_sha256": "28d0e4198f8058913677e0131529fb4643fd712494506ed19e51ea3bfdb0efc9",
+        "source_rect": [
+          806,
+          47,
+          180,
+          162
+        ],
+        "native_size": [
+          30,
+          27
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "d2404accbe400b64c9ef6bc4e38cb546d19c0ae92f04eff3655685e1d11d9659",
+        "sha256": "e764428dd5d59c2cae625f6a09154073d3f3d1671e91032ac949459ed0a19d60",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "interiors",
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76",
+            "aligned_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+            "measurement": {
+              "id": "bookshelf",
+              "source_rect": [
+                797,
+                59,
+                204,
+                194
+              ],
+              "native_canvas": [
+                30,
+                27
+              ],
+              "native_placement": [
+                1,
+                0,
+                28,
+                27
+              ],
+              "reference_scale": 6
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/interiors-generation.json",
+            "sha256": "4bcf8781c47498b71118c5ade81a44aec7497f09e4d6a1a2865d943a7ded6ea7",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            896,
+            256,
+            128,
+            128
+          ],
+          "native_rect": [
+            896,
+            256,
+            30,
+            27
+          ]
+        }
+      }
+    },
+    "window": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/window.png",
+      "sha256": "660879da567c94bdc436c809cbe7d0c3433413ac606c7237c6e89879d5cdb301",
+      "size": [
+        28,
+        29
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/interiors.png",
+        "source_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+        "prompt": "output/imagegen/art-v2/prompts/interiors.txt",
+        "prompt_sha256": "94b7d30b0f4f975b386eabca99e9f758291c7b1648ee5063c47a336d5740e7c5",
+        "reference_sha256": "28d0e4198f8058913677e0131529fb4643fd712494506ed19e51ea3bfdb0efc9",
+        "source_rect": [
+          44,
+          297,
+          168,
+          174
+        ],
+        "native_size": [
+          28,
+          29
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "530952442411ad70af718c8e14408f7f32bd26e57b70d310103791ebafcbae24",
+        "sha256": "660879da567c94bdc436c809cbe7d0c3433413ac606c7237c6e89879d5cdb301",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "interiors",
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76",
+            "aligned_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+            "measurement": {
+              "id": "window",
+              "source_rect": [
+                29,
+                313,
+                206,
+                203
+              ],
+              "native_canvas": [
+                28,
+                29
+              ],
+              "native_placement": [
+                0,
+                1,
+                28,
+                28
+              ],
+              "reference_scale": 6
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/interiors-generation.json",
+            "sha256": "4bcf8781c47498b71118c5ade81a44aec7497f09e4d6a1a2865d943a7ded6ea7",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            1024,
+            256,
+            128,
+            128
+          ],
+          "native_rect": [
+            1024,
+            256,
+            28,
+            29
+          ]
+        }
+      }
+    },
+    "chair": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/chair.png",
+      "sha256": "f99e11fe73bf2b2bf4d5151ca94fcfd87a8f377e4461f2998b79278c76ff0f6d",
+      "size": [
+        10,
+        16
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/interiors.png",
+        "source_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+        "prompt": "output/imagegen/art-v2/prompts/interiors.txt",
+        "prompt_sha256": "94b7d30b0f4f975b386eabca99e9f758291c7b1648ee5063c47a336d5740e7c5",
+        "reference_sha256": "28d0e4198f8058913677e0131529fb4643fd712494506ed19e51ea3bfdb0efc9",
+        "source_rect": [
+          354,
+          336,
+          60,
+          96
+        ],
+        "native_size": [
+          10,
+          16
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "a2b80bebba9f30bb648b3c61403d214ab94ed44e0858866c0b4dd415472b4bb0",
+        "sha256": "f99e11fe73bf2b2bf4d5151ca94fcfd87a8f377e4461f2998b79278c76ff0f6d",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "interiors",
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76",
+            "aligned_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+            "measurement": {
+              "id": "chair",
+              "source_rect": [
+                337,
+                339,
+                101,
+                156
+              ],
+              "native_canvas": [
+                10,
+                16
+              ],
+              "native_placement": [
+                0,
+                1,
+                10,
+                15
+              ],
+              "reference_scale": 6
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/interiors-generation.json",
+            "sha256": "4bcf8781c47498b71118c5ade81a44aec7497f09e4d6a1a2865d943a7ded6ea7",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            0,
+            384,
+            128,
+            128
+          ],
+          "native_rect": [
+            0,
+            384,
+            10,
+            16
+          ]
+        }
+      }
+    },
+    "tea_set": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/tea_set.png",
+      "sha256": "f00162ea87489c50e28e4959d307bf0b4ae60649b02df40f777885c939dd3bae",
+      "size": [
+        14,
+        14
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/interiors.png",
+        "source_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+        "prompt": "output/imagegen/art-v2/prompts/interiors.txt",
+        "prompt_sha256": "94b7d30b0f4f975b386eabca99e9f758291c7b1648ee5063c47a336d5740e7c5",
+        "reference_sha256": "28d0e4198f8058913677e0131529fb4643fd712494506ed19e51ea3bfdb0efc9",
+        "source_rect": [
+          598,
+          342,
+          84,
+          84
+        ],
+        "native_size": [
+          14,
+          14
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "87e1107417c210e16577222f2746e34869fcd91a124c6e132d4c6cf4b93a5b9b",
+        "sha256": "f00162ea87489c50e28e4959d307bf0b4ae60649b02df40f777885c939dd3bae",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "interiors",
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76",
+            "aligned_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+            "measurement": {
+              "id": "tea_set",
+              "source_rect": [
+                563,
+                364,
+                142,
+                127
+              ],
+              "native_canvas": [
+                14,
+                14
+              ],
+              "native_placement": [
+                0,
+                1,
+                14,
+                13
+              ],
+              "reference_scale": 6
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/interiors-generation.json",
+            "sha256": "4bcf8781c47498b71118c5ade81a44aec7497f09e4d6a1a2865d943a7ded6ea7",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            128,
+            384,
+            128,
+            128
+          ],
+          "native_rect": [
+            128,
+            384,
+            14,
+            14
+          ]
+        }
+      }
+    },
+    "project_tools": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/project_tools.png",
+      "sha256": "55e5035dfde52b3b8609492c21c2ebfc0e594ca97cf65e6563943d398ff9e9f9",
+      "size": [
+        24,
+        22
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/interiors.png",
+        "source_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+        "prompt": "output/imagegen/art-v2/prompts/interiors.txt",
+        "prompt_sha256": "94b7d30b0f4f975b386eabca99e9f758291c7b1648ee5063c47a336d5740e7c5",
+        "reference_sha256": "28d0e4198f8058913677e0131529fb4643fd712494506ed19e51ea3bfdb0efc9",
+        "source_rect": [
+          824,
+          318,
+          144,
+          132
+        ],
+        "native_size": [
+          24,
+          22
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "689826b23c4b1c4c19bbcb3ff748fd0eb2359fe36ca709d3f4f6047566985df2",
+        "sha256": "55e5035dfde52b3b8609492c21c2ebfc0e594ca97cf65e6563943d398ff9e9f9",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "interiors",
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76",
+            "aligned_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+            "measurement": {
+              "id": "project_tools",
+              "source_rect": [
+                801,
+                330,
+                178,
+                177
+              ],
+              "native_canvas": [
+                24,
+                22
+              ],
+              "native_placement": [
+                1,
+                0,
+                22,
+                22
+              ],
+              "reference_scale": 6
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/interiors-generation.json",
+            "sha256": "4bcf8781c47498b71118c5ade81a44aec7497f09e4d6a1a2865d943a7ded6ea7",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            256,
+            384,
+            128,
+            128
+          ],
+          "native_rect": [
+            256,
+            384,
+            24,
+            22
+          ]
+        }
+      }
+    },
+    "notebooks": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/notebooks.png",
+      "sha256": "9a4ce1882f700698be72db1869421755deb0f9cec798294ba233bcb12ff3d656",
+      "size": [
+        32,
+        28
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/interiors.png",
+        "source_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+        "prompt": "output/imagegen/art-v2/prompts/interiors.txt",
+        "prompt_sha256": "94b7d30b0f4f975b386eabca99e9f758291c7b1648ee5063c47a336d5740e7c5",
+        "reference_sha256": "28d0e4198f8058913677e0131529fb4643fd712494506ed19e51ea3bfdb0efc9",
+        "source_rect": [
+          32,
+          556,
+          192,
+          168
+        ],
+        "native_size": [
+          32,
+          28
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "5c0c83fd73e82a0311104b43967c82432f00139621cbcf40bf41ac852c83cb3f",
+        "sha256": "9a4ce1882f700698be72db1869421755deb0f9cec798294ba233bcb12ff3d656",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "interiors",
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76",
+            "aligned_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+            "measurement": {
+              "id": "notebooks",
+              "source_rect": [
+                44,
+                561,
+                180,
+                200
+              ],
+              "native_canvas": [
+                32,
+                28
+              ],
+              "native_placement": [
+                4,
+                1,
+                24,
+                27
+              ],
+              "reference_scale": 6
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/interiors-generation.json",
+            "sha256": "4bcf8781c47498b71118c5ade81a44aec7497f09e4d6a1a2865d943a7ded6ea7",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            384,
+            384,
+            128,
+            128
+          ],
+          "native_rect": [
+            384,
+            384,
+            32,
+            28
+          ]
+        }
+      }
+    },
+    "photo": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/photo.png",
+      "sha256": "fb1d3dd4dd444d18fdd4cfb09ce3dee11ef8f8f11035e2f6ed934efcfc2e63af",
+      "size": [
+        18,
+        14
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/interiors.png",
+        "source_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+        "prompt": "output/imagegen/art-v2/prompts/interiors.txt",
+        "prompt_sha256": "94b7d30b0f4f975b386eabca99e9f758291c7b1648ee5063c47a336d5740e7c5",
+        "reference_sha256": "28d0e4198f8058913677e0131529fb4643fd712494506ed19e51ea3bfdb0efc9",
+        "source_rect": [
+          330,
+          598,
+          108,
+          84
+        ],
+        "native_size": [
+          18,
+          14
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "2b7986b70e275924f7312cc13d9c472e4caedea7d25b786d1b5ca6befb4a8923",
+        "sha256": "fb1d3dd4dd444d18fdd4cfb09ce3dee11ef8f8f11035e2f6ed934efcfc2e63af",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "interiors",
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76",
+            "aligned_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+            "measurement": {
+              "id": "photo",
+              "source_rect": [
+                320,
+                607,
+                139,
+                110
+              ],
+              "native_canvas": [
+                18,
+                14
+              ],
+              "native_placement": [
+                0,
+                0,
+                18,
+                14
+              ],
+              "reference_scale": 6
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/interiors-generation.json",
+            "sha256": "4bcf8781c47498b71118c5ade81a44aec7497f09e4d6a1a2865d943a7ded6ea7",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            512,
+            384,
+            128,
+            128
+          ],
+          "native_rect": [
+            512,
+            384,
+            18,
+            14
+          ]
+        }
+      }
+    },
+    "plant": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/plant.png",
+      "sha256": "051809e83c2cf660cfcc388b8c286677df25941b4fbc613016579a49cd5ed0fd",
+      "size": [
+        18,
+        24
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/interiors.png",
+        "source_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+        "prompt": "output/imagegen/art-v2/prompts/interiors.txt",
+        "prompt_sha256": "94b7d30b0f4f975b386eabca99e9f758291c7b1648ee5063c47a336d5740e7c5",
+        "reference_sha256": "28d0e4198f8058913677e0131529fb4643fd712494506ed19e51ea3bfdb0efc9",
+        "source_rect": [
+          586,
+          568,
+          108,
+          144
+        ],
+        "native_size": [
+          18,
+          24
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "7636f68cdb72f0ca2bbd5dc700be8bb7e73db223898ab68ddbade3606c9bd8dc",
+        "sha256": "051809e83c2cf660cfcc388b8c286677df25941b4fbc613016579a49cd5ed0fd",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "interiors",
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76",
+            "aligned_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+            "measurement": {
+              "id": "plant",
+              "source_rect": [
+                557,
+                586,
+                167,
+                179
+              ],
+              "native_canvas": [
+                18,
+                24
+              ],
+              "native_placement": [
+                0,
+                5,
+                18,
+                19
+              ],
+              "reference_scale": 6
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/interiors-generation.json",
+            "sha256": "4bcf8781c47498b71118c5ade81a44aec7497f09e4d6a1a2865d943a7ded6ea7",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            640,
+            384,
+            128,
+            128
+          ],
+          "native_rect": [
+            640,
+            384,
+            18,
+            24
+          ]
+        }
+      }
+    },
+    "project_painting": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/project_painting.png",
+      "sha256": "928953df06bbeb54dba108ce929902e49c9fe8fb5986e983771c9761c3fac01e",
+      "size": [
+        22,
+        30
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/interiors.png",
+        "source_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+        "prompt": "output/imagegen/art-v2/prompts/interiors.txt",
+        "prompt_sha256": "94b7d30b0f4f975b386eabca99e9f758291c7b1648ee5063c47a336d5740e7c5",
+        "reference_sha256": "28d0e4198f8058913677e0131529fb4643fd712494506ed19e51ea3bfdb0efc9",
+        "source_rect": [
+          830,
+          550,
+          132,
+          180
+        ],
+        "native_size": [
+          22,
+          30
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "ff8e0718d45841bc110cbb1b8c29b1640dcc62c7c0dbe03e37cc368ca27ec320",
+        "sha256": "928953df06bbeb54dba108ce929902e49c9fe8fb5986e983771c9761c3fac01e",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "interiors",
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76",
+            "aligned_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+            "measurement": {
+              "id": "project_painting",
+              "source_rect": [
+                808,
+                545,
+                174,
+                231
+              ],
+              "native_canvas": [
+                22,
+                30
+              ],
+              "native_placement": [
+                0,
+                2,
+                21,
+                28
+              ],
+              "reference_scale": 6
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/interiors-generation.json",
+            "sha256": "4bcf8781c47498b71118c5ade81a44aec7497f09e4d6a1a2865d943a7ded6ea7",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            768,
+            384,
+            128,
+            128
+          ],
+          "native_rect": [
+            768,
+            384,
+            22,
+            30
+          ]
+        }
+      }
+    },
+    "project_basket": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/project_basket.png",
+      "sha256": "f40c183f3dbf7e4271c9103a2d013c751d6eac89aa6c5f40f507e262fe37c476",
+      "size": [
+        22,
+        20
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/interiors.png",
+        "source_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+        "prompt": "output/imagegen/art-v2/prompts/interiors.txt",
+        "prompt_sha256": "94b7d30b0f4f975b386eabca99e9f758291c7b1648ee5063c47a336d5740e7c5",
+        "reference_sha256": "28d0e4198f8058913677e0131529fb4643fd712494506ed19e51ea3bfdb0efc9",
+        "source_rect": [
+          62,
+          836,
+          132,
+          120
+        ],
+        "native_size": [
+          22,
+          20
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "9de3d37846e1f8b24a43e55edf9643517ba852795c975914993f49aa4cd31ad2",
+        "sha256": "f40c183f3dbf7e4271c9103a2d013c751d6eac89aa6c5f40f507e262fe37c476",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "interiors",
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76",
+            "aligned_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+            "measurement": {
+              "id": "project_basket",
+              "source_rect": [
+                39,
+                820,
+                172,
+                160
+              ],
+              "native_canvas": [
+                22,
+                20
+              ],
+              "native_placement": [
+                0,
+                0,
+                21,
+                20
+              ],
+              "reference_scale": 6
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/interiors-generation.json",
+            "sha256": "4bcf8781c47498b71118c5ade81a44aec7497f09e4d6a1a2865d943a7ded6ea7",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            896,
+            384,
+            128,
+            128
+          ],
+          "native_rect": [
+            896,
+            384,
+            22,
+            20
+          ]
+        }
+      }
+    },
+    "project_seeds": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/project_seeds.png",
+      "sha256": "48d791f15ad5c34d0c87795156d0db1e84033932e9c6e0507e9863f4d1701468",
+      "size": [
+        22,
+        19
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/interiors.png",
+        "source_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+        "prompt": "output/imagegen/art-v2/prompts/interiors.txt",
+        "prompt_sha256": "94b7d30b0f4f975b386eabca99e9f758291c7b1648ee5063c47a336d5740e7c5",
+        "reference_sha256": "28d0e4198f8058913677e0131529fb4643fd712494506ed19e51ea3bfdb0efc9",
+        "source_rect": [
+          318,
+          839,
+          132,
+          114
+        ],
+        "native_size": [
+          22,
+          19
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "02fb0bd9d40a1060b509af41720c7210cfb9fcf5cc7bc9d33ce8f4bb0dc6eca2",
+        "sha256": "48d791f15ad5c34d0c87795156d0db1e84033932e9c6e0507e9863f4d1701468",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "interiors",
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76",
+            "aligned_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+            "measurement": {
+              "id": "project_seeds",
+              "source_rect": [
+                298,
+                821,
+                182,
+                156
+              ],
+              "native_canvas": [
+                22,
+                19
+              ],
+              "native_placement": [
+                0,
+                0,
+                22,
+                19
+              ],
+              "reference_scale": 6
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/interiors-generation.json",
+            "sha256": "4bcf8781c47498b71118c5ade81a44aec7497f09e4d6a1a2865d943a7ded6ea7",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            1024,
+            384,
+            128,
+            128
+          ],
+          "native_rect": [
+            1024,
+            384,
+            22,
+            19
+          ]
+        }
+      }
+    },
+    "tea_ready": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/tea_ready.png",
+      "sha256": "f84231c958aa853f14381e70b3781820b2e66eb8b6b6250e9f0fd87a324a14a0",
+      "size": [
+        8,
+        10
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/interiors.png",
+        "source_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+        "prompt": "output/imagegen/art-v2/prompts/interiors.txt",
+        "prompt_sha256": "94b7d30b0f4f975b386eabca99e9f758291c7b1648ee5063c47a336d5740e7c5",
+        "reference_sha256": "28d0e4198f8058913677e0131529fb4643fd712494506ed19e51ea3bfdb0efc9",
+        "source_rect": [
+          616,
+          866,
+          48,
+          60
+        ],
+        "native_size": [
+          8,
+          10
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "a21c6b32af28d6f0b6912764299df00b7753c11c478129ff1d3f20fdfb816a04",
+        "sha256": "f84231c958aa853f14381e70b3781820b2e66eb8b6b6250e9f0fd87a324a14a0",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "interiors",
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76",
+            "aligned_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+            "measurement": {
+              "id": "tea_ready",
+              "source_rect": [
+                606,
+                876,
+                83,
+                78
+              ],
+              "native_canvas": [
+                8,
+                10
+              ],
+              "native_placement": [
+                0,
+                2,
+                8,
+                8
+              ],
+              "reference_scale": 6
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/interiors-generation.json",
+            "sha256": "4bcf8781c47498b71118c5ade81a44aec7497f09e4d6a1a2865d943a7ded6ea7",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            0,
+            512,
+            128,
+            128
+          ],
+          "native_rect": [
+            0,
+            512,
+            8,
+            10
+          ]
+        }
+      }
+    },
+    "rug": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/rug.png",
+      "sha256": "27ade30eff59b5177d4f8c3ceb5b68222daf2ba765853d8984b200d851db3dc7",
+      "size": [
+        88,
+        60
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/aligned/interiors.png",
+        "source_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+        "prompt": "output/imagegen/art-v2/prompts/interiors.txt",
+        "prompt_sha256": "94b7d30b0f4f975b386eabca99e9f758291c7b1648ee5063c47a336d5740e7c5",
+        "reference_sha256": "28d0e4198f8058913677e0131529fb4643fd712494506ed19e51ea3bfdb0efc9",
+        "source_rect": [
+          808,
+          836,
+          176,
+          120
+        ],
+        "native_size": [
+          88,
+          60
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "380c675988a553bc66b32371911f2d58a39dd77d03aa8d9a90cd2e62c126a3dc",
+        "sha256": "27ade30eff59b5177d4f8c3ceb5b68222daf2ba765853d8984b200d851db3dc7",
+        "lineage": {
+          "alignment": {
+            "path": "output/imagegen/art-v2/aligned/provenance.json",
+            "sha256": "b565f69bf75b3135ea810dd6c38b635e68fefb9f62f3a06286ba85cd957d5fd5",
+            "group": "interiors",
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76",
+            "aligned_sha256": "55bd83a9dac739ccb0b09792f4793941c8ff161ff6095f6f4de631f83591fd4e",
+            "measurement": {
+              "id": "rug",
+              "source_rect": [
+                765,
+                822,
+                236,
+                154
+              ],
+              "native_canvas": [
+                88,
+                60
+              ],
+              "native_placement": [
+                0,
+                3,
+                88,
+                57
+              ],
+              "reference_scale": 2
+            }
+          },
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/interiors-generation.json",
+            "sha256": "4bcf8781c47498b71118c5ade81a44aec7497f09e4d6a1a2865d943a7ded6ea7",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/interiors.png",
+            "raw_sha256": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            128,
+            512,
+            128,
+            128
+          ],
+          "native_rect": [
+            128,
+            512,
+            88,
+            60
+          ]
+        }
+      }
+    },
+    "tile_grass": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/tile_grass.png",
+      "sha256": "d46c427c1dbc6b77adb552908c8f0dbf1bfd249fbc15bb6890d5f18d4520ae17",
+      "size": [
+        32,
+        32
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/sources/terrain-calm.png",
+        "source_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610",
+        "prompt": "output/imagegen/art-v2/prompts/terrain-calm.txt",
+        "prompt_sha256": "d613f8b4b8fa94e726e754709755ab369d02b424701c6ee392cd2a22a54c35b5",
+        "reference_sha256": "ec3e4adddaf7c015f8ece977eae02b29b5132315ab03096910db8b2534727cb0",
+        "source_rect": [
+          0,
+          0,
+          256,
+          256
+        ],
+        "native_size": [
+          32,
+          32
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "9a3930f1ae251b5159af39473d3ff64036a28cc090be2f0c6099aca0617a34af",
+        "sha256": "d46c427c1dbc6b77adb552908c8f0dbf1bfd249fbc15bb6890d5f18d4520ae17",
+        "lineage": {
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/terrain-calm-generation.json",
+            "sha256": "e3819bd4d904dc0bc5b8d3a8d8cca4c1b561a3eee7e4bd93de80d498c51d2a52",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/terrain-calm.png",
+            "raw_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            256,
+            512,
+            128,
+            128
+          ],
+          "native_rect": [
+            256,
+            512,
+            32,
+            32
+          ]
+        }
+      }
+    },
+    "tile_sand": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/tile_sand.png",
+      "sha256": "41845bcbac53d5b96779499fff4e79769bc9331df189115f133f5dd1d5d4f36d",
+      "size": [
+        32,
+        32
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/sources/terrain-calm.png",
+        "source_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610",
+        "prompt": "output/imagegen/art-v2/prompts/terrain-calm.txt",
+        "prompt_sha256": "d613f8b4b8fa94e726e754709755ab369d02b424701c6ee392cd2a22a54c35b5",
+        "reference_sha256": "ec3e4adddaf7c015f8ece977eae02b29b5132315ab03096910db8b2534727cb0",
+        "source_rect": [
+          256,
+          0,
+          256,
+          256
+        ],
+        "native_size": [
+          32,
+          32
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "fdfe6c011ab0b3e10e7c822aea9258699ba71dd7541c5743b59cbe37516660c5",
+        "sha256": "41845bcbac53d5b96779499fff4e79769bc9331df189115f133f5dd1d5d4f36d",
+        "lineage": {
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/terrain-calm-generation.json",
+            "sha256": "e3819bd4d904dc0bc5b8d3a8d8cca4c1b561a3eee7e4bd93de80d498c51d2a52",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/terrain-calm.png",
+            "raw_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            384,
+            512,
+            128,
+            128
+          ],
+          "native_rect": [
+            384,
+            512,
+            32,
+            32
+          ]
+        }
+      }
+    },
+    "tile_plaza": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/tile_plaza.png",
+      "sha256": "eb1305cf7ad0c51f2b1aab1f1d443bd25b0c21ccacb3030709f7f26675494287",
+      "size": [
+        32,
+        32
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/sources/terrain-calm.png",
+        "source_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610",
+        "prompt": "output/imagegen/art-v2/prompts/terrain-calm.txt",
+        "prompt_sha256": "d613f8b4b8fa94e726e754709755ab369d02b424701c6ee392cd2a22a54c35b5",
+        "reference_sha256": "ec3e4adddaf7c015f8ece977eae02b29b5132315ab03096910db8b2534727cb0",
+        "source_rect": [
+          512,
+          0,
+          256,
+          256
+        ],
+        "native_size": [
+          32,
+          32
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "069f71db95e69d5e56f84d0a03677e91ffae01053f6e65c9f73abdbff256599b",
+        "sha256": "eb1305cf7ad0c51f2b1aab1f1d443bd25b0c21ccacb3030709f7f26675494287",
+        "lineage": {
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/terrain-calm-generation.json",
+            "sha256": "e3819bd4d904dc0bc5b8d3a8d8cca4c1b561a3eee7e4bd93de80d498c51d2a52",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/terrain-calm.png",
+            "raw_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            512,
+            512,
+            128,
+            128
+          ],
+          "native_rect": [
+            512,
+            512,
+            32,
+            32
+          ]
+        }
+      }
+    },
+    "tile_wood": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/tile_wood.png",
+      "sha256": "62be78c1f77c10e2dcda358d1ad320219a0234bb4808164f8a6e5010ad2c3eb9",
+      "size": [
+        32,
+        32
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/sources/terrain-calm.png",
+        "source_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610",
+        "prompt": "output/imagegen/art-v2/prompts/terrain-calm.txt",
+        "prompt_sha256": "d613f8b4b8fa94e726e754709755ab369d02b424701c6ee392cd2a22a54c35b5",
+        "reference_sha256": "ec3e4adddaf7c015f8ece977eae02b29b5132315ab03096910db8b2534727cb0",
+        "source_rect": [
+          768,
+          0,
+          256,
+          256
+        ],
+        "native_size": [
+          32,
+          32
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "d602ac41754141f15138c2971e1eca161329c5c3f3ce3c233bb0122b83d4df48",
+        "sha256": "62be78c1f77c10e2dcda358d1ad320219a0234bb4808164f8a6e5010ad2c3eb9",
+        "lineage": {
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/terrain-calm-generation.json",
+            "sha256": "e3819bd4d904dc0bc5b8d3a8d8cca4c1b561a3eee7e4bd93de80d498c51d2a52",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/terrain-calm.png",
+            "raw_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            640,
+            512,
+            128,
+            128
+          ],
+          "native_rect": [
+            640,
+            512,
+            32,
+            32
+          ]
+        }
+      }
+    },
+    "tile_wall": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/tile_wall.png",
+      "sha256": "dd7fb6bbf44221ba4d9f408d9567038bc8e56df4effe49fff7057c9ed0a8508a",
+      "size": [
+        32,
+        32
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/sources/terrain-calm.png",
+        "source_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610",
+        "prompt": "output/imagegen/art-v2/prompts/terrain-calm.txt",
+        "prompt_sha256": "d613f8b4b8fa94e726e754709755ab369d02b424701c6ee392cd2a22a54c35b5",
+        "reference_sha256": "ec3e4adddaf7c015f8ece977eae02b29b5132315ab03096910db8b2534727cb0",
+        "source_rect": [
+          0,
+          256,
+          256,
+          256
+        ],
+        "native_size": [
+          32,
+          32
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "9bef3b7a5a24dc22d112378d92c06432ec22877dd1c9332954d1835fe4de48a0",
+        "sha256": "dd7fb6bbf44221ba4d9f408d9567038bc8e56df4effe49fff7057c9ed0a8508a",
+        "lineage": {
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/terrain-calm-generation.json",
+            "sha256": "e3819bd4d904dc0bc5b8d3a8d8cca4c1b561a3eee7e4bd93de80d498c51d2a52",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/terrain-calm.png",
+            "raw_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            768,
+            512,
+            128,
+            128
+          ],
+          "native_rect": [
+            768,
+            512,
+            32,
+            32
+          ]
+        }
+      }
+    },
+    "tile_wall_sage": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/tile_wall_sage.png",
+      "sha256": "efb7fd10f0fb36aa2416e7a830829bdc3e855b2c260bceab2222d2589edfaf89",
+      "size": [
+        32,
+        32
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/sources/terrain-calm.png",
+        "source_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610",
+        "prompt": "output/imagegen/art-v2/prompts/terrain-calm.txt",
+        "prompt_sha256": "d613f8b4b8fa94e726e754709755ab369d02b424701c6ee392cd2a22a54c35b5",
+        "reference_sha256": "ec3e4adddaf7c015f8ece977eae02b29b5132315ab03096910db8b2534727cb0",
+        "source_rect": [
+          256,
+          256,
+          256,
+          256
+        ],
+        "native_size": [
+          32,
+          32
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "e9deeb7e7d7c944f3319f8bb15fbb7d177ded53b8d2bd1b79a97ec3fcaee3b28",
+        "sha256": "efb7fd10f0fb36aa2416e7a830829bdc3e855b2c260bceab2222d2589edfaf89",
+        "lineage": {
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/terrain-calm-generation.json",
+            "sha256": "e3819bd4d904dc0bc5b8d3a8d8cca4c1b561a3eee7e4bd93de80d498c51d2a52",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/terrain-calm.png",
+            "raw_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            896,
+            512,
+            128,
+            128
+          ],
+          "native_rect": [
+            896,
+            512,
+            32,
+            32
+          ]
+        }
+      }
+    },
+    "tile_wall_peach": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/tile_wall_peach.png",
+      "sha256": "69410ce97dbfebf03355b6c6f61eb1e2343d522cd747182d7df0aaeaac4bf2a9",
+      "size": [
+        32,
+        32
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/sources/terrain-calm.png",
+        "source_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610",
+        "prompt": "output/imagegen/art-v2/prompts/terrain-calm.txt",
+        "prompt_sha256": "d613f8b4b8fa94e726e754709755ab369d02b424701c6ee392cd2a22a54c35b5",
+        "reference_sha256": "ec3e4adddaf7c015f8ece977eae02b29b5132315ab03096910db8b2534727cb0",
+        "source_rect": [
+          512,
+          256,
+          256,
+          256
+        ],
+        "native_size": [
+          32,
+          32
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "ef9e5507005b520b3b32e439fb7136c72c2718dc7db18e58dd115127f12618c9",
+        "sha256": "69410ce97dbfebf03355b6c6f61eb1e2343d522cd747182d7df0aaeaac4bf2a9",
+        "lineage": {
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/terrain-calm-generation.json",
+            "sha256": "e3819bd4d904dc0bc5b8d3a8d8cca4c1b561a3eee7e4bd93de80d498c51d2a52",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/terrain-calm.png",
+            "raw_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            1024,
+            512,
+            128,
+            128
+          ],
+          "native_rect": [
+            1024,
+            512,
+            32,
+            32
+          ]
+        }
+      }
+    },
+    "tile_wall_lavender": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/tile_wall_lavender.png",
+      "sha256": "7c54bb2e43864dcc07e0d6709cb70b94820ab840c7f7c8ed95184bbdc19bdaf6",
+      "size": [
+        32,
+        32
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/sources/terrain-calm.png",
+        "source_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610",
+        "prompt": "output/imagegen/art-v2/prompts/terrain-calm.txt",
+        "prompt_sha256": "d613f8b4b8fa94e726e754709755ab369d02b424701c6ee392cd2a22a54c35b5",
+        "reference_sha256": "ec3e4adddaf7c015f8ece977eae02b29b5132315ab03096910db8b2534727cb0",
+        "source_rect": [
+          768,
+          256,
+          256,
+          256
+        ],
+        "native_size": [
+          32,
+          32
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "c5cc1d79610585c83682afb74e1ae4ce98529aa8082bbe9538d4878b034d4ade",
+        "sha256": "7c54bb2e43864dcc07e0d6709cb70b94820ab840c7f7c8ed95184bbdc19bdaf6",
+        "lineage": {
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/terrain-calm-generation.json",
+            "sha256": "e3819bd4d904dc0bc5b8d3a8d8cca4c1b561a3eee7e4bd93de80d498c51d2a52",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/terrain-calm.png",
+            "raw_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            0,
+            640,
+            128,
+            128
+          ],
+          "native_rect": [
+            0,
+            640,
+            32,
+            32
+          ]
+        }
+      }
+    },
+    "tile_soil": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/tile_soil.png",
+      "sha256": "fb0a2132fe3f37f303bae16ab867ba45a09ae9a2a338c31e679882da7dd79b78",
+      "size": [
+        32,
+        32
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/sources/terrain-calm.png",
+        "source_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610",
+        "prompt": "output/imagegen/art-v2/prompts/terrain-calm.txt",
+        "prompt_sha256": "d613f8b4b8fa94e726e754709755ab369d02b424701c6ee392cd2a22a54c35b5",
+        "reference_sha256": "ec3e4adddaf7c015f8ece977eae02b29b5132315ab03096910db8b2534727cb0",
+        "source_rect": [
+          0,
+          512,
+          256,
+          256
+        ],
+        "native_size": [
+          32,
+          32
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "7d25cfbe28a59f8987b18635d2c99e7ac06a1340bb2e76bfb7ea8276546139ef",
+        "sha256": "fb0a2132fe3f37f303bae16ab867ba45a09ae9a2a338c31e679882da7dd79b78",
+        "lineage": {
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/terrain-calm-generation.json",
+            "sha256": "e3819bd4d904dc0bc5b8d3a8d8cca4c1b561a3eee7e4bd93de80d498c51d2a52",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/terrain-calm.png",
+            "raw_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            128,
+            640,
+            128,
+            128
+          ],
+          "native_rect": [
+            128,
+            640,
+            32,
+            32
+          ]
+        }
+      }
+    },
+    "tile_water": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/tile_water.png",
+      "sha256": "fc646363b96e04f28e471a99cfd69a9a29019600be4b4123d0f81b017558dcd3",
+      "size": [
+        32,
+        32
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/sources/terrain-calm.png",
+        "source_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610",
+        "prompt": "output/imagegen/art-v2/prompts/terrain-calm.txt",
+        "prompt_sha256": "d613f8b4b8fa94e726e754709755ab369d02b424701c6ee392cd2a22a54c35b5",
+        "reference_sha256": "ec3e4adddaf7c015f8ece977eae02b29b5132315ab03096910db8b2534727cb0",
+        "source_rect": [
+          256,
+          512,
+          256,
+          256
+        ],
+        "native_size": [
+          32,
+          32
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "d39e33700183ba56ae7eeabcccf9bab74bcce792210d170a023ea4ef4821d61a",
+        "sha256": "fc646363b96e04f28e471a99cfd69a9a29019600be4b4123d0f81b017558dcd3",
+        "lineage": {
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/terrain-calm-generation.json",
+            "sha256": "e3819bd4d904dc0bc5b8d3a8d8cca4c1b561a3eee7e4bd93de80d498c51d2a52",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/terrain-calm.png",
+            "raw_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            256,
+            640,
+            128,
+            128
+          ],
+          "native_rect": [
+            256,
+            640,
+            32,
+            32
+          ]
+        }
+      }
+    },
+    "tile_rug_red": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/tile_rug_red.png",
+      "sha256": "989a79ce8bae29c977dae24c2aa4a2cf5c38d0b4cc746e03703a31675d590e09",
+      "size": [
+        32,
+        32
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/sources/terrain-calm.png",
+        "source_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610",
+        "prompt": "output/imagegen/art-v2/prompts/terrain-calm.txt",
+        "prompt_sha256": "d613f8b4b8fa94e726e754709755ab369d02b424701c6ee392cd2a22a54c35b5",
+        "reference_sha256": "ec3e4adddaf7c015f8ece977eae02b29b5132315ab03096910db8b2534727cb0",
+        "source_rect": [
+          512,
+          512,
+          256,
+          256
+        ],
+        "native_size": [
+          32,
+          32
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "f158c053298d58b3687042dbbe79b11e344abfa988260de64ea137326e7a856f",
+        "sha256": "989a79ce8bae29c977dae24c2aa4a2cf5c38d0b4cc746e03703a31675d590e09",
+        "lineage": {
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/terrain-calm-generation.json",
+            "sha256": "e3819bd4d904dc0bc5b8d3a8d8cca4c1b561a3eee7e4bd93de80d498c51d2a52",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/terrain-calm.png",
+            "raw_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            384,
+            640,
+            128,
+            128
+          ],
+          "native_rect": [
+            384,
+            640,
+            32,
+            32
+          ]
+        }
+      }
+    },
+    "tile_rug_teal": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/tile_rug_teal.png",
+      "sha256": "39c57de1b212400622841f47bd3c9848e995f32cbdabc430e7e9d6f3ee9dfd3b",
+      "size": [
+        32,
+        32
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/sources/terrain-calm.png",
+        "source_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610",
+        "prompt": "output/imagegen/art-v2/prompts/terrain-calm.txt",
+        "prompt_sha256": "d613f8b4b8fa94e726e754709755ab369d02b424701c6ee392cd2a22a54c35b5",
+        "reference_sha256": "ec3e4adddaf7c015f8ece977eae02b29b5132315ab03096910db8b2534727cb0",
+        "source_rect": [
+          768,
+          512,
+          256,
+          256
+        ],
+        "native_size": [
+          32,
+          32
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "d7da680e369bb69e0844d23b8416351bf024137b1456e79c92c4f772e214a97c",
+        "sha256": "39c57de1b212400622841f47bd3c9848e995f32cbdabc430e7e9d6f3ee9dfd3b",
+        "lineage": {
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/terrain-calm-generation.json",
+            "sha256": "e3819bd4d904dc0bc5b8d3a8d8cca4c1b561a3eee7e4bd93de80d498c51d2a52",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/terrain-calm.png",
+            "raw_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            512,
+            640,
+            128,
+            128
+          ],
+          "native_rect": [
+            512,
+            640,
+            32,
+            32
+          ]
+        }
+      }
+    },
+    "tile_stone": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/tile_stone.png",
+      "sha256": "73413854cd4b43c8d601125a84d5a6d93c17a040fc0d89657a14c1816faac394",
+      "size": [
+        32,
+        32
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/sources/terrain-calm.png",
+        "source_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610",
+        "prompt": "output/imagegen/art-v2/prompts/terrain-calm.txt",
+        "prompt_sha256": "d613f8b4b8fa94e726e754709755ab369d02b424701c6ee392cd2a22a54c35b5",
+        "reference_sha256": "ec3e4adddaf7c015f8ece977eae02b29b5132315ab03096910db8b2534727cb0",
+        "source_rect": [
+          0,
+          768,
+          256,
+          256
+        ],
+        "native_size": [
+          32,
+          32
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "2470b65303ae6c8498d0fb818d6f87b4c67c408b4514b6846f6927de0c7f8408",
+        "sha256": "73413854cd4b43c8d601125a84d5a6d93c17a040fc0d89657a14c1816faac394",
+        "lineage": {
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/terrain-calm-generation.json",
+            "sha256": "e3819bd4d904dc0bc5b8d3a8d8cca4c1b561a3eee7e4bd93de80d498c51d2a52",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/terrain-calm.png",
+            "raw_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            640,
+            640,
+            128,
+            128
+          ],
+          "native_rect": [
+            640,
+            640,
+            32,
+            32
+          ]
+        }
+      }
+    },
+    "tile_roof": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/tile_roof.png",
+      "sha256": "676eb948c642e98682724b641e5140d38ad332ba9b17cd7963d1ba3435596fc8",
+      "size": [
+        32,
+        32
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/sources/terrain-calm.png",
+        "source_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610",
+        "prompt": "output/imagegen/art-v2/prompts/terrain-calm.txt",
+        "prompt_sha256": "d613f8b4b8fa94e726e754709755ab369d02b424701c6ee392cd2a22a54c35b5",
+        "reference_sha256": "ec3e4adddaf7c015f8ece977eae02b29b5132315ab03096910db8b2534727cb0",
+        "source_rect": [
+          256,
+          768,
+          256,
+          256
+        ],
+        "native_size": [
+          32,
+          32
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "287d90964dceff0fd9f464d72fd8f0a600fdb5da1e89131d7fe5388d1be748e8",
+        "sha256": "676eb948c642e98682724b641e5140d38ad332ba9b17cd7963d1ba3435596fc8",
+        "lineage": {
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/terrain-calm-generation.json",
+            "sha256": "e3819bd4d904dc0bc5b8d3a8d8cca4c1b561a3eee7e4bd93de80d498c51d2a52",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/terrain-calm.png",
+            "raw_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            768,
+            640,
+            128,
+            128
+          ],
+          "native_rect": [
+            768,
+            640,
+            32,
+            32
+          ]
+        }
+      }
+    },
+    "tile_brick": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/tile_brick.png",
+      "sha256": "a8f6d42617a80119c6363954c8b162b966c16ba44b796ef98bca381cc1fb9300",
+      "size": [
+        32,
+        32
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/sources/terrain-calm.png",
+        "source_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610",
+        "prompt": "output/imagegen/art-v2/prompts/terrain-calm.txt",
+        "prompt_sha256": "d613f8b4b8fa94e726e754709755ab369d02b424701c6ee392cd2a22a54c35b5",
+        "reference_sha256": "ec3e4adddaf7c015f8ece977eae02b29b5132315ab03096910db8b2534727cb0",
+        "source_rect": [
+          512,
+          768,
+          256,
+          256
+        ],
+        "native_size": [
+          32,
+          32
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "882dc7f568acecb25274d7a6da772edf478d1fd1bfd04625cb59cce981658e33",
+        "sha256": "a8f6d42617a80119c6363954c8b162b966c16ba44b796ef98bca381cc1fb9300",
+        "lineage": {
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/terrain-calm-generation.json",
+            "sha256": "e3819bd4d904dc0bc5b8d3a8d8cca4c1b561a3eee7e4bd93de80d498c51d2a52",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/terrain-calm.png",
+            "raw_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            896,
+            640,
+            128,
+            128
+          ],
+          "native_rect": [
+            896,
+            640,
+            32,
+            32
+          ]
+        }
+      }
+    },
+    "tile_timber": {
+      "path": "output/imagegen/art-v2/accepted/35eb357cbca8b91c/tile_timber.png",
+      "sha256": "504cc4e4ea8ad463156813d97244a0748be9233e3ef435fb02eaf895066c86c1",
+      "size": [
+        32,
+        32
+      ],
+      "provenance": {
+        "source": "output/imagegen/art-v2/sources/terrain-calm.png",
+        "source_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610",
+        "prompt": "output/imagegen/art-v2/prompts/terrain-calm.txt",
+        "prompt_sha256": "d613f8b4b8fa94e726e754709755ab369d02b424701c6ee392cd2a22a54c35b5",
+        "reference_sha256": "ec3e4adddaf7c015f8ece977eae02b29b5132315ab03096910db8b2534727cb0",
+        "source_rect": [
+          768,
+          768,
+          256,
+          256
+        ],
+        "native_size": [
+          32,
+          32
+        ],
+        "alpha_threshold": 128,
+        "palette": "shared256",
+        "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+        "original_sha256": "9473c504017b5a8c9d64afb5f9e3a1c557d9a72eede4c6526e9c638c40d41572",
+        "sha256": "504cc4e4ea8ad463156813d97244a0748be9233e3ef435fb02eaf895066c86c1",
+        "lineage": {
+          "model_verification": {
+            "path": "output/imagegen/art-v2/model-verification.json",
+            "sha256": "661b0c21740236a3dcda2453fc2e95d902fc4c47470c79767d576d862a067530",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+            "catalog_http": 200,
+            "checked_on": "2026-09-24"
+          },
+          "generation": {
+            "path": "output/imagegen/art-v2/terrain-calm-generation.json",
+            "sha256": "e3819bd4d904dc0bc5b8d3a8d8cca4c1b561a3eee7e4bd93de80d498c51d2a52",
+            "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+            "model_response": null,
+            "cli_exit_status": 0,
+            "raw_source": "output/imagegen/art-v2/sources/terrain-calm.png",
+            "raw_sha256": "236f85af9b315851dbb81dd29d5a6f8a2bc8a6629a7976339c6a672c70987610"
+          }
+        },
+        "shared_palette": {
+          "combined_sha256": "30bb0539e96636291981dc33b12925b1a823c17675054d09c2d203c9930dea5b",
+          "cell": [
+            1024,
+            640,
+            128,
+            128
+          ],
+          "native_rect": [
+            1024,
+            640,
+            32,
+            32
+          ]
+        }
+      }
+    }
+  }
+}

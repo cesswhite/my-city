@@ -1,0 +1,2648 @@
+{
+  "version": 1,
+  "home_areas": {
+    "ines": "street",
+    "cesar": "gardens",
+    "lupita": "homes",
+    "player": "homes",
+    "mateo": "workshops",
+    "alma": "atelier"
+  },
+  "place_areas": {
+    "plaza": "street",
+    "cafe": "street",
+    "shop": "street",
+    "taller": "workshops",
+    "huerto": "gardens",
+    "tienda": "street"
+  },
+  "areas": {
+    "street": {
+      "title": "Plaza del barrio",
+      "description": "El café de Inés, la tienda y la fuente son el punto de encuentro de las cinco cuadras.",
+      "grid": [
+        0,
+        0
+      ],
+      "bounds": [
+        20,
+        76,
+        452,
+        216
+      ],
+      "props": [
+        {
+          "key": "cafe",
+          "id": "cafe",
+          "rect": [
+            16,
+            70,
+            100,
+            90
+          ],
+          "y": 159.99,
+          "footprint": [
+            16,
+            70,
+            100,
+            90
+          ]
+        },
+        {
+          "key": "cafe_table_left",
+          "id": "cafe_table",
+          "rect": [
+            35,
+            165,
+            38,
+            23
+          ],
+          "y": 188,
+          "footprint": [
+            31,
+            177,
+            44,
+            12
+          ]
+        },
+        {
+          "key": "cafe_table_right",
+          "id": "cafe_table",
+          "rect": [
+            121,
+            165,
+            38,
+            23
+          ],
+          "y": 188,
+          "footprint": [
+            117,
+            177,
+            44,
+            12
+          ]
+        },
+        {
+          "key": "lamp",
+          "id": "lamp",
+          "rect": [
+            168,
+            162,
+            10,
+            39
+          ],
+          "y": 201,
+          "footprint": [
+            168,
+            191,
+            10,
+            10
+          ]
+        },
+        {
+          "key": "bench_north",
+          "id": "bench",
+          "rect": [
+            183,
+            194,
+            36,
+            18
+          ],
+          "y": 209,
+          "footprint": [
+            179,
+            202,
+            42,
+            10
+          ]
+        },
+        {
+          "key": "fountain",
+          "id": "fountain",
+          "rect": [
+            204,
+            203,
+            61,
+            46
+          ],
+          "y": 249,
+          "footprint": [
+            204,
+            220,
+            61,
+            29
+          ]
+        },
+        {
+          "key": "bench_south",
+          "id": "bench",
+          "rect": [
+            245,
+            249,
+            36,
+            18
+          ],
+          "y": 265,
+          "footprint": [
+            241,
+            257,
+            42,
+            10
+          ]
+        },
+        {
+          "key": "flowerpot",
+          "id": "flowerpot",
+          "rect": [
+            180,
+            246,
+            12,
+            16
+          ],
+          "y": 262,
+          "footprint": [
+            178,
+            254,
+            16,
+            10
+          ]
+        },
+        {
+          "key": "shop",
+          "id": "shop",
+          "rect": [
+            23,
+            192,
+            54,
+            46
+          ],
+          "y": 238,
+          "footprint": [
+            23,
+            206,
+            54,
+            32
+          ]
+        },
+        {
+          "key": "tree_east",
+          "id": "tree",
+          "rect": [
+            284,
+            231,
+            42,
+            56
+          ],
+          "y": 283,
+          "footprint": [
+            293,
+            276,
+            18,
+            14
+          ]
+        },
+        {
+          "key": "tree_west",
+          "id": "tree",
+          "rect": [
+            22,
+            232,
+            42,
+            56
+          ],
+          "y": 284,
+          "footprint": [
+            34,
+            276,
+            16,
+            12
+          ]
+        },
+        {
+          "key": "tree_south",
+          "id": "tree_small",
+          "rect": [
+            98,
+            245,
+            33,
+            47
+          ],
+          "y": 288,
+          "footprint": [
+            104,
+            281,
+            16,
+            11
+          ]
+        },
+        {
+          "key": "bench_west",
+          "id": "bench",
+          "rect": [
+            62,
+            253,
+            36,
+            18
+          ],
+          "y": 270,
+          "footprint": [
+            57,
+            260,
+            43,
+            10
+          ]
+        },
+        {
+          "key": "lamp_plaza",
+          "id": "lamp",
+          "rect": [
+            298,
+            178,
+            10,
+            39
+          ],
+          "y": 217,
+          "footprint": [
+            298,
+            207,
+            10,
+            10
+          ]
+        },
+        {
+          "key": "lamp_south",
+          "id": "lamp",
+          "rect": [
+            134,
+            233,
+            10,
+            39
+          ],
+          "y": 272,
+          "footprint": [
+            134,
+            262,
+            10,
+            10
+          ]
+        },
+        {
+          "key": "festival_left",
+          "id": "lamp",
+          "rect": [
+            150,
+            125,
+            10,
+            39
+          ],
+          "y": 164,
+          "footprint": [
+            150,
+            154,
+            10,
+            10
+          ]
+        },
+        {
+          "key": "festival_right",
+          "id": "lamp",
+          "rect": [
+            214,
+            125,
+            10,
+            39
+          ],
+          "y": 164,
+          "footprint": [
+            214,
+            154,
+            10,
+            10
+          ]
+        },
+        {
+          "key": "bunting",
+          "id": "bunting",
+          "rect": [
+            140,
+            130,
+            96,
+            23
+          ],
+          "y": 164.1,
+          "anchors": [
+            {
+              "support": "festival_left",
+              "point": [
+                5,
+                5
+              ],
+              "sprite_point": [
+                15,
+                0
+              ]
+            },
+            {
+              "support": "festival_right",
+              "point": [
+                5,
+                5
+              ],
+              "sprite_point": [
+                79,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "key": "plaza_shade",
+          "id": "tree",
+          "rect": [
+            376,
+            107,
+            42,
+            56
+          ],
+          "y": 159,
+          "footprint": [
+            385,
+            152,
+            18,
+            14
+          ]
+        },
+        {
+          "key": "plaza_flowers",
+          "id": "flowerpot",
+          "rect": [
+            332,
+            167,
+            12,
+            16
+          ],
+          "y": 183,
+          "footprint": [
+            330,
+            175,
+            16,
+            10
+          ]
+        }
+      ],
+      "ground": [
+        {
+          "key": "crossroad",
+          "id": "tile_sand",
+          "rect": [
+            12,
+            164,
+            468,
+            64
+          ]
+        },
+        {
+          "key": "cafe_patio",
+          "id": "tile_sand",
+          "rect": [
+            19,
+            157,
+            161,
+            62
+          ]
+        },
+        {
+          "key": "north_path",
+          "id": "tile_sand",
+          "rect": [
+            228,
+            48,
+            32,
+            140
+          ]
+        },
+        {
+          "key": "south_path",
+          "id": "tile_sand",
+          "rect": [
+            100,
+            224,
+            212,
+            68
+          ]
+        },
+        {
+          "key": "plaza",
+          "id": "tile_plaza",
+          "rect": [
+            179,
+            207,
+            104,
+            64
+          ]
+        },
+        {
+          "key": "shade_path",
+          "id": "tile_sand",
+          "rect": [
+            332,
+            174,
+            132,
+            42
+          ],
+          "corner_cut": 4
+        }
+      ],
+      "interactions": {
+        "shop": {
+          "key": "shop",
+          "stand_at": [
+            48,
+            244
+          ]
+        }
+      },
+      "exits": [
+        {
+          "id": "street_west",
+          "direction": "west",
+          "to": "homes",
+          "at": [
+            24,
+            192
+          ],
+          "spawn": [
+            448,
+            192
+          ]
+        },
+        {
+          "id": "street_north",
+          "direction": "north",
+          "to": "gardens",
+          "at": [
+            244,
+            76
+          ],
+          "spawn": [
+            244,
+            268
+          ]
+        },
+        {
+          "id": "street_east",
+          "direction": "east",
+          "to": "workshops",
+          "at": [
+            468,
+            196
+          ],
+          "spawn": [
+            44,
+            196
+          ]
+        }
+      ],
+      "background_props": [
+        {
+          "id": "fence",
+          "rect": [
+            12,
+            57,
+            208,
+            17
+          ]
+        },
+        {
+          "id": "fence",
+          "rect": [
+            268,
+            57,
+            212,
+            17
+          ]
+        }
+      ]
+    },
+    "gardens": {
+      "title": "Huerto de César",
+      "description": "Hileras de cultivos, semillas y un pequeño patio de trabajo junto a la casa de César.",
+      "grid": [
+        0,
+        -1
+      ],
+      "bounds": [
+        20,
+        76,
+        452,
+        216
+      ],
+      "props": [
+        {
+          "key": "homes",
+          "id": "homes",
+          "rect": [
+            120,
+            84,
+            48,
+            76
+          ],
+          "y": 159.99,
+          "footprint": [
+            120,
+            84,
+            48,
+            76
+          ],
+          "source_rect": [
+            0,
+            0,
+            48,
+            76
+          ],
+          "edge_finish": {
+            "side": "right",
+            "width": 10,
+            "source": [
+              0,
+              0,
+              10,
+              76
+            ]
+          }
+        },
+        {
+          "key": "garden_row_north",
+          "id": "garden_left",
+          "rect": [
+            344,
+            232,
+            112,
+            16
+          ],
+          "y": 248,
+          "footprint": [
+            344,
+            232,
+            112,
+            16
+          ],
+          "crop_row": true
+        },
+        {
+          "key": "garden_row_south",
+          "id": "garden_right",
+          "rect": [
+            344,
+            260,
+            112,
+            18
+          ],
+          "y": 278,
+          "footprint": [
+            344,
+            260,
+            112,
+            18
+          ],
+          "crop_row": true
+        },
+        {
+          "key": "garden_fence",
+          "id": "fence",
+          "rect": [
+            342,
+            214,
+            122,
+            17
+          ],
+          "y": 231,
+          "footprint": [
+            342,
+            225,
+            122,
+            6
+          ],
+          "tile": true
+        },
+        {
+          "key": "garden_edge_left_north",
+          "id": "tile_stone",
+          "rect": [
+            341,
+            230,
+            3,
+            18
+          ],
+          "y": 248,
+          "footprint": [
+            341,
+            230,
+            3,
+            18
+          ],
+          "tile": true
+        },
+        {
+          "key": "garden_edge_left_south",
+          "id": "tile_stone",
+          "rect": [
+            341,
+            260,
+            3,
+            21
+          ],
+          "y": 281,
+          "footprint": [
+            341,
+            260,
+            3,
+            21
+          ],
+          "tile": true
+        },
+        {
+          "key": "garden_edge_right",
+          "id": "tile_stone",
+          "rect": [
+            456,
+            230,
+            3,
+            51
+          ],
+          "y": 281,
+          "footprint": [
+            456,
+            230,
+            3,
+            51
+          ],
+          "tile": true
+        },
+        {
+          "key": "garden_edge_north",
+          "id": "tile_stone",
+          "rect": [
+            344,
+            229,
+            112,
+            3
+          ],
+          "y": 232,
+          "footprint": [
+            344,
+            229,
+            112,
+            3
+          ],
+          "tile": true
+        },
+        {
+          "key": "garden_sign",
+          "id": "tile_timber",
+          "rect": [
+            430,
+            211,
+            29,
+            10
+          ],
+          "y": 233,
+          "tile": true,
+          "label": "HUERTO",
+          "support": "garden_fence"
+        },
+        {
+          "key": "orchard_west",
+          "id": "tree",
+          "rect": [
+            26,
+            84,
+            42,
+            56
+          ],
+          "y": 136,
+          "footprint": [
+            38,
+            128,
+            16,
+            12
+          ]
+        },
+        {
+          "key": "orchard_east",
+          "id": "tree",
+          "rect": [
+            350,
+            84,
+            42,
+            56
+          ],
+          "y": 136,
+          "footprint": [
+            359,
+            129,
+            18,
+            14
+          ]
+        },
+        {
+          "key": "orchard_south",
+          "id": "tree_small",
+          "rect": [
+            46,
+            239,
+            33,
+            47
+          ],
+          "y": 282,
+          "footprint": [
+            52,
+            275,
+            16,
+            11
+          ]
+        },
+        {
+          "key": "garden_lamp",
+          "id": "lamp",
+          "rect": [
+            194,
+            170,
+            10,
+            39
+          ],
+          "y": 209,
+          "footprint": [
+            194,
+            199,
+            10,
+            10
+          ]
+        },
+        {
+          "key": "seed_table",
+          "id": "table",
+          "rect": [
+            84,
+            214,
+            40,
+            27
+          ],
+          "y": 241,
+          "footprint": [
+            81,
+            224,
+            46,
+            19
+          ]
+        },
+        {
+          "key": "seed_box",
+          "id": "project_seeds",
+          "rect": [
+            0,
+            0,
+            22,
+            19
+          ],
+          "y": 19,
+          "support": "seed_table",
+          "support_offset": [
+            20,
+            10
+          ]
+        },
+        {
+          "key": "nursery",
+          "id": "planter_seeded",
+          "rect": [
+            158,
+            226,
+            42,
+            28
+          ],
+          "y": 254,
+          "footprint": [
+            156,
+            240,
+            46,
+            16
+          ]
+        },
+        {
+          "key": "cesar_flowers",
+          "id": "flowerpot",
+          "rect": [
+            174,
+            144,
+            12,
+            16
+          ],
+          "y": 160,
+          "footprint": [
+            172,
+            152,
+            16,
+            10
+          ]
+        },
+        {
+          "key": "cesar_yard_fence",
+          "id": "fence",
+          "rect": [
+            64,
+            139,
+            48,
+            17
+          ],
+          "y": 156,
+          "tile": true,
+          "footprint": [
+            64,
+            150,
+            48,
+            6
+          ]
+        },
+        {
+          "key": "cesar_side_planter",
+          "id": "planter_seeded",
+          "rect": [
+            68,
+            111,
+            42,
+            28
+          ],
+          "y": 139,
+          "footprint": [
+            66,
+            125,
+            46,
+            16
+          ]
+        },
+        {
+          "key": "cesar_front_blooms",
+          "id": "flowerpot",
+          "rect": [
+            113,
+            143,
+            12,
+            16
+          ],
+          "y": 159,
+          "footprint": [
+            111,
+            151,
+            16,
+            10
+          ]
+        },
+        {
+          "key": "garden_bench",
+          "id": "bench",
+          "rect": [
+            266,
+            235,
+            36,
+            18
+          ],
+          "y": 253,
+          "footprint": [
+            262,
+            243,
+            42,
+            10
+          ]
+        },
+        {
+          "key": "garden_shade",
+          "id": "tree_small",
+          "rect": [
+            261,
+            181,
+            33,
+            47
+          ],
+          "y": 228,
+          "footprint": [
+            267,
+            217,
+            16,
+            11
+          ]
+        }
+      ],
+      "ground": [
+        {
+          "key": "cesar_side_garden",
+          "id": "tile_sand",
+          "rect": [
+            58,
+            103,
+            58,
+            60
+          ],
+          "corner_cut": 4
+        },
+        {
+          "key": "crossroad",
+          "id": "tile_sand",
+          "rect": [
+            40,
+            164,
+            440,
+            64
+          ]
+        },
+        {
+          "key": "cesar_path",
+          "id": "tile_sand",
+          "rect": [
+            108,
+            152,
+            70,
+            58
+          ]
+        },
+        {
+          "key": "south_path",
+          "id": "tile_sand",
+          "rect": [
+            228,
+            212,
+            32,
+            80
+          ]
+        },
+        {
+          "key": "nursery_yard",
+          "id": "tile_sand",
+          "rect": [
+            70,
+            206,
+            144,
+            64
+          ],
+          "corner_cut": 4
+        },
+        {
+          "key": "garden_approach",
+          "id": "tile_sand",
+          "rect": [
+            276,
+            212,
+            68,
+            14
+          ]
+        },
+        {
+          "key": "garden_ground",
+          "id": "tile_sand",
+          "rect": [
+            330,
+            214,
+            134,
+            74
+          ],
+          "tint": "d7c39c",
+          "corner_cut": 4
+        },
+        {
+          "key": "garden_soil",
+          "id": "tile_soil",
+          "rect": [
+            344,
+            232,
+            112,
+            46
+          ]
+        },
+        {
+          "key": "garden_path",
+          "id": "tile_sand",
+          "rect": [
+            344,
+            248,
+            112,
+            12
+          ],
+          "tint": "d7c39c"
+        },
+        {
+          "key": "garden_side_path",
+          "id": "tile_sand",
+          "rect": [
+            330,
+            220,
+            12,
+            60
+          ],
+          "tint": "d7c39c"
+        },
+        {
+          "key": "garden_south_path",
+          "id": "tile_sand",
+          "rect": [
+            330,
+            280,
+            134,
+            8
+          ],
+          "tint": "d7c39c",
+          "corner_cut": 4
+        },
+        {
+          "key": "garden_rest",
+          "id": "tile_sand",
+          "rect": [
+            260,
+            225,
+            54,
+            43
+          ],
+          "corner_cut": 4
+        }
+      ],
+      "interactions": {
+        "seed_box": {
+          "key": "seed_box",
+          "stand_at": [
+            104,
+            252
+          ],
+          "title": "Mesa de semillas",
+          "text": "Sobres rotulados distinguen semillas, fechas de siembra y necesidades de agua. César prepara aquí los próximos bancales.",
+          "type": "lore"
+        },
+        "nursery": {
+          "key": "nursery",
+          "stand_at": [
+            180,
+            266
+          ],
+          "title": "Semillero de César",
+          "text": "Los brotes jóvenes esperan antes de pasar al huerto. Algunas macetas aún conservan etiquetas escritas a mano.",
+          "type": "lore"
+        },
+        "garden": {
+          "key": "garden_sign",
+          "stand_at": [
+            416,
+            204
+          ],
+          "title": "Huerto del barrio",
+          "text": "Dos hileras largas dejan un pasillo para cuidar las plantas sin pisar la tierra cultivada. Aquí César observa, riega y comparte lo que aprende.",
+          "type": "lore"
+        },
+        "side_garden": {
+          "key": "cesar_side_planter",
+          "stand_at": [
+            88,
+            168
+          ],
+          "title": "Los primeros brotes",
+          "text": "Junto a su casa, César mantiene un semillero protegido. Las macetas pequeñas permiten mirar las raíces antes de llevar cada planta al bancal.",
+          "type": "lore"
+        }
+      },
+      "exits": [
+        {
+          "id": "gardens_south",
+          "direction": "south",
+          "to": "street",
+          "at": [
+            244,
+            288
+          ],
+          "spawn": [
+            244,
+            96
+          ]
+        },
+        {
+          "id": "gardens_east",
+          "direction": "east",
+          "to": "atelier",
+          "at": [
+            468,
+            196
+          ],
+          "spawn": [
+            44,
+            196
+          ]
+        }
+      ],
+      "background_props": [
+        {
+          "id": "fence",
+          "rect": [
+            12,
+            57,
+            468,
+            17
+          ]
+        }
+      ]
+    },
+    "homes": {
+      "title": "Calle de las casas",
+      "description": "La mesa de bienvenida de Lupita y tu patio abren una calle tranquila al oeste de la plaza.",
+      "grid": [
+        -1,
+        0
+      ],
+      "bounds": [
+        20,
+        76,
+        452,
+        216
+      ],
+      "props": [
+        {
+          "key": "homes",
+          "id": "homes",
+          "rect": [
+            168,
+            84,
+            48,
+            76
+          ],
+          "y": 159.99,
+          "footprint": [
+            168,
+            84,
+            48,
+            76
+          ],
+          "source_rect": [
+            48,
+            0,
+            48,
+            76
+          ],
+          "edge_finish": {
+            "side": "left",
+            "width": 10,
+            "source": [
+              86,
+              0,
+              10,
+              76
+            ]
+          }
+        },
+        {
+          "key": "player_home",
+          "id": "player_home",
+          "rect": [
+            406,
+            90,
+            70,
+            70
+          ],
+          "y": 159.99,
+          "footprint": [
+            406,
+            90,
+            70,
+            70
+          ]
+        },
+        {
+          "key": "homes_shade",
+          "id": "tree",
+          "rect": [
+            36,
+            93,
+            42,
+            56
+          ],
+          "y": 145,
+          "footprint": [
+            48,
+            137,
+            16,
+            12
+          ]
+        },
+        {
+          "key": "homes_tree",
+          "id": "tree",
+          "rect": [
+            280,
+            234,
+            42,
+            56
+          ],
+          "y": 286,
+          "footprint": [
+            289,
+            279,
+            18,
+            14
+          ]
+        },
+        {
+          "key": "lamp_homes",
+          "id": "lamp",
+          "rect": [
+            433,
+            177,
+            10,
+            39
+          ],
+          "y": 216,
+          "footprint": [
+            433,
+            206,
+            10,
+            10
+          ]
+        },
+        {
+          "key": "welcome_table",
+          "id": "table",
+          "rect": [
+            112,
+            218,
+            40,
+            27
+          ],
+          "y": 245,
+          "footprint": [
+            109,
+            228,
+            46,
+            19
+          ]
+        },
+        {
+          "key": "welcome_basket",
+          "id": "project_basket",
+          "rect": [
+            0,
+            0,
+            22,
+            20
+          ],
+          "y": 20,
+          "support": "welcome_table",
+          "support_offset": [
+            20,
+            10
+          ]
+        },
+        {
+          "key": "player_planter",
+          "id": "planter",
+          "rect": [
+            390,
+            246,
+            42,
+            28
+          ],
+          "y": 274,
+          "footprint": [
+            388,
+            260,
+            46,
+            16
+          ]
+        },
+        {
+          "key": "lupita_flowers",
+          "id": "flowerpot",
+          "rect": [
+            222,
+            145,
+            12,
+            16
+          ],
+          "y": 161,
+          "footprint": [
+            220,
+            153,
+            16,
+            10
+          ]
+        },
+        {
+          "key": "player_flowers",
+          "id": "flowerpot",
+          "rect": [
+            452,
+            246,
+            12,
+            16
+          ],
+          "y": 262,
+          "footprint": [
+            450,
+            254,
+            16,
+            10
+          ]
+        },
+        {
+          "key": "welcome_bench",
+          "id": "bench",
+          "rect": [
+            216,
+            229,
+            36,
+            18
+          ],
+          "y": 247,
+          "footprint": [
+            212,
+            237,
+            42,
+            10
+          ]
+        },
+        {
+          "key": "lupita_yard_fence",
+          "id": "fence",
+          "rect": [
+            90,
+            143,
+            58,
+            17
+          ],
+          "y": 160,
+          "tile": true,
+          "footprint": [
+            90,
+            154,
+            58,
+            6
+          ]
+        },
+        {
+          "key": "lupita_planter",
+          "id": "planter_seeded",
+          "rect": [
+            99,
+            115,
+            42,
+            28
+          ],
+          "y": 143,
+          "footprint": [
+            97,
+            129,
+            46,
+            16
+          ]
+        },
+        {
+          "key": "lupita_left_pot",
+          "id": "flowerpot",
+          "rect": [
+            151,
+            144,
+            12,
+            16
+          ],
+          "y": 160,
+          "footprint": [
+            149,
+            152,
+            16,
+            10
+          ]
+        },
+        {
+          "key": "welcome_flowers",
+          "id": "flowerpot",
+          "rect": [
+            177,
+            245,
+            12,
+            16
+          ],
+          "y": 261,
+          "footprint": [
+            175,
+            253,
+            16,
+            10
+          ]
+        },
+        {
+          "key": "lupita_shade",
+          "id": "tree_small",
+          "rect": [
+            258,
+            100,
+            33,
+            47
+          ],
+          "y": 147,
+          "footprint": [
+            264,
+            136,
+            16,
+            11
+          ]
+        },
+        {
+          "key": "player_yard_fence",
+          "id": "fence",
+          "rect": [
+            378,
+            231,
+            70,
+            17
+          ],
+          "y": 248,
+          "tile": true,
+          "footprint": [
+            378,
+            242,
+            70,
+            6
+          ]
+        }
+      ],
+      "ground": [
+        {
+          "key": "lupita_side_garden",
+          "id": "tile_sand",
+          "rect": [
+            84,
+            105,
+            70,
+            62
+          ],
+          "corner_cut": 4
+        },
+        {
+          "key": "crossroad",
+          "id": "tile_sand",
+          "rect": [
+            12,
+            164,
+            468,
+            64
+          ]
+        },
+        {
+          "key": "welcome_yard",
+          "id": "tile_sand",
+          "rect": [
+            90,
+            211,
+            172,
+            66
+          ],
+          "corner_cut": 4
+        },
+        {
+          "key": "player_yard",
+          "id": "tile_sand",
+          "rect": [
+            374,
+            220,
+            92,
+            64
+          ],
+          "corner_cut": 4
+        },
+        {
+          "key": "player_path",
+          "id": "tile_sand",
+          "rect": [
+            422,
+            154,
+            40,
+            92
+          ]
+        },
+        {
+          "key": "lupita_path",
+          "id": "tile_sand",
+          "rect": [
+            174,
+            153,
+            43,
+            58
+          ]
+        }
+      ],
+      "interactions": {
+        "welcome": {
+          "key": "welcome_basket",
+          "stand_at": [
+            132,
+            256
+          ],
+          "title": "Una mesa de bienvenida",
+          "text": "Una canasta con manteles y tarjetas en blanco invita a organizar la próxima comida del vecindario.",
+          "type": "lore"
+        },
+        "player_yard": {
+          "key": "player_planter",
+          "stand_at": [
+            410,
+            282
+          ],
+          "title": "Tu patio",
+          "text": "Esta jardinera vacía puede acompañar los primeros pasos de tu nuevo hogar. Desde aquí se vuelve a la plaza por el este.",
+          "type": "lore"
+        }
+      },
+      "exits": [
+        {
+          "id": "homes_east",
+          "direction": "east",
+          "to": "street",
+          "at": [
+            468,
+            192
+          ],
+          "spawn": [
+            44,
+            192
+          ]
+        },
+        {
+          "id": "homes_west",
+          "direction": "west",
+          "to": "forest",
+          "at": [
+            24,
+            196
+          ],
+          "spawn": [
+            448,
+            196
+          ]
+        }
+      ],
+      "background_props": [
+        {
+          "id": "fence",
+          "rect": [
+            12,
+            57,
+            468,
+            17
+          ]
+        }
+      ]
+    },
+    "workshops": {
+      "title": "Patio del taller",
+      "description": "El taller de Mateo abre a un patio de herramientas y bicicletas; al norte está el rincón de Alma.",
+      "grid": [
+        1,
+        0
+      ],
+      "bounds": [
+        20,
+        76,
+        452,
+        216
+      ],
+      "props": [
+        {
+          "key": "workshop",
+          "id": "workshop",
+          "rect": [
+            292,
+            88,
+            110,
+            72
+          ],
+          "y": 159.99,
+          "footprint": [
+            292,
+            88,
+            110,
+            72
+          ]
+        },
+        {
+          "key": "workshop_shade",
+          "id": "tree",
+          "rect": [
+            36,
+            90,
+            42,
+            56
+          ],
+          "y": 142,
+          "footprint": [
+            48,
+            134,
+            16,
+            12
+          ]
+        },
+        {
+          "key": "workshop_tree",
+          "id": "tree_small",
+          "rect": [
+            94,
+            239,
+            33,
+            47
+          ],
+          "y": 282,
+          "footprint": [
+            100,
+            275,
+            16,
+            11
+          ]
+        },
+        {
+          "key": "workshop_lamp",
+          "id": "lamp",
+          "rect": [
+            204,
+            142,
+            10,
+            39
+          ],
+          "y": 181,
+          "footprint": [
+            204,
+            171,
+            10,
+            10
+          ]
+        },
+        {
+          "key": "tools_table",
+          "id": "table",
+          "rect": [
+            330,
+            228,
+            40,
+            27
+          ],
+          "y": 255,
+          "footprint": [
+            327,
+            238,
+            46,
+            19
+          ]
+        },
+        {
+          "key": "tools",
+          "id": "project_tools",
+          "rect": [
+            0,
+            0,
+            24,
+            22
+          ],
+          "y": 22,
+          "support": "tools_table",
+          "support_offset": [
+            20,
+            10
+          ]
+        },
+        {
+          "key": "repair_bicycle",
+          "id": "bicycle_broken",
+          "rect": [
+            394,
+            226,
+            34,
+            24
+          ],
+          "y": 250,
+          "footprint": [
+            391,
+            240,
+            40,
+            12
+          ]
+        },
+        {
+          "key": "ready_bicycle",
+          "id": "bicycle_fixed",
+          "rect": [
+            172,
+            240,
+            34,
+            24
+          ],
+          "y": 264,
+          "footprint": [
+            169,
+            252,
+            40,
+            14
+          ]
+        },
+        {
+          "key": "workshop_pot",
+          "id": "flowerpot",
+          "rect": [
+            405,
+            143,
+            12,
+            16
+          ],
+          "y": 159,
+          "footprint": [
+            403,
+            151,
+            16,
+            10
+          ]
+        }
+      ],
+      "ground": [
+        {
+          "key": "crossroad",
+          "id": "tile_sand",
+          "rect": [
+            12,
+            164,
+            444,
+            64
+          ]
+        },
+        {
+          "key": "north_path",
+          "id": "tile_sand",
+          "rect": [
+            228,
+            48,
+            32,
+            140
+          ]
+        },
+        {
+          "key": "workshop_yard",
+          "id": "tile_plaza",
+          "rect": [
+            288,
+            212,
+            160,
+            64
+          ],
+          "corner_cut": 4
+        },
+        {
+          "key": "bicycle_yard",
+          "id": "tile_sand",
+          "rect": [
+            154,
+            222,
+            70,
+            58
+          ],
+          "corner_cut": 4
+        },
+        {
+          "key": "workshop_entry",
+          "id": "tile_sand",
+          "rect": [
+            326,
+            152,
+            60,
+            54
+          ]
+        }
+      ],
+      "interactions": {
+        "tools": {
+          "key": "tools",
+          "stand_at": [
+            348,
+            266
+          ],
+          "title": "Herramientas ordenadas",
+          "text": "Llaves, piezas y un paño limpio tienen su sitio en la mesa. Una reparación empieza por reconocer qué hace falta.",
+          "type": "lore"
+        },
+        "bicycle": {
+          "key": "repair_bicycle",
+          "stand_at": [
+            410,
+            262
+          ],
+          "title": "Una reparación pendiente",
+          "text": "La bicicleta espera con una rueda y su cadena por revisar. Mateo puede enseñar a observar el problema antes de cambiar piezas.",
+          "type": "lore"
+        }
+      },
+      "exits": [
+        {
+          "id": "workshops_west",
+          "direction": "west",
+          "to": "street",
+          "at": [
+            24,
+            196
+          ],
+          "spawn": [
+            448,
+            196
+          ]
+        },
+        {
+          "id": "workshops_north",
+          "direction": "north",
+          "to": "atelier",
+          "at": [
+            244,
+            76
+          ],
+          "spawn": [
+            244,
+            268
+          ]
+        }
+      ],
+      "background_props": [
+        {
+          "id": "fence",
+          "rect": [
+            12,
+            57,
+            208,
+            17
+          ]
+        },
+        {
+          "id": "fence",
+          "rect": [
+            268,
+            57,
+            212,
+            17
+          ]
+        }
+      ]
+    },
+    "atelier": {
+      "title": "Rincón de Alma",
+      "description": "Un patio para dibujar y mirar el barrio, entre el huerto de César y el taller de Mateo.",
+      "grid": [
+        1,
+        -1
+      ],
+      "bounds": [
+        20,
+        76,
+        452,
+        216
+      ],
+      "props": [
+        {
+          "key": "alma_home",
+          "id": "alma_home",
+          "rect": [
+            220,
+            86,
+            68,
+            74
+          ],
+          "y": 159.99,
+          "footprint": [
+            220,
+            86,
+            68,
+            74
+          ]
+        },
+        {
+          "key": "atelier_shade",
+          "id": "tree",
+          "rect": [
+            32,
+            95,
+            42,
+            56
+          ],
+          "y": 147,
+          "footprint": [
+            44,
+            139,
+            16,
+            12
+          ]
+        },
+        {
+          "key": "atelier_east",
+          "id": "tree",
+          "rect": [
+            380,
+            87,
+            42,
+            56
+          ],
+          "y": 139,
+          "footprint": [
+            389,
+            132,
+            18,
+            14
+          ]
+        },
+        {
+          "key": "atelier_south",
+          "id": "tree_small",
+          "rect": [
+            365,
+            243,
+            33,
+            47
+          ],
+          "y": 286,
+          "footprint": [
+            371,
+            279,
+            16,
+            11
+          ]
+        },
+        {
+          "key": "atelier_lamp",
+          "id": "lamp",
+          "rect": [
+            150,
+            143,
+            10,
+            39
+          ],
+          "y": 182,
+          "footprint": [
+            150,
+            172,
+            10,
+            10
+          ]
+        },
+        {
+          "key": "painting",
+          "id": "project_painting",
+          "rect": [
+            306,
+            226,
+            22,
+            30
+          ],
+          "y": 256,
+          "footprint": [
+            303,
+            247,
+            28,
+            12
+          ]
+        },
+        {
+          "key": "archive_table",
+          "id": "table",
+          "rect": [
+            80,
+            226,
+            40,
+            27
+          ],
+          "y": 253,
+          "footprint": [
+            77,
+            236,
+            46,
+            19
+          ]
+        },
+        {
+          "key": "album",
+          "id": "project_basket",
+          "rect": [
+            0,
+            0,
+            22,
+            20
+          ],
+          "y": 20,
+          "support": "archive_table",
+          "support_offset": [
+            20,
+            10
+          ]
+        },
+        {
+          "key": "alma_flowers",
+          "id": "flowerpot",
+          "rect": [
+            287,
+            145,
+            12,
+            16
+          ],
+          "y": 161,
+          "footprint": [
+            285,
+            153,
+            16,
+            10
+          ]
+        },
+        {
+          "key": "art_plant",
+          "id": "plant",
+          "rect": [
+            330,
+            239,
+            18,
+            24
+          ],
+          "y": 263,
+          "footprint": [
+            328,
+            253,
+            22,
+            12
+          ]
+        },
+        {
+          "key": "reading_bench",
+          "id": "bench",
+          "rect": [
+            166,
+            234,
+            36,
+            18
+          ],
+          "y": 252,
+          "footprint": [
+            162,
+            242,
+            42,
+            10
+          ]
+        },
+        {
+          "key": "reading_pot",
+          "id": "flowerpot",
+          "rect": [
+            207,
+            237,
+            12,
+            16
+          ],
+          "y": 253,
+          "footprint": [
+            205,
+            245,
+            16,
+            10
+          ]
+        },
+        {
+          "key": "alma_side_planter",
+          "id": "planter_seeded",
+          "rect": [
+            155,
+            119,
+            42,
+            28
+          ],
+          "y": 147,
+          "footprint": [
+            153,
+            133,
+            46,
+            16
+          ]
+        },
+        {
+          "key": "alma_side_fence",
+          "id": "fence",
+          "rect": [
+            146,
+            149,
+            64,
+            17
+          ],
+          "y": 166,
+          "tile": true,
+          "footprint": [
+            146,
+            160,
+            64,
+            6
+          ]
+        }
+      ],
+      "ground": [
+        {
+          "key": "alma_side_garden",
+          "id": "tile_sand",
+          "rect": [
+            140,
+            110,
+            76,
+            62
+          ],
+          "corner_cut": 4
+        },
+        {
+          "key": "crossroad",
+          "id": "tile_sand",
+          "rect": [
+            12,
+            164,
+            444,
+            64
+          ]
+        },
+        {
+          "key": "south_path",
+          "id": "tile_sand",
+          "rect": [
+            228,
+            212,
+            32,
+            80
+          ]
+        },
+        {
+          "key": "alma_path",
+          "id": "tile_sand",
+          "rect": [
+            228,
+            152,
+            43,
+            72
+          ]
+        },
+        {
+          "key": "archive_yard",
+          "id": "tile_plaza",
+          "rect": [
+            60,
+            216,
+            88,
+            60
+          ],
+          "corner_cut": 4
+        },
+        {
+          "key": "painting_yard",
+          "id": "tile_sand",
+          "rect": [
+            290,
+            220,
+            70,
+            62
+          ],
+          "corner_cut": 4
+        },
+        {
+          "key": "reading_corner",
+          "id": "tile_plaza",
+          "rect": [
+            154,
+            226,
+            68,
+            44
+          ],
+          "corner_cut": 4
+        }
+      ],
+      "interactions": {
+        "painting": {
+          "key": "painting",
+          "stand_at": [
+            316,
+            270
+          ],
+          "title": "El barrio en un lienzo",
+          "text": "El caballete mira hacia el camino. Entre pinceladas aparecen casas, árboles y espacios que todavía pueden cambiar.",
+          "type": "lore"
+        },
+        "album": {
+          "key": "album",
+          "stand_at": [
+            100,
+            264
+          ],
+          "title": "Mesa de recuerdos del barrio",
+          "text": "Una cesta reúne papeles y tarjetas para anotar historias compartidas. Las páginas sin escribir dejan sitio a nuevas visitas.",
+          "type": "lore"
+        }
+      },
+      "exits": [
+        {
+          "id": "atelier_west",
+          "direction": "west",
+          "to": "gardens",
+          "at": [
+            24,
+            196
+          ],
+          "spawn": [
+            448,
+            196
+          ]
+        },
+        {
+          "id": "atelier_south",
+          "direction": "south",
+          "to": "workshops",
+          "at": [
+            244,
+            288
+          ],
+          "spawn": [
+            244,
+            96
+          ]
+        }
+      ],
+      "background_props": [
+        {
+          "id": "fence",
+          "rect": [
+            12,
+            57,
+            468,
+            17
+          ]
+        }
+      ]
+    },
+    "forest": {
+      "title": "Arboleda del arroyo",
+      "description": "Árboles, ramas caídas y un pequeño arroyo ofrecen materiales que se renuevan con el paso de los días.",
+      "grid": [
+        -2,
+        0
+      ],
+      "bounds": [
+        20,
+        76,
+        452,
+        216
+      ],
+      "grass_tint": "c4d2b6",
+      "props": [
+        {
+          "key": "forest_tree_0",
+          "id": "tree",
+          "rect": [
+            20,
+            64,
+            42,
+            56
+          ],
+          "y": 120,
+          "footprint": [
+            31,
+            109,
+            16,
+            11
+          ]
+        },
+        {
+          "key": "forest_tree_1",
+          "id": "tree",
+          "rect": [
+            78,
+            72,
+            42,
+            56
+          ],
+          "y": 128,
+          "footprint": [
+            89,
+            117,
+            16,
+            11
+          ]
+        },
+        {
+          "key": "forest_tree_2",
+          "id": "tree",
+          "rect": [
+            138,
+            63,
+            42,
+            56
+          ],
+          "y": 119,
+          "footprint": [
+            149,
+            108,
+            16,
+            11
+          ]
+        },
+        {
+          "key": "forest_tree_3",
+          "id": "tree_small",
+          "rect": [
+            196,
+            64,
+            33,
+            47
+          ],
+          "y": 111,
+          "footprint": [
+            202,
+            100,
+            16,
+            11
+          ]
+        },
+        {
+          "key": "forest_tree_4",
+          "id": "tree",
+          "rect": [
+            272,
+            70,
+            42,
+            56
+          ],
+          "y": 126,
+          "footprint": [
+            283,
+            115,
+            16,
+            11
+          ]
+        },
+        {
+          "key": "forest_tree_5",
+          "id": "tree",
+          "rect": [
+            338,
+            58,
+            42,
+            56
+          ],
+          "y": 114,
+          "footprint": [
+            349,
+            103,
+            16,
+            11
+          ]
+        },
+        {
+          "key": "forest_tree_6",
+          "id": "tree",
+          "rect": [
+            404,
+            66,
+            42,
+            56
+          ],
+          "y": 122,
+          "footprint": [
+            415,
+            111,
+            16,
+            11
+          ]
+        },
+        {
+          "key": "forest_tree_7",
+          "id": "tree",
+          "rect": [
+            26,
+            208,
+            42,
+            56
+          ],
+          "y": 264,
+          "footprint": [
+            37,
+            253,
+            16,
+            11
+          ]
+        },
+        {
+          "key": "forest_tree_8",
+          "id": "tree",
+          "rect": [
+            88,
+            234,
+            42,
+            56
+          ],
+          "y": 290,
+          "footprint": [
+            99,
+            279,
+            16,
+            11
+          ]
+        },
+        {
+          "key": "forest_tree_9",
+          "id": "tree_small",
+          "rect": [
+            178,
+            237,
+            33,
+            47
+          ],
+          "y": 284,
+          "footprint": [
+            184,
+            273,
+            16,
+            11
+          ]
+        },
+        {
+          "key": "forest_tree_10",
+          "id": "tree",
+          "rect": [
+            267,
+            244,
+            42,
+            56
+          ],
+          "y": 300,
+          "footprint": [
+            278,
+            289,
+            16,
+            11
+          ]
+        },
+        {
+          "key": "forest_tree_11",
+          "id": "tree",
+          "rect": [
+            432,
+            230,
+            42,
+            56
+          ],
+          "y": 286,
+          "footprint": [
+            443,
+            275,
+            16,
+            11
+          ]
+        },
+        {
+          "key": "forest_tree_12",
+          "id": "tree_small",
+          "rect": [
+            223,
+            91,
+            33,
+            47
+          ],
+          "y": 138,
+          "footprint": [
+            229,
+            127,
+            16,
+            11
+          ]
+        }
+      ],
+      "ground": [
+        {
+          "key": "forest_path",
+          "id": "tile_sand",
+          "rect": [
+            120,
+            178,
+            360,
+            38
+          ],
+          "tint": "baa887",
+          "corner_cut": 4
+        },
+        {
+          "key": "west_path",
+          "id": "tile_sand",
+          "rect": [
+            76,
+            212,
+            206,
+            42
+          ],
+          "tint": "baa887",
+          "corner_cut": 4
+        },
+        {
+          "key": "fruit_path",
+          "id": "tile_sand",
+          "rect": [
+            216,
+            128,
+            42,
+            66
+          ],
+          "tint": "baa887",
+          "corner_cut": 4
+        },
+        {
+          "key": "stream_bank",
+          "id": "tile_stone",
+          "rect": [
+            314,
+            216,
+            116,
+            60
+          ],
+          "corner_cut": 4
+        },
+        {
+          "key": "stream",
+          "id": "tile_water",
+          "rect": [
+            322,
+            224,
+            100,
+            44
+          ],
+          "corner_cut": 4
+        }
+      ],
+      "extra_obstacles": [
+        [
+          322,
+          224,
+          100,
+          44
+        ]
+      ],
+      "interactions": {},
+      "background_props": [],
+      "exits": [
+        {
+          "id": "forest_east",
+          "direction": "east",
+          "to": "homes",
+          "at": [
+            468,
+            196
+          ],
+          "spawn": [
+            44,
+            196
+          ]
+        }
+      ]
+    }
+  },
+  "spawns": {
+    "cesar": {
+      "room": "gardens",
+      "position": [
+        422,
+        254
+      ]
+    },
+    "lupita": {
+      "room": "street",
+      "position": [
+        264,
+        214
+      ]
+    },
+    "mateo": {
+      "room": "workshops",
+      "position": [
+        354,
+        178
+      ]
+    },
+    "ines": {
+      "room": "street",
+      "position": [
+        110,
+        178
+      ]
+    },
+    "alma": {
+      "room": "atelier",
+      "position": [
+        249,
+        180
+      ]
+    },
+    "player": {
+      "room": "homes",
+      "position": [
+        432,
+        216
+      ]
+    }
+  }
+}

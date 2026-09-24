@@ -1,0 +1,269 @@
+{
+  "version": 1,
+  "manifest": "game/assets/sprites/manifest.json",
+  "work_dir": "output/imagegen/art-v2",
+  "staging_dir": "game/assets/sprites/art-v2",
+  "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+  "alpha_threshold": 128,
+  "palette_default": "shared256",
+  "palette_modes": {
+    "off": "Conservar los colores normalizados de las fuentes.",
+    "common96": "Comparación experimental con rampas de material explícitas y protección de verdes.",
+    "shared256": "Una sola paleta optimizada para las 54 piezas nativas sin escalarlas: celdas de 128×128, PNG Sharp colours=256, dither=0, effort=10; recorte de vuelta y alfa binario. El informe enumera los colores reales del conjunto."
+  },
+  "palette_note": "Propuesta explícita de 96 colores, doce rampas de ocho tonos derivadas de los materiales de pixel-art-design-system.md. Opcional; no aplicada a referencias, personajes, UI ni bicicleta. Los píxeles verdes cromáticos (g>r*1.02, g>b*1.08, saturación>0.18) sólo eligen colores con g>r y g>b para no convertir follaje en madera u oro; las demás categorías mantienen distancia RGB ponderada global.",
+  "material_ramps": {
+    "stucco_cream": [
+      "#443C38",
+      "#64564B",
+      "#837362",
+      "#A39076",
+      "#BDA887",
+      "#D6C2A0",
+      "#EAD9B7",
+      "#F8EBCF"
+    ],
+    "terracotta": [
+      "#482C30",
+      "#673336",
+      "#884039",
+      "#A6533D",
+      "#C16B46",
+      "#D98555",
+      "#EAA56C",
+      "#F2C28C"
+    ],
+    "wood": [
+      "#352E2C",
+      "#503932",
+      "#6B4937",
+      "#895D3D",
+      "#A57748",
+      "#BD915D",
+      "#D2AB77",
+      "#E6C596"
+    ],
+    "iron": [
+      "#202D34",
+      "#2E3C44",
+      "#41525B",
+      "#5B6C75",
+      "#788A92",
+      "#98A9AD",
+      "#BDCACE",
+      "#DEE6E2"
+    ],
+    "stone": [
+      "#3C3D40",
+      "#565653",
+      "#72716B",
+      "#8D8B7E",
+      "#A6A393",
+      "#BDBBA8",
+      "#D3D0BA",
+      "#E7E1CA"
+    ],
+    "foliage": [
+      "#193B35",
+      "#294E3C",
+      "#416748",
+      "#597B3E",
+      "#789540",
+      "#9AB250",
+      "#B6C978",
+      "#D0DCA0"
+    ],
+    "water": [
+      "#203F4E",
+      "#285767",
+      "#337284",
+      "#46909D",
+      "#67ADB1",
+      "#8BC8C5",
+      "#B8E0D3",
+      "#E5F0DB"
+    ],
+    "turquoise_paint": [
+      "#1C3B3D",
+      "#245354",
+      "#2D6C68",
+      "#43867D",
+      "#62A094",
+      "#85BCAE",
+      "#ADD6C4",
+      "#D7E8D4"
+    ],
+    "coral_stucco": [
+      "#56313C",
+      "#78404A",
+      "#98535A",
+      "#B76D6B",
+      "#CF8B80",
+      "#E2AB98",
+      "#F0C8B1",
+      "#F8E0C7"
+    ],
+    "lavender_stucco": [
+      "#443747",
+      "#5E4B62",
+      "#79647F",
+      "#967F9C",
+      "#B29AB5",
+      "#CBB6CB",
+      "#DFCEDC",
+      "#EFE4E9"
+    ],
+    "gold": [
+      "#51412A",
+      "#70562E",
+      "#917035",
+      "#AE8B40",
+      "#C7A750",
+      "#DCC368",
+      "#EBDD91",
+      "#F5ECC0"
+    ],
+    "flower_red": [
+      "#512D43",
+      "#73364E",
+      "#963F5A",
+      "#B65468",
+      "#CD7280",
+      "#DF969C",
+      "#ECBABC",
+      "#F5DBD5"
+    ]
+  },
+  "groups": {
+    "buildings": {
+      "grid": [
+        3,
+        2
+      ],
+      "cell": 512,
+      "max_scale": 4,
+      "max_content": 448,
+      "opaque": false,
+      "source": "output/imagegen/art-v2/aligned/buildings.png",
+      "prompt": "output/imagegen/art-v2/prompts/buildings.txt",
+      "source_offset": [
+        0,
+        0
+      ],
+      "asset_corrections": {},
+      "assets": [
+        "cafe",
+        "homes",
+        "alma_home",
+        "workshop",
+        "player_home",
+        "shop"
+      ]
+    },
+    "outdoors": {
+      "grid": [
+        4,
+        4
+      ],
+      "cell": 256,
+      "max_scale": 6,
+      "max_content": 224,
+      "opaque": false,
+      "source": "output/imagegen/art-v2/aligned/outdoors.png",
+      "prompt": "output/imagegen/art-v2/prompts/outdoors.txt",
+      "source_offset": [
+        0,
+        0
+      ],
+      "asset_corrections": {},
+      "assets": [
+        "tree",
+        "tree_small",
+        "fountain",
+        "bench",
+        "cafe_table",
+        "flowerpot",
+        "fence",
+        "bunting",
+        "lamp",
+        "garden_left",
+        "garden_right",
+        "planter",
+        "planter_seeded",
+        "item_oil",
+        "item_seeds",
+        "item_tea"
+      ]
+    },
+    "interiors": {
+      "grid": [
+        4,
+        4
+      ],
+      "cell": 256,
+      "max_scale": 6,
+      "max_content": 224,
+      "opaque": false,
+      "source": "output/imagegen/art-v2/aligned/interiors.png",
+      "prompt": "output/imagegen/art-v2/prompts/interiors.txt",
+      "source_offset": [
+        0,
+        0
+      ],
+      "asset_corrections": {},
+      "assets": [
+        "bed",
+        "table",
+        "cabinet",
+        "bookshelf",
+        "window",
+        "chair",
+        "tea_set",
+        "project_tools",
+        "notebooks",
+        "photo",
+        "plant",
+        "project_painting",
+        "project_basket",
+        "project_seeds",
+        "tea_ready",
+        "rug"
+      ]
+    },
+    "terrain": {
+      "grid": [
+        4,
+        4
+      ],
+      "cell": 256,
+      "max_scale": 8,
+      "max_content": 256,
+      "opaque": true,
+      "source": "output/imagegen/art-v2/sources/terrain-calm.png",
+      "prompt": "output/imagegen/art-v2/prompts/terrain-calm.txt",
+      "source_offset": [
+        0,
+        0
+      ],
+      "asset_corrections": {},
+      "assets": [
+        "tile_grass",
+        "tile_sand",
+        "tile_plaza",
+        "tile_wood",
+        "tile_wall",
+        "tile_wall_sage",
+        "tile_wall_peach",
+        "tile_wall_lavender",
+        "tile_soil",
+        "tile_water",
+        "tile_rug_red",
+        "tile_rug_teal",
+        "tile_stone",
+        "tile_roof",
+        "tile_brick",
+        "tile_timber"
+      ]
+    }
+  }
+}

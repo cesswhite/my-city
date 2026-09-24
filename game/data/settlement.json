@@ -1,0 +1,1341 @@
+{
+  "version": 1,
+  "initial": {
+    "areas": [
+      "homes",
+      "street"
+    ],
+    "residents": [
+      "player",
+      "lupita",
+      "ines"
+    ],
+    "buildings": [
+      "player_home",
+      "lupita_home",
+      "cafe",
+      "shop"
+    ],
+    "coins": 8,
+    "items": {}
+  },
+  "board": {
+    "area": "street",
+    "at": [
+      358,
+      194
+    ],
+    "title": "Tablón del barrio"
+  },
+  "resources": {
+    "madera": {
+      "name": "Madera",
+      "sell": 1,
+      "daily_demand": 6
+    },
+    "piedra": {
+      "name": "Piedra",
+      "sell": 1,
+      "daily_demand": 6
+    },
+    "fibra": {
+      "name": "Fibra vegetal",
+      "sell": 1,
+      "daily_demand": 4
+    },
+    "tablones": {
+      "name": "Tablones",
+      "sell": 3,
+      "daily_demand": 4
+    },
+    "compost": {
+      "name": "Compost",
+      "sell": 2,
+      "daily_demand": 4
+    },
+    "verduras": {
+      "name": "Verduras",
+      "sell": 4,
+      "daily_demand": 6
+    },
+    "fruta": {
+      "name": "Fruta",
+      "sell": 3,
+      "daily_demand": 5
+    },
+    "infusion": {
+      "name": "Infusión del barrio",
+      "sell": 6,
+      "daily_demand": 3
+    }
+  },
+  "projects": {
+    "workbench": {
+      "title": "Preparar una mesa de trabajo",
+      "kind": "building",
+      "area": "homes",
+      "at": [
+        346,
+        248
+      ],
+      "cost": {
+        "coins": 0,
+        "items": {
+          "madera": 2,
+          "piedra": 2
+        }
+      },
+      "minutes": 15,
+      "requires": [],
+      "discovery": "",
+      "building": "workbench",
+      "opens": "",
+      "arrival": "",
+      "stage": 0
+    },
+    "gardens_path": {
+      "title": "Reparar el camino al huerto",
+      "kind": "road",
+      "area": "street",
+      "at": [
+        244,
+        96
+      ],
+      "cost": {
+        "coins": 6,
+        "items": {
+          "madera": 4,
+          "piedra": 3
+        }
+      },
+      "minutes": 25,
+      "requires": [
+        "workbench"
+      ],
+      "discovery": "survey_gardens",
+      "building": "",
+      "opens": "gardens",
+      "arrival": "",
+      "stage": 0
+    },
+    "cesar_home": {
+      "title": "Preparar la casa de César",
+      "kind": "house",
+      "area": "gardens",
+      "at": [
+        142,
+        174
+      ],
+      "cost": {
+        "coins": 8,
+        "items": {
+          "madera": 6,
+          "piedra": 4,
+          "tablones": 2
+        }
+      },
+      "minutes": 40,
+      "requires": [
+        "gardens_path"
+      ],
+      "discovery": "",
+      "building": "cesar_home",
+      "opens": "",
+      "arrival": "cesar",
+      "stage": 1
+    },
+    "community_garden": {
+      "title": "Cultivar el huerto común",
+      "kind": "building",
+      "area": "gardens",
+      "at": [
+        400,
+        254
+      ],
+      "cost": {
+        "coins": 4,
+        "items": {
+          "madera": 4,
+          "compost": 1
+        }
+      },
+      "minutes": 25,
+      "requires": [
+        "cesar_home"
+      ],
+      "discovery": "",
+      "building": "community_garden",
+      "opens": "",
+      "arrival": "",
+      "stage": 1
+    },
+    "workshops_path": {
+      "title": "Recuperar el camino del taller",
+      "kind": "road",
+      "area": "street",
+      "at": [
+        448,
+        196
+      ],
+      "cost": {
+        "coins": 10,
+        "items": {
+          "madera": 6,
+          "piedra": 4
+        }
+      },
+      "minutes": 30,
+      "requires": [
+        "community_garden"
+      ],
+      "discovery": "survey_workshops",
+      "building": "",
+      "opens": "workshops",
+      "arrival": "",
+      "stage": 2
+    },
+    "mateo_home": {
+      "title": "Restaurar el taller familiar",
+      "kind": "house",
+      "area": "workshops",
+      "at": [
+        354,
+        174
+      ],
+      "cost": {
+        "coins": 12,
+        "items": {
+          "madera": 8,
+          "piedra": 4,
+          "tablones": 3
+        }
+      },
+      "minutes": 50,
+      "requires": [
+        "workshops_path"
+      ],
+      "discovery": "",
+      "building": "mateo_home",
+      "opens": "",
+      "arrival": "mateo",
+      "stage": 2
+    },
+    "atelier_path": {
+      "title": "Abrir el paso hacia Alma",
+      "kind": "road",
+      "area": "gardens",
+      "at": [
+        448,
+        196
+      ],
+      "cost": {
+        "coins": 10,
+        "items": {
+          "madera": 4,
+          "piedra": 5
+        }
+      },
+      "minutes": 30,
+      "requires": [
+        "mateo_home"
+      ],
+      "discovery": "survey_atelier",
+      "building": "",
+      "opens": "atelier",
+      "arrival": "",
+      "stage": 3
+    },
+    "alma_home": {
+      "title": "Recuperar la casa de Alma",
+      "kind": "house",
+      "area": "atelier",
+      "at": [
+        249,
+        174
+      ],
+      "cost": {
+        "coins": 12,
+        "items": {
+          "madera": 8,
+          "piedra": 6,
+          "tablones": 4
+        }
+      },
+      "minutes": 50,
+      "requires": [
+        "atelier_path"
+      ],
+      "discovery": "",
+      "building": "alma_home",
+      "opens": "",
+      "arrival": "alma",
+      "stage": 3
+    },
+    "forest_path": {
+      "title": "Abrir el sendero de la arboleda",
+      "kind": "road",
+      "area": "homes",
+      "at": [
+        44,
+        196
+      ],
+      "cost": {
+        "coins": 8,
+        "items": {
+          "madera": 6,
+          "piedra": 4
+        }
+      },
+      "minutes": 30,
+      "requires": [
+        "community_garden"
+      ],
+      "discovery": "survey_forest",
+      "building": "",
+      "opens": "forest",
+      "arrival": "",
+      "stage": 2
+    },
+    "storage_upgrade": {
+      "title": "Ampliar el almacén comunitario",
+      "kind": "upgrade",
+      "area": "street",
+      "at": [
+        358,
+        246
+      ],
+      "cost": {
+        "coins": 12,
+        "items": {
+          "madera": 8,
+          "piedra": 6,
+          "tablones": 3
+        }
+      },
+      "minutes": 35,
+      "requires": [
+        "mateo_home"
+      ],
+      "discovery": "",
+      "building": "storage_upgrade",
+      "opens": "",
+      "arrival": "",
+      "stage": 2
+    },
+    "garden_upgrade": {
+      "title": "Mejorar los bancales",
+      "kind": "upgrade",
+      "area": "gardens",
+      "at": [
+        400,
+        254
+      ],
+      "cost": {
+        "coins": 10,
+        "items": {
+          "madera": 6,
+          "tablones": 3,
+          "compost": 2
+        }
+      },
+      "minutes": 30,
+      "requires": [
+        "community_garden"
+      ],
+      "discovery": "",
+      "building": "garden_upgrade",
+      "opens": "",
+      "arrival": "",
+      "stage": 2
+    },
+    "community_hall": {
+      "title": "Abrir la casa de encuentros",
+      "kind": "building",
+      "area": "street",
+      "at": [
+        360,
+        168
+      ],
+      "cost": {
+        "coins": 18,
+        "items": {
+          "madera": 12,
+          "piedra": 8,
+          "tablones": 5
+        }
+      },
+      "minutes": 60,
+      "requires": [
+        "alma_home"
+      ],
+      "discovery": "",
+      "building": "community_hall",
+      "opens": "",
+      "arrival": "",
+      "stage": 4,
+      "relationship": {
+        "id": "lupita",
+        "trust": 40
+      }
+    }
+  },
+  "nodes": {
+    "fallen_branches": {
+      "title": "Ramas caídas",
+      "area": "homes",
+      "at": [
+        70,
+        262
+      ],
+      "resource": "madera",
+      "quantity": 2,
+      "stock": 6,
+      "minutes": 10,
+      "energy": 3,
+      "kind": "gather",
+      "period": 1440
+    },
+    "loose_stones": {
+      "title": "Piedras sueltas",
+      "area": "homes",
+      "at": [
+        282,
+        162
+      ],
+      "resource": "piedra",
+      "quantity": 2,
+      "stock": 6,
+      "minutes": 10,
+      "energy": 3,
+      "kind": "gather",
+      "period": 1440
+    },
+    "wild_fibers": {
+      "title": "Hierbas del camino",
+      "area": "homes",
+      "at": [
+        88,
+        172
+      ],
+      "resource": "fibra",
+      "quantity": 2,
+      "stock": 6,
+      "minutes": 10,
+      "energy": 3,
+      "kind": "gather",
+      "period": 1440
+    },
+    "plaza_branches": {
+      "title": "Ramas de la plaza",
+      "area": "street",
+      "at": [
+        408,
+        254
+      ],
+      "resource": "madera",
+      "quantity": 2,
+      "stock": 6,
+      "minutes": 10,
+      "energy": 3,
+      "kind": "gather",
+      "period": 1440
+    },
+    "orchard_fruit": {
+      "title": "Fruta de temporada",
+      "area": "gardens",
+      "at": [
+        380,
+        170
+      ],
+      "resource": "fruta",
+      "quantity": 2,
+      "stock": 4,
+      "minutes": 10,
+      "energy": 3,
+      "kind": "farm",
+      "period": 1440
+    },
+    "forest_wood": {
+      "title": "Madera de la arboleda",
+      "area": "forest",
+      "at": [
+        142,
+        236
+      ],
+      "resource": "madera",
+      "quantity": 4,
+      "stock": 12,
+      "minutes": 10,
+      "energy": 3,
+      "kind": "gather",
+      "period": 1440
+    },
+    "forest_stone": {
+      "title": "Piedras del arroyo",
+      "area": "forest",
+      "at": [
+        356,
+        210
+      ],
+      "resource": "piedra",
+      "quantity": 3,
+      "stock": 9,
+      "minutes": 10,
+      "energy": 3,
+      "kind": "gather",
+      "period": 1440
+    },
+    "forest_fruit": {
+      "title": "Frutales silvestres",
+      "area": "forest",
+      "at": [
+        238,
+        166
+      ],
+      "resource": "fruta",
+      "quantity": 2,
+      "stock": 6,
+      "minutes": 10,
+      "energy": 3,
+      "kind": "farm",
+      "period": 1440
+    }
+  },
+  "recipes": {
+    "boards": {
+      "title": "Preparar tablones",
+      "area": "homes",
+      "at": [
+        346,
+        248
+      ],
+      "requires": "workbench",
+      "inputs": {
+        "madera": 2
+      },
+      "outputs": {
+        "tablones": 1
+      },
+      "minutes": 15,
+      "energy": 4,
+      "kind": "craft"
+    },
+    "compost": {
+      "title": "Preparar compost",
+      "area": "homes",
+      "at": [
+        346,
+        248
+      ],
+      "requires": "workbench",
+      "inputs": {
+        "fibra": 2
+      },
+      "outputs": {
+        "compost": 1
+      },
+      "minutes": 10,
+      "energy": 3,
+      "kind": "farm"
+    },
+    "infusion": {
+      "title": "Preparar infusiones",
+      "area": "street",
+      "at": [
+        110,
+        178
+      ],
+      "requires": "community_garden",
+      "inputs": {
+        "fruta": 1,
+        "fibra": 1
+      },
+      "outputs": {
+        "infusion": 1
+      },
+      "minutes": 15,
+      "energy": 3,
+      "kind": "cook"
+    },
+    "timber_batch": {
+      "title": "Cortar tablones en el taller",
+      "area": "workshops",
+      "at": [
+        348,
+        266
+      ],
+      "requires": "mateo_home",
+      "inputs": {
+        "madera": 5
+      },
+      "outputs": {
+        "tablones": 3
+      },
+      "minutes": 20,
+      "energy": 5,
+      "kind": "craft"
+    }
+  },
+  "explorations": {
+    "survey_gardens": {
+      "title": "Examinar el paso del huerto",
+      "area": "street",
+      "at": [
+        244,
+        96
+      ],
+      "target_area": "gardens",
+      "requires": "workbench",
+      "minutes": 20,
+      "energy": 6,
+      "kind": "explore",
+      "rewards": [
+        {
+          "items": {
+            "piedra": 2
+          },
+          "text": "El suelo es firme; retirar piedras permitirá recuperar el paso."
+        },
+        {
+          "items": {
+            "madera": 2
+          },
+          "text": "Hay ramas aprovechables y un trazado seguro para el camino."
+        },
+        {
+          "items": {
+            "fibra": 2
+          },
+          "text": "La vegetación cubre el acceso, pero el sendero todavía se distingue."
+        }
+      ]
+    },
+    "survey_workshops": {
+      "title": "Reconocer el camino del taller",
+      "area": "street",
+      "at": [
+        448,
+        196
+      ],
+      "target_area": "workshops",
+      "requires": "community_garden",
+      "minutes": 20,
+      "energy": 6,
+      "kind": "explore",
+      "rewards": [
+        {
+          "items": {
+            "piedra": 2
+          },
+          "text": "El suelo es firme; retirar piedras permitirá recuperar el paso."
+        },
+        {
+          "items": {
+            "madera": 2
+          },
+          "text": "Hay ramas aprovechables y un trazado seguro para el camino."
+        },
+        {
+          "items": {
+            "fibra": 2
+          },
+          "text": "La vegetación cubre el acceso, pero el sendero todavía se distingue."
+        }
+      ]
+    },
+    "survey_atelier": {
+      "title": "Buscar el acceso a la casa de Alma",
+      "area": "gardens",
+      "at": [
+        448,
+        196
+      ],
+      "target_area": "atelier",
+      "requires": "mateo_home",
+      "minutes": 20,
+      "energy": 6,
+      "kind": "explore",
+      "rewards": [
+        {
+          "items": {
+            "piedra": 2
+          },
+          "text": "El suelo es firme; retirar piedras permitirá recuperar el paso."
+        },
+        {
+          "items": {
+            "madera": 2
+          },
+          "text": "Hay ramas aprovechables y un trazado seguro para el camino."
+        },
+        {
+          "items": {
+            "fibra": 2
+          },
+          "text": "La vegetación cubre el acceso, pero el sendero todavía se distingue."
+        }
+      ]
+    },
+    "survey_forest": {
+      "title": "Explorar el lindero de la arboleda",
+      "area": "homes",
+      "at": [
+        44,
+        196
+      ],
+      "target_area": "forest",
+      "requires": "community_garden",
+      "minutes": 20,
+      "energy": 6,
+      "kind": "explore",
+      "rewards": [
+        {
+          "items": {
+            "piedra": 2
+          },
+          "text": "El suelo es firme; retirar piedras permitirá recuperar el paso."
+        },
+        {
+          "items": {
+            "madera": 2
+          },
+          "text": "Hay ramas aprovechables y un trazado seguro para el camino."
+        },
+        {
+          "items": {
+            "fibra": 2
+          },
+          "text": "La vegetación cubre el acceso, pero el sendero todavía se distingue."
+        }
+      ]
+    }
+  },
+  "orders": {
+    "welcome_supplies": {
+      "title": "Materiales para recibir visitas",
+      "requester": "lupita",
+      "items": {
+        "madera": 2,
+        "fibra": 1
+      },
+      "coins": 6,
+      "daily_limit": 1,
+      "requires": ""
+    },
+    "cafe_fruit": {
+      "title": "La fruta del café",
+      "requester": "ines",
+      "items": {
+        "fruta": 2
+      },
+      "coins": 9,
+      "daily_limit": 1,
+      "requires": "cesar_home"
+    },
+    "garden_supplies": {
+      "title": "Preparar la siguiente siembra",
+      "requester": "cesar",
+      "items": {
+        "compost": 1,
+        "fibra": 1
+      },
+      "coins": 7,
+      "daily_limit": 1,
+      "requires": "community_garden"
+    },
+    "workshop_supplies": {
+      "title": "Tablones para reparaciones",
+      "requester": "mateo",
+      "items": {
+        "tablones": 2,
+        "piedra": 1
+      },
+      "coins": 10,
+      "daily_limit": 1,
+      "requires": "mateo_home"
+    },
+    "neighborhood_meal": {
+      "title": "Una comida para reunirnos",
+      "requester": "lupita",
+      "items": {
+        "verduras": 2,
+        "infusion": 1
+      },
+      "coins": 17,
+      "daily_limit": 1,
+      "requires": "community_hall"
+    }
+  },
+  "plots": {
+    "north_bed": {
+      "title": "Bancal del huerto",
+      "area": "gardens",
+      "at": [
+        368,
+        254
+      ],
+      "requires": "community_garden",
+      "seed": {
+        "fibra": 1,
+        "compost": 1
+      },
+      "minutes": 15,
+      "growth_minutes": 180,
+      "outputs": {
+        "verduras": 3
+      },
+      "energy": 3
+    },
+    "south_bed": {
+      "title": "Segundo bancal",
+      "area": "gardens",
+      "at": [
+        428,
+        284
+      ],
+      "requires": "community_garden",
+      "seed": {
+        "fibra": 1,
+        "compost": 1
+      },
+      "minutes": 15,
+      "growth_minutes": 180,
+      "outputs": {
+        "verduras": 3
+      },
+      "energy": 3
+    }
+  },
+  "home_buildings": {
+    "player": "player_home",
+    "lupita": "lupita_home",
+    "ines": "cafe",
+    "cesar": "cesar_home",
+    "mateo": "mateo_home",
+    "alma": "alma_home"
+  },
+  "stages": [
+    {
+      "name": "Primeros vecinos",
+      "requires": []
+    },
+    {
+      "name": "Raíces compartidas",
+      "requires": [
+        "cesar_home"
+      ]
+    },
+    {
+      "name": "Un barrio que produce",
+      "requires": [
+        "mateo_home"
+      ]
+    },
+    {
+      "name": "Historias que vuelven",
+      "requires": [
+        "alma_home"
+      ]
+    },
+    {
+      "name": "Un pueblo vivo",
+      "requires": [
+        "community_hall"
+      ]
+    }
+  ],
+  "geometry": {
+    "props": {
+      "homes": [
+        {
+          "key": "workbench",
+          "id": "table",
+          "rect": [
+            328,
+            213,
+            40,
+            27
+          ],
+          "y": 240,
+          "settlement_building": "workbench",
+          "settlement_project": "workbench",
+          "settlement_site": true,
+          "settlement_tasks": [
+            "produce:boards",
+            "produce:compost"
+          ],
+          "footprint": [
+            325,
+            223,
+            46,
+            19
+          ]
+        },
+        {
+          "key": "workbench_tools",
+          "id": "project_tools",
+          "rect": [
+            0,
+            0,
+            24,
+            22
+          ],
+          "y": 22,
+          "support": "workbench",
+          "support_offset": [
+            20,
+            10
+          ],
+          "settlement_building": "workbench"
+        },
+        {
+          "key": "node_fallen_branches",
+          "id": "tile_timber",
+          "rect": [
+            58,
+            240,
+            24,
+            15
+          ],
+          "y": 255,
+          "settlement_node": "fallen_branches",
+          "resource": "madera",
+          "fixed_size": true,
+          "footprint": [
+            58,
+            249,
+            24,
+            6
+          ]
+        },
+        {
+          "key": "node_loose_stones",
+          "id": "tile_stone",
+          "rect": [
+            270,
+            142,
+            24,
+            15
+          ],
+          "y": 157,
+          "settlement_node": "loose_stones",
+          "resource": "piedra",
+          "fixed_size": true,
+          "footprint": [
+            270,
+            151,
+            24,
+            6
+          ]
+        },
+        {
+          "key": "node_wild_fibers",
+          "id": "garden_left",
+          "rect": [
+            70,
+            145,
+            28,
+            19
+          ],
+          "y": 164,
+          "settlement_node": "wild_fibers",
+          "resource": "fibra",
+          "fixed_size": true,
+          "footprint": [
+            70,
+            158,
+            28,
+            6
+          ]
+        }
+      ],
+      "street": [
+        {
+          "key": "storage_upgrade",
+          "id": "cabinet",
+          "rect": [
+            340,
+            208,
+            40,
+            28
+          ],
+          "y": 236,
+          "settlement_building": "storage_upgrade",
+          "settlement_project": "storage_upgrade",
+          "settlement_site": true,
+          "footprint": [
+            337,
+            222,
+            46,
+            16
+          ]
+        },
+        {
+          "key": "community_hall",
+          "id": "alma_home",
+          "rect": [
+            304,
+            86,
+            68,
+            74
+          ],
+          "y": 160,
+          "settlement_building": "community_hall",
+          "settlement_project": "community_hall",
+          "settlement_site": true,
+          "label_override": "SALÓN",
+          "footprint": [
+            304,
+            86,
+            68,
+            74
+          ]
+        },
+        {
+          "key": "community_board",
+          "id": "tile_timber",
+          "rect": [
+            344,
+            161,
+            28,
+            23
+          ],
+          "y": 184,
+          "settlement_board": true,
+          "fixed_size": true,
+          "footprint": [
+            344,
+            177,
+            28,
+            8
+          ],
+          "tile": true
+        },
+        {
+          "key": "node_plaza_branches",
+          "id": "tile_timber",
+          "rect": [
+            396,
+            230,
+            24,
+            15
+          ],
+          "y": 245,
+          "settlement_node": "plaza_branches",
+          "resource": "madera",
+          "fixed_size": true,
+          "footprint": [
+            396,
+            239,
+            24,
+            6
+          ]
+        }
+      ],
+      "gardens": [
+        {
+          "key": "node_orchard_fruit",
+          "id": "project_basket",
+          "rect": [
+            363,
+            137,
+            22,
+            20
+          ],
+          "y": 157,
+          "settlement_node": "orchard_fruit",
+          "resource": "fruta",
+          "fixed_size": true,
+          "footprint": [
+            363,
+            151,
+            22,
+            6
+          ]
+        }
+      ],
+      "forest": [
+        {
+          "key": "node_forest_wood",
+          "id": "tile_timber",
+          "rect": [
+            130,
+            212,
+            24,
+            15
+          ],
+          "y": 227,
+          "settlement_node": "forest_wood",
+          "resource": "madera",
+          "fixed_size": true,
+          "footprint": [
+            130,
+            221,
+            24,
+            6
+          ]
+        },
+        {
+          "key": "node_forest_stone",
+          "id": "tile_stone",
+          "rect": [
+            344,
+            184,
+            24,
+            15
+          ],
+          "y": 199,
+          "settlement_node": "forest_stone",
+          "resource": "piedra",
+          "fixed_size": true,
+          "footprint": [
+            344,
+            193,
+            24,
+            6
+          ]
+        },
+        {
+          "key": "node_forest_fruit",
+          "id": "project_basket",
+          "rect": [
+            228,
+            140,
+            22,
+            20
+          ],
+          "y": 160,
+          "settlement_node": "forest_fruit",
+          "resource": "fruta",
+          "fixed_size": true,
+          "footprint": [
+            228,
+            154,
+            22,
+            6
+          ]
+        }
+      ]
+    },
+    "bindings": {
+      "street": {
+        "cafe": {
+          "settlement_building": "cafe",
+          "settlement_project": "",
+          "settlement_site": false
+        },
+        "cafe_table_right": {
+          "settlement_tasks": [
+            "produce:infusion"
+          ]
+        }
+      },
+      "homes": {
+        "homes": {
+          "settlement_building": "lupita_home",
+          "settlement_project": "",
+          "settlement_site": false
+        },
+        "player_home": {
+          "settlement_building": "player_home",
+          "settlement_project": "",
+          "settlement_site": false
+        }
+      },
+      "gardens": {
+        "homes": {
+          "settlement_building": "cesar_home",
+          "settlement_project": "cesar_home",
+          "settlement_site": true
+        },
+        "garden_row_north": {
+          "settlement_plot": "north_bed",
+          "settlement_building": "community_garden",
+          "settlement_project": "community_garden"
+        },
+        "garden_row_south": {
+          "settlement_plot": "south_bed",
+          "settlement_building": "community_garden",
+          "settlement_project": "community_garden"
+        }
+      },
+      "workshops": {
+        "workshop": {
+          "settlement_building": "mateo_home",
+          "settlement_project": "mateo_home",
+          "settlement_site": true
+        },
+        "tools_table": {
+          "settlement_tasks": [
+            "produce:timber_batch"
+          ]
+        }
+      },
+      "atelier": {
+        "alma_home": {
+          "settlement_building": "alma_home",
+          "settlement_project": "alma_home",
+          "settlement_site": true
+        }
+      }
+    },
+    "projects": {
+      "workbench": {
+        "area": "homes",
+        "key": "workbench",
+        "at": [
+          346,
+          248
+        ]
+      },
+      "cesar_home": {
+        "area": "gardens",
+        "key": "homes",
+        "at": [
+          142,
+          174
+        ]
+      },
+      "community_garden": {
+        "area": "gardens",
+        "key": "garden_row_north",
+        "at": [
+          400,
+          254
+        ]
+      },
+      "mateo_home": {
+        "area": "workshops",
+        "key": "workshop",
+        "at": [
+          354,
+          174
+        ]
+      },
+      "alma_home": {
+        "area": "atelier",
+        "key": "alma_home",
+        "at": [
+          249,
+          174
+        ]
+      },
+      "storage_upgrade": {
+        "area": "street",
+        "key": "storage_upgrade",
+        "at": [
+          358,
+          246
+        ]
+      },
+      "garden_upgrade": {
+        "area": "gardens",
+        "key": "garden_row_north",
+        "at": [
+          400,
+          254
+        ]
+      },
+      "community_hall": {
+        "area": "street",
+        "key": "community_hall",
+        "at": [
+          360,
+          168
+        ]
+      }
+    },
+    "nodes": {
+      "fallen_branches": {
+        "area": "homes",
+        "key": "node_fallen_branches",
+        "at": [
+          70,
+          262
+        ]
+      },
+      "loose_stones": {
+        "area": "homes",
+        "key": "node_loose_stones",
+        "at": [
+          282,
+          162
+        ]
+      },
+      "wild_fibers": {
+        "area": "homes",
+        "key": "node_wild_fibers",
+        "at": [
+          88,
+          172
+        ]
+      },
+      "plaza_branches": {
+        "area": "street",
+        "key": "node_plaza_branches",
+        "at": [
+          408,
+          254
+        ]
+      },
+      "orchard_fruit": {
+        "area": "gardens",
+        "key": "node_orchard_fruit",
+        "at": [
+          380,
+          170
+        ]
+      },
+      "forest_wood": {
+        "area": "forest",
+        "key": "node_forest_wood",
+        "at": [
+          142,
+          236
+        ]
+      },
+      "forest_stone": {
+        "area": "forest",
+        "key": "node_forest_stone",
+        "at": [
+          356,
+          210
+        ]
+      },
+      "forest_fruit": {
+        "area": "forest",
+        "key": "node_forest_fruit",
+        "at": [
+          238,
+          166
+        ]
+      }
+    },
+    "plots": {
+      "north_bed": {
+        "area": "gardens",
+        "key": "garden_row_north",
+        "at": [
+          368,
+          254
+        ]
+      },
+      "south_bed": {
+        "area": "gardens",
+        "key": "garden_row_south",
+        "at": [
+          428,
+          284
+        ]
+      }
+    },
+    "home_props": {
+      "ines": "cafe",
+      "lupita": "homes",
+      "player": "player_home",
+      "cesar": "homes",
+      "mateo": "workshop",
+      "alma": "alma_home"
+    }
+  }
+}

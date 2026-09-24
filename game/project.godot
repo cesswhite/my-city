@@ -1,0 +1,31 @@
+; My City — primera colonia experimental
+config_version=5
+
+[application]
+config/name="My City · Mi Colonia"
+run/main_scene="res://scenes/shell.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/use_custom_user_dir=true
+config/custom_user_dir_name="MyCityPrototype"
+
+[display]
+window/size/viewport_width=768
+window/size/viewport_height=432
+window/size/window_width_override=1536
+window/size/window_height_override=864
+window/size/resizable=true
+window/size/min_width=768
+window/size/min_height=432
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
+window/stretch/scale_mode="fractional"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/canvas_textures/default_texture_filter=0
+2d/snap/snap_2d_transforms_to_pixel=true
+environment/defaults/default_clear_color=Color(0.953, 0.929, 0.859, 1)
+
+[audio]
+driver/enable_input=false

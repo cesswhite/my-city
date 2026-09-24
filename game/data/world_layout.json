@@ -1,0 +1,1822 @@
+{
+  "version": 1,
+  "reference": {
+    "character_visible_height": 22,
+    "door_height_min": 24,
+    "door_height_max": 32
+  },
+  "sprite_sizes": {
+    "cafe": [
+      100,
+      90
+    ],
+    "homes": [
+      96,
+      76
+    ],
+    "alma_home": [
+      68,
+      74
+    ],
+    "workshop": [
+      110,
+      72
+    ],
+    "player_home": [
+      70,
+      70
+    ],
+    "shop": [
+      54,
+      46
+    ],
+    "garden_left": [
+      24,
+      22
+    ],
+    "garden_right": [
+      24,
+      22
+    ],
+    "flowerpot": [
+      12,
+      16
+    ],
+    "bed": [
+      26,
+      38
+    ],
+    "table": [
+      40,
+      27
+    ],
+    "chair": [
+      10,
+      16
+    ],
+    "cabinet": [
+      40,
+      28
+    ],
+    "bookshelf": [
+      30,
+      27
+    ],
+    "window": [
+      28,
+      29
+    ],
+    "photo": [
+      18,
+      14
+    ],
+    "plant": [
+      18,
+      24
+    ],
+    "planter": [
+      42,
+      28
+    ],
+    "planter_seeded": [
+      42,
+      28
+    ],
+    "tea_set": [
+      14,
+      14
+    ],
+    "tea_ready": [
+      8,
+      10
+    ],
+    "project_tools": [
+      24,
+      22
+    ],
+    "project_seeds": [
+      22,
+      19
+    ],
+    "project_basket": [
+      22,
+      20
+    ],
+    "project_painting": [
+      22,
+      30
+    ],
+    "bicycle_fixed": [
+      34,
+      24
+    ],
+    "bicycle_broken": [
+      34,
+      24
+    ],
+    "rug": [
+      88,
+      60
+    ],
+    "exit_mat": [
+      32,
+      18
+    ]
+  },
+  "doors": {
+    "ines": [
+      69,
+      160
+    ],
+    "cesar": [
+      142,
+      160
+    ],
+    "lupita": [
+      195,
+      160
+    ],
+    "alma": [
+      249,
+      160
+    ],
+    "mateo": [
+      352,
+      160
+    ],
+    "player": [
+      441,
+      160
+    ]
+  },
+  "places": {
+    "plaza": [
+      236,
+      210
+    ],
+    "cafe": [
+      110,
+      178
+    ],
+    "taller": [
+      354,
+      178
+    ],
+    "huerto": [
+      386,
+      254
+    ]
+  },
+  "entry": [
+    236,
+    252
+  ],
+  "exit": [
+    236,
+    264
+  ],
+  "home_rest": [
+    148,
+    188
+  ],
+  "street": {
+    "bounds": [
+      20,
+      160,
+      452,
+      132
+    ],
+    "props": [
+      {
+        "key": "cafe",
+        "id": "cafe",
+        "rect": [
+          16,
+          70,
+          100,
+          90
+        ],
+        "y": 159.99,
+        "footprint": [
+          16,
+          70,
+          100,
+          90
+        ]
+      },
+      {
+        "key": "homes",
+        "id": "homes",
+        "rect": [
+          120,
+          84,
+          96,
+          76
+        ],
+        "y": 159.99,
+        "footprint": [
+          120,
+          84,
+          96,
+          76
+        ]
+      },
+      {
+        "key": "alma_home",
+        "id": "alma_home",
+        "rect": [
+          220,
+          86,
+          68,
+          74
+        ],
+        "y": 159.99,
+        "footprint": [
+          220,
+          86,
+          68,
+          74
+        ]
+      },
+      {
+        "key": "workshop",
+        "id": "workshop",
+        "rect": [
+          292,
+          88,
+          110,
+          72
+        ],
+        "y": 159.99,
+        "footprint": [
+          292,
+          88,
+          110,
+          72
+        ]
+      },
+      {
+        "key": "player_home",
+        "id": "player_home",
+        "rect": [
+          406,
+          90,
+          70,
+          70
+        ],
+        "y": 159.99,
+        "footprint": [
+          406,
+          90,
+          70,
+          70
+        ]
+      },
+      {
+        "key": "bunting",
+        "id": "bunting",
+        "rect": [
+          263,
+          115,
+          96,
+          23
+        ],
+        "y": 160.1,
+        "anchors": [
+          {
+            "support": "alma_home",
+            "point": [
+              58,
+              29
+            ],
+            "sprite_point": [
+              15,
+              0
+            ]
+          },
+          {
+            "support": "workshop",
+            "point": [
+              50,
+              27
+            ],
+            "sprite_point": [
+              79,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "key": "cafe_table_left",
+        "id": "cafe_table",
+        "rect": [
+          35,
+          165,
+          38,
+          23
+        ],
+        "y": 188,
+        "footprint": [
+          31,
+          177,
+          44,
+          12
+        ]
+      },
+      {
+        "key": "cafe_table_right",
+        "id": "cafe_table",
+        "rect": [
+          121,
+          165,
+          38,
+          23
+        ],
+        "y": 188,
+        "footprint": [
+          117,
+          177,
+          44,
+          12
+        ]
+      },
+      {
+        "key": "lamp",
+        "id": "lamp",
+        "rect": [
+          168,
+          162,
+          10,
+          39
+        ],
+        "y": 201,
+        "footprint": [
+          168,
+          191,
+          10,
+          10
+        ]
+      },
+      {
+        "key": "bench_north",
+        "id": "bench",
+        "rect": [
+          183,
+          194,
+          36,
+          18
+        ],
+        "y": 209,
+        "footprint": [
+          179,
+          202,
+          42,
+          10
+        ]
+      },
+      {
+        "key": "fountain",
+        "id": "fountain",
+        "rect": [
+          204,
+          203,
+          61,
+          46
+        ],
+        "y": 249,
+        "footprint": [
+          204,
+          220,
+          61,
+          29
+        ]
+      },
+      {
+        "key": "bench_south",
+        "id": "bench",
+        "rect": [
+          245,
+          249,
+          36,
+          18
+        ],
+        "y": 265,
+        "footprint": [
+          241,
+          257,
+          42,
+          10
+        ]
+      },
+      {
+        "key": "flowerpot",
+        "id": "flowerpot",
+        "rect": [
+          180,
+          246,
+          12,
+          16
+        ],
+        "y": 262,
+        "footprint": [
+          178,
+          254,
+          16,
+          10
+        ]
+      },
+      {
+        "key": "shop",
+        "id": "shop",
+        "rect": [
+          23,
+          192,
+          54,
+          46
+        ],
+        "y": 238,
+        "footprint": [
+          23,
+          206,
+          54,
+          32
+        ]
+      },
+      {
+        "key": "tree_east",
+        "id": "tree",
+        "rect": [
+          284,
+          231,
+          42,
+          56
+        ],
+        "y": 283,
+        "footprint": [
+          293,
+          276,
+          18,
+          14
+        ]
+      },
+      {
+        "key": "tree_west",
+        "id": "tree",
+        "rect": [
+          22,
+          232,
+          42,
+          56
+        ],
+        "y": 284,
+        "footprint": [
+          34,
+          276,
+          16,
+          12
+        ]
+      },
+      {
+        "key": "tree_south",
+        "id": "tree_small",
+        "rect": [
+          98,
+          245,
+          33,
+          47
+        ],
+        "y": 288,
+        "footprint": [
+          104,
+          281,
+          16,
+          11
+        ]
+      },
+      {
+        "key": "bench_west",
+        "id": "bench",
+        "rect": [
+          62,
+          253,
+          36,
+          18
+        ],
+        "y": 270,
+        "footprint": [
+          57,
+          260,
+          43,
+          10
+        ]
+      },
+      {
+        "key": "garden_row_north",
+        "id": "garden_left",
+        "rect": [
+          344,
+          232,
+          112,
+          16
+        ],
+        "y": 248,
+        "footprint": [
+          344,
+          232,
+          112,
+          16
+        ],
+        "crop_row": true
+      },
+      {
+        "key": "garden_row_south",
+        "id": "garden_right",
+        "rect": [
+          344,
+          260,
+          112,
+          18
+        ],
+        "y": 278,
+        "footprint": [
+          344,
+          260,
+          112,
+          18
+        ],
+        "crop_row": true
+      },
+      {
+        "key": "garden_fence",
+        "id": "fence",
+        "rect": [
+          342,
+          214,
+          122,
+          17
+        ],
+        "y": 231,
+        "footprint": [
+          342,
+          225,
+          122,
+          6
+        ],
+        "tile": true
+      },
+      {
+        "key": "garden_edge_left_north",
+        "id": "tile_stone",
+        "rect": [
+          341,
+          230,
+          3,
+          18
+        ],
+        "y": 248,
+        "footprint": [
+          341,
+          230,
+          3,
+          18
+        ],
+        "tile": true
+      },
+      {
+        "key": "garden_edge_left_south",
+        "id": "tile_stone",
+        "rect": [
+          341,
+          260,
+          3,
+          21
+        ],
+        "y": 281,
+        "footprint": [
+          341,
+          260,
+          3,
+          21
+        ],
+        "tile": true
+      },
+      {
+        "key": "garden_edge_right",
+        "id": "tile_stone",
+        "rect": [
+          456,
+          230,
+          3,
+          51
+        ],
+        "y": 281,
+        "footprint": [
+          456,
+          230,
+          3,
+          51
+        ],
+        "tile": true
+      },
+      {
+        "key": "garden_edge_north",
+        "id": "tile_stone",
+        "rect": [
+          344,
+          229,
+          112,
+          3
+        ],
+        "y": 232,
+        "footprint": [
+          344,
+          229,
+          112,
+          3
+        ],
+        "tile": true
+      },
+      {
+        "key": "garden_sign",
+        "id": "tile_timber",
+        "rect": [
+          430,
+          211,
+          29,
+          10
+        ],
+        "y": 233,
+        "tile": true,
+        "label": "HUERTO",
+        "support": "garden_fence"
+      },
+      {
+        "key": "lamp_plaza",
+        "id": "lamp",
+        "rect": [
+          298,
+          178,
+          10,
+          39
+        ],
+        "y": 217,
+        "footprint": [
+          298,
+          207,
+          10,
+          10
+        ]
+      },
+      {
+        "key": "lamp_homes",
+        "id": "lamp",
+        "rect": [
+          433,
+          177,
+          10,
+          39
+        ],
+        "y": 216,
+        "footprint": [
+          433,
+          206,
+          10,
+          10
+        ]
+      },
+      {
+        "key": "lamp_south",
+        "id": "lamp",
+        "rect": [
+          134,
+          233,
+          10,
+          39
+        ],
+        "y": 272,
+        "footprint": [
+          134,
+          262,
+          10,
+          10
+        ]
+      }
+    ],
+    "extra_obstacles": [],
+    "interactions": {
+      "shop": {
+        "key": "shop",
+        "stand_at": [
+          48,
+          244
+        ]
+      }
+    },
+    "ground": [
+      {
+        "key": "street_sand",
+        "id": "tile_sand",
+        "rect": [
+          19,
+          157,
+          454,
+          88
+        ]
+      },
+      {
+        "key": "south_path",
+        "id": "tile_sand",
+        "rect": [
+          100,
+          244,
+          212,
+          48
+        ]
+      },
+      {
+        "key": "plaza_paving",
+        "id": "tile_plaza",
+        "rect": [
+          179,
+          207,
+          104,
+          64
+        ]
+      },
+      {
+        "key": "garden_approach",
+        "id": "tile_sand",
+        "rect": [
+          276,
+          212,
+          68,
+          14
+        ]
+      },
+      {
+        "key": "garden_ground",
+        "id": "tile_sand",
+        "rect": [
+          330,
+          214,
+          134,
+          74
+        ],
+        "tint": "d7c39c",
+        "corner_cut": 4
+      },
+      {
+        "key": "garden_soil",
+        "id": "tile_soil",
+        "rect": [
+          344,
+          232,
+          112,
+          46
+        ]
+      },
+      {
+        "key": "garden_path",
+        "id": "tile_sand",
+        "rect": [
+          344,
+          248,
+          112,
+          12
+        ],
+        "tint": "d7c39c"
+      },
+      {
+        "key": "garden_side_path",
+        "id": "tile_sand",
+        "rect": [
+          330,
+          220,
+          12,
+          60
+        ],
+        "tint": "d7c39c"
+      },
+      {
+        "key": "garden_south_path",
+        "id": "tile_sand",
+        "rect": [
+          330,
+          280,
+          134,
+          8
+        ],
+        "tint": "d7c39c",
+        "corner_cut": 4
+      }
+    ]
+  },
+  "interior": {
+    "bounds": [
+      114,
+      124,
+      272,
+      146
+    ],
+    "props": [
+      {
+        "key": "window",
+        "id": "window",
+        "rect": [
+          129,
+          86,
+          28,
+          29
+        ],
+        "y": 115
+      },
+      {
+        "key": "photo",
+        "id": "photo",
+        "rect": [
+          238,
+          94,
+          18,
+          14
+        ],
+        "y": 108
+      },
+      {
+        "key": "bed",
+        "id": "bed",
+        "rect": [
+          132,
+          136,
+          26,
+          38
+        ],
+        "y": 174,
+        "footprint": [
+          129,
+          148,
+          32,
+          28
+        ]
+      },
+      {
+        "key": "cabinet",
+        "id": "cabinet",
+        "rect": [
+          326,
+          121,
+          40,
+          28
+        ],
+        "y": 149,
+        "footprint": [
+          323,
+          135,
+          46,
+          16
+        ]
+      },
+      {
+        "key": "storage",
+        "id": "bookshelf",
+        "rect": [
+          274,
+          121,
+          30,
+          27
+        ],
+        "y": 148,
+        "footprint": [
+          271,
+          135,
+          36,
+          15
+        ]
+      },
+      {
+        "key": "table",
+        "id": "table",
+        "rect": [
+          210,
+          166,
+          40,
+          27
+        ],
+        "y": 193,
+        "footprint": [
+          207,
+          176,
+          46,
+          19
+        ]
+      },
+      {
+        "key": "chair",
+        "id": "chair",
+        "rect": [
+          211,
+          195,
+          10,
+          16
+        ],
+        "y": 211,
+        "footprint": [
+          209,
+          202,
+          14,
+          11
+        ]
+      },
+      {
+        "key": "chair_guest",
+        "id": "chair",
+        "rect": [
+          239,
+          195,
+          10,
+          16
+        ],
+        "y": 211,
+        "footprint": [
+          237,
+          202,
+          14,
+          11
+        ]
+      },
+      {
+        "key": "plant",
+        "id": "plant",
+        "rect": [
+          350,
+          226,
+          18,
+          24
+        ],
+        "y": 250,
+        "footprint": [
+          348,
+          240,
+          22,
+          12
+        ]
+      },
+      {
+        "key": "bedside_plant",
+        "id": "plant",
+        "rect": [
+          174,
+          136,
+          18,
+          24
+        ],
+        "y": 160,
+        "footprint": [
+          172,
+          150,
+          22,
+          12
+        ]
+      },
+      {
+        "key": "project_table",
+        "id": "table",
+        "rect": [
+          298,
+          211,
+          40,
+          27
+        ],
+        "y": 238,
+        "footprint": [
+          295,
+          221,
+          46,
+          19
+        ]
+      },
+      {
+        "key": "project",
+        "id": "project_tools",
+        "rect": [
+          0,
+          0,
+          24,
+          22
+        ],
+        "y": 22,
+        "support": "project_table",
+        "support_offset": [
+          20,
+          10
+        ]
+      },
+      {
+        "key": "tea",
+        "id": "tea_set",
+        "rect": [
+          0,
+          0,
+          14,
+          14
+        ],
+        "y": 14,
+        "support": "table",
+        "support_offset": [
+          20,
+          10
+        ]
+      }
+    ],
+    "interactions": {
+      "bed": {
+        "key": "bed",
+        "stand_at": [
+          168,
+          172
+        ]
+      },
+      "bicycle": {
+        "key": "project",
+        "stand_at": [
+          284,
+          224
+        ]
+      },
+      "planting": {
+        "key": "storage",
+        "stand_at": [
+          289,
+          160
+        ]
+      },
+      "tea_station": {
+        "key": "table",
+        "stand_at": [
+          266,
+          180
+        ]
+      },
+      "postcard": {
+        "key": "photo",
+        "stand_at": [
+          244,
+          128
+        ]
+      },
+      "project": {
+        "key": "project",
+        "stand_at": [
+          284,
+          224
+        ]
+      },
+      "storage": {
+        "key": "storage",
+        "stand_at": [
+          289,
+          160
+        ]
+      }
+    },
+    "floor": [
+      110,
+      108,
+      280,
+      170
+    ],
+    "wall": [
+      106,
+      72,
+      288,
+      52
+    ],
+    "rug": [
+      188,
+      157,
+      88,
+      60
+    ],
+    "exit_mat": [
+      220,
+      250,
+      32,
+      18
+    ],
+    "wall_asset": "tile_wall_sage",
+    "rug_tint": "ddd7b5",
+    "zones": [
+      {
+        "key": "bedroom",
+        "id": "tile_rug_teal",
+        "rect": [
+          124,
+          146,
+          50,
+          54
+        ],
+        "tint": "c2caba"
+      }
+    ]
+  },
+  "riding_bicycle": {
+    "size": [
+      40,
+      32
+    ],
+    "offset": [
+      -20,
+      -30
+    ],
+    "poses": {
+      "down": {
+        "hip_offset": [
+          -1,
+          -23
+        ],
+        "crank_from_hip": [
+          1,
+          15
+        ],
+        "hand_from_hip": [
+          0,
+          3
+        ],
+        "hand_span": 7
+      },
+      "left": {
+        "hip_offset": [
+          6,
+          -16
+        ],
+        "crank_from_hip": [
+          -6,
+          10
+        ],
+        "hand_from_hip": [
+          -12,
+          -3
+        ]
+      },
+      "right": {
+        "hip_offset": [
+          -6,
+          -16
+        ],
+        "crank_from_hip": [
+          5,
+          10
+        ],
+        "hand_from_hip": [
+          12,
+          -3
+        ]
+      },
+      "up": {
+        "hip_offset": [
+          -1,
+          -18
+        ],
+        "crank_from_hip": [
+          1,
+          11
+        ],
+        "hand_from_hip": [
+          0,
+          -7
+        ],
+        "hand_span": 7
+      }
+    }
+  },
+  "door_openings": {
+    "ines": {
+      "building": "cafe",
+      "rect": [
+        45,
+        59,
+        15,
+        27
+      ],
+      "prop_key": "cafe"
+    },
+    "cesar": {
+      "building": "homes",
+      "rect": [
+        16,
+        44,
+        11,
+        27
+      ],
+      "prop_key": "homes"
+    },
+    "lupita": {
+      "building": "homes",
+      "rect": [
+        21,
+        44,
+        12,
+        27
+      ],
+      "prop_key": "homes"
+    },
+    "alma": {
+      "building": "alma_home",
+      "rect": [
+        22,
+        46,
+        14,
+        24
+      ],
+      "prop_key": "alma_home"
+    },
+    "mateo": {
+      "building": "workshop",
+      "rect": [
+        55,
+        45,
+        11,
+        24
+      ],
+      "prop_key": "workshop"
+    },
+    "player": {
+      "building": "player_home",
+      "rect": [
+        29,
+        40,
+        12,
+        26
+      ],
+      "prop_key": "player_home"
+    }
+  },
+  "room_variants": {
+    "cesar": {
+      "wall_asset": "tile_wall_sage",
+      "rug_tint": "b9c49f",
+      "props": {
+        "table": {
+          "rect": [
+            204,
+            166,
+            40,
+            27
+          ],
+          "y": 193,
+          "footprint": [
+            201,
+            176,
+            46,
+            19
+          ]
+        },
+        "chair": {
+          "rect": [
+            205,
+            195,
+            10,
+            16
+          ],
+          "y": 211,
+          "footprint": [
+            203,
+            202,
+            14,
+            11
+          ]
+        },
+        "chair_guest": {
+          "rect": [
+            233,
+            195,
+            10,
+            16
+          ],
+          "y": 211,
+          "footprint": [
+            231,
+            202,
+            14,
+            11
+          ]
+        },
+        "project": {
+          "id": "project_seeds",
+          "rect": [
+            0,
+            0,
+            22,
+            19
+          ]
+        }
+      },
+      "interactions": {
+        "tea_station": {
+          "key": "table",
+          "stand_at": [
+            260,
+            180
+          ]
+        }
+      }
+    },
+    "lupita": {
+      "wall_asset": "tile_wall_peach",
+      "rug_tint": "e6c5ba",
+      "props": {
+        "table": {
+          "rect": [
+            224,
+            166,
+            40,
+            27
+          ],
+          "y": 193,
+          "footprint": [
+            221,
+            176,
+            46,
+            19
+          ]
+        },
+        "chair": {
+          "rect": [
+            225,
+            195,
+            10,
+            16
+          ],
+          "y": 211,
+          "footprint": [
+            223,
+            202,
+            14,
+            11
+          ]
+        },
+        "chair_guest": {
+          "rect": [
+            253,
+            195,
+            10,
+            16
+          ],
+          "y": 211,
+          "footprint": [
+            251,
+            202,
+            14,
+            11
+          ]
+        },
+        "project": {
+          "id": "project_basket",
+          "rect": [
+            0,
+            0,
+            22,
+            20
+          ]
+        }
+      },
+      "interactions": {
+        "tea_station": {
+          "key": "table",
+          "stand_at": [
+            278,
+            180
+          ]
+        }
+      },
+      "rug": [
+        188,
+        157,
+        88,
+        60
+      ],
+      "extra_props": [
+        {
+          "key": "table_guest",
+          "id": "table",
+          "rect": [
+            184,
+            166,
+            40,
+            27
+          ],
+          "y": 193,
+          "footprint": [
+            181,
+            176,
+            46,
+            19
+          ]
+        },
+        {
+          "key": "chair_family",
+          "id": "chair",
+          "rect": [
+            185,
+            195,
+            10,
+            16
+          ],
+          "y": 211,
+          "footprint": [
+            183,
+            202,
+            14,
+            11
+          ]
+        }
+      ]
+    },
+    "mateo": {
+      "wall_asset": "tile_wall_sage",
+      "rug_tint": "acbbc3",
+      "props": {
+        "table": {
+          "rect": [
+            202,
+            168,
+            40,
+            27
+          ],
+          "y": 195,
+          "footprint": [
+            199,
+            178,
+            46,
+            19
+          ]
+        },
+        "chair": {
+          "rect": [
+            203,
+            197,
+            10,
+            16
+          ],
+          "y": 213,
+          "footprint": [
+            201,
+            204,
+            14,
+            11
+          ]
+        },
+        "chair_guest": {
+          "rect": [
+            231,
+            197,
+            10,
+            16
+          ],
+          "y": 213,
+          "footprint": [
+            229,
+            204,
+            14,
+            11
+          ]
+        },
+        "project": {
+          "id": "project_tools",
+          "rect": [
+            0,
+            0,
+            24,
+            22
+          ]
+        }
+      },
+      "interactions": {
+        "tea_station": {
+          "key": "table",
+          "stand_at": [
+            258,
+            182
+          ]
+        }
+      }
+    },
+    "ines": {
+      "wall_asset": "tile_wall_peach",
+      "rug_tint": "e3d0a8",
+      "props": {
+        "table": {
+          "rect": [
+            204,
+            170,
+            40,
+            27
+          ],
+          "y": 197,
+          "footprint": [
+            201,
+            180,
+            46,
+            19
+          ]
+        },
+        "chair": {
+          "rect": [
+            205,
+            199,
+            10,
+            16
+          ],
+          "y": 215,
+          "footprint": [
+            203,
+            206,
+            14,
+            11
+          ]
+        },
+        "chair_guest": {
+          "rect": [
+            233,
+            199,
+            10,
+            16
+          ],
+          "y": 215,
+          "footprint": [
+            231,
+            206,
+            14,
+            11
+          ]
+        },
+        "project_table": {
+          "rect": [
+            322,
+            183,
+            40,
+            27
+          ],
+          "y": 210,
+          "footprint": [
+            319,
+            193,
+            46,
+            19
+          ]
+        },
+        "project": {
+          "id": "tea_set",
+          "rect": [
+            0,
+            0,
+            14,
+            14
+          ]
+        },
+        "plant": {
+          "rect": [
+            352,
+            230,
+            18,
+            24
+          ],
+          "y": 254,
+          "footprint": [
+            350,
+            244,
+            22,
+            12
+          ]
+        }
+      },
+      "interactions": {
+        "tea_station": {
+          "key": "table",
+          "stand_at": [
+            260,
+            186
+          ]
+        },
+        "project": {
+          "key": "project",
+          "stand_at": [
+            306,
+            202
+          ]
+        },
+        "bicycle": {
+          "key": "project",
+          "stand_at": [
+            306,
+            202
+          ]
+        }
+      }
+    },
+    "alma": {
+      "wall_asset": "tile_wall_lavender",
+      "rug_tint": "d3bdd5",
+      "props": {
+        "cabinet": {
+          "rect": [
+            276,
+            121,
+            40,
+            28
+          ],
+          "y": 149,
+          "footprint": [
+            273,
+            135,
+            46,
+            16
+          ]
+        },
+        "storage": {
+          "rect": [
+            334,
+            121,
+            30,
+            27
+          ],
+          "y": 148,
+          "footprint": [
+            331,
+            135,
+            36,
+            15
+          ]
+        },
+        "project_table": {
+          "enabled": false
+        },
+        "project": {
+          "id": "project_painting",
+          "rect": [
+            308,
+            201,
+            22,
+            30
+          ],
+          "y": 231,
+          "footprint": [
+            305,
+            216,
+            28,
+            17
+          ],
+          "support": "",
+          "support_offset": []
+        }
+      },
+      "interactions": {
+        "storage": {
+          "key": "storage",
+          "stand_at": [
+            349,
+            160
+          ]
+        },
+        "planting": {
+          "key": "storage",
+          "stand_at": [
+            349,
+            160
+          ]
+        }
+      },
+      "extra_props": [
+        {
+          "key": "writing_table",
+          "id": "table",
+          "rect": [
+            328,
+            184,
+            40,
+            27
+          ],
+          "y": 211,
+          "footprint": [
+            325,
+            194,
+            46,
+            19
+          ]
+        },
+        {
+          "key": "notebooks",
+          "id": "notebooks",
+          "rect": [
+            0,
+            0,
+            32,
+            28
+          ],
+          "y": 28,
+          "support": "writing_table",
+          "support_offset": [
+            20,
+            10
+          ]
+        }
+      ]
+    },
+    "player": {
+      "wall_asset": "tile_wall_sage",
+      "rug_tint": "aec8ba",
+      "props": {
+        "storage": {
+          "id": "planter",
+          "rect": [
+            326,
+            161,
+            42,
+            28
+          ],
+          "y": 189,
+          "footprint": [
+            323,
+            175,
+            48,
+            16
+          ]
+        },
+        "project_table": {
+          "enabled": false
+        },
+        "project": {
+          "id": "bicycle_broken",
+          "rect": [
+            298,
+            208,
+            34,
+            24
+          ],
+          "y": 232,
+          "footprint": [
+            296,
+            214,
+            38,
+            22
+          ],
+          "support": "",
+          "support_offset": []
+        }
+      },
+      "interactions": {
+        "closet": {
+          "key": "cabinet",
+          "stand_at": [
+            346,
+            160
+          ]
+        },
+        "storage": {
+          "key": "storage",
+          "stand_at": [
+            310,
+            180
+          ]
+        },
+        "planting": {
+          "key": "storage",
+          "stand_at": [
+            310,
+            180
+          ]
+        }
+      },
+      "extra_props": [
+        {
+          "key": "window_work",
+          "id": "window",
+          "rect": [
+            330,
+            86,
+            28,
+            29
+          ],
+          "y": 115
+        },
+        {
+          "key": "library",
+          "id": "bookshelf",
+          "rect": [
+            274,
+            121,
+            30,
+            27
+          ],
+          "y": 148,
+          "footprint": [
+            271,
+            135,
+            36,
+            15
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+  "model_catalog_verified": "gpt-image-2.5-sunburst-2026-09-08",
+  "model_catalog_http": 200,
+  "model_response": null,
+  "model_response_note": "Official CLI does not persist response model metadata.",
+  "official_cli": "<IMAGEGEN_SKILL_DIR>/scripts/image_gen.py",
+  "command_arguments": [
+    "edit",
+    "--model",
+    "gpt-image-2.5-sunburst-2026-09-08",
+    "--image",
+    "game/assets/sprites/bicycle_fixed.png",
+    "--prompt-file",
+    "output/imagegen/bicycle-directions-prompt.txt",
+    "--size",
+    "1024x1024",
+    "--quality",
+    "high",
+    "--background",
+    "transparent",
+    "--output-format",
+    "png",
+    "--no-augment",
+    "--out",
+    "output/imagegen/bicycle-directions-source.png"
+  ],
+  "started_at": "2026-09-24T04:17:22.046Z",
+  "fallback": false,
+  "completed_at": "2026-09-24T04:17:57.931Z",
+  "cli_exit_status": 0,
+  "api_generation_accepted": true,
+  "source_sha256": "1a36fb9c2dfa5026c432c2ddc837bdb70c2827e6c4ec5afc6d0c7d9f638c3068",
+  "atlas_sha256": "e84779cfe9da0b90767a9372354392fdb285f666d264e25602f39ecf3aa83d75",
+  "prompt_sha256": "eaccde520b540fe6bae665fbed772f029163999c389a6e4cb6121c1beeea1e0f",
+  "import": {
+    "script": "scripts/import-bicycle-sprites.mjs",
+    "output": "game/assets/sprites/bicycle_riding.png",
+    "cell": [
+      40,
+      32
+    ],
+    "directions": [
+      "down",
+      "left",
+      "right",
+      "up"
+    ],
+    "frames": 4,
+    "row_crops": [
+      [
+        75,
+        54,
+        106,
+        167
+      ],
+      [
+        20,
+        58,
+        216,
+        133
+      ],
+      [
+        20,
+        58,
+        216,
+        133
+      ],
+      [
+        75,
+        31,
+        106,
+        168
+      ]
+    ],
+    "row_native_sizes": [
+      [
+        17,
+        27
+      ],
+      [
+        34,
+        21
+      ],
+      [
+        34,
+        21
+      ],
+      [
+        17,
+        27
+      ]
+    ],
+    "alpha_threshold": 180,
+    "processing": "Fixed per-row measured alpha crops, nearest-neighbor native sizing, binary alpha and shared ground anchor; all visible pixels originate in the generated sheet."
+  },
+  "privacy_redaction": {
+    "fields": [
+      "official_cli"
+    ],
+    "note": "Personal absolute installation path replaced for public documentation. Other original metadata is unchanged. Historical lineage hashes refer to the pre-redaction record bytes.",
+    "original_document_sha256": "0d778e19987b6db335b41e870ffe7a5111618393664d6579ca126c3197006e9b"
+  }
+}

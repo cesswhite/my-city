@@ -1,0 +1,1637 @@
+{
+  "version": 1,
+  "base_manifest_sha256": "75c8421b1fb045d85126fb0f67a8670cb53e81c271da1f78aceb20d92f65e94d",
+  "alpha_threshold": 128,
+  "groups": {
+    "buildings": {
+      "size": [
+        1536,
+        1024
+      ],
+      "grid": [
+        3,
+        2
+      ],
+      "cell": 512,
+      "opaque": false,
+      "reference": "output/imagegen/art-v2/references/buildings.png",
+      "reference_sha256": "c1c491176b04939b710a4df28a392bb05c80f310cd3d0b8f4fe194528dc965d4",
+      "assets": [
+        {
+          "id": "cafe",
+          "index": 0,
+          "cell": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "rect": [
+            56,
+            76,
+            400,
+            360
+          ],
+          "size": [
+            100,
+            90
+          ],
+          "scale": 4,
+          "alpha_bounds": [
+            0,
+            0,
+            100,
+            90
+          ],
+          "original_path": "res://assets/sprites/cafe.png",
+          "original_sha256": "410df0d701a87d63b2ef793e9f6fc6e19004cbbf642b913ed2112525e981ff38"
+        },
+        {
+          "id": "homes",
+          "index": 1,
+          "cell": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "rect": [
+            576,
+            104,
+            384,
+            304
+          ],
+          "size": [
+            96,
+            76
+          ],
+          "scale": 4,
+          "alpha_bounds": [
+            0,
+            1,
+            96,
+            75
+          ],
+          "original_path": "res://assets/sprites/homes.png",
+          "original_sha256": "35f06c1f288c90008b2c0ee8a8f7cd905d165d9936cb2cfd39669b0355d5e5cf"
+        },
+        {
+          "id": "alma_home",
+          "index": 2,
+          "cell": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "rect": [
+            1144,
+            108,
+            272,
+            296
+          ],
+          "size": [
+            68,
+            74
+          ],
+          "scale": 4,
+          "alpha_bounds": [
+            0,
+            0,
+            68,
+            74
+          ],
+          "original_path": "res://assets/sprites/alma_home.png",
+          "original_sha256": "6316cebfb916b4904c54501633182bc3f1bbcd48fbf0b1d010608bf5e026c832"
+        },
+        {
+          "id": "workshop",
+          "index": 3,
+          "cell": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "rect": [
+            36,
+            624,
+            440,
+            288
+          ],
+          "size": [
+            110,
+            72
+          ],
+          "scale": 4,
+          "alpha_bounds": [
+            0,
+            2,
+            110,
+            70
+          ],
+          "original_path": "res://assets/sprites/workshop.png",
+          "original_sha256": "8524219208186824a724e8f7e0647d228147dfdc1c6b36398785fe226a13c6dd"
+        },
+        {
+          "id": "player_home",
+          "index": 4,
+          "cell": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "rect": [
+            628,
+            628,
+            280,
+            280
+          ],
+          "size": [
+            70,
+            70
+          ],
+          "scale": 4,
+          "alpha_bounds": [
+            0,
+            1,
+            70,
+            69
+          ],
+          "original_path": "res://assets/sprites/player_home.png",
+          "original_sha256": "c3efa2a9748840c166eabad9c178681e2db5f2e5537c25e9b9bdb2e99217aa0a"
+        },
+        {
+          "id": "shop",
+          "index": 5,
+          "cell": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "rect": [
+            1172,
+            676,
+            216,
+            184
+          ],
+          "size": [
+            54,
+            46
+          ],
+          "scale": 4,
+          "alpha_bounds": [
+            0,
+            0,
+            54,
+            46
+          ],
+          "original_path": "res://assets/sprites/shop.png",
+          "original_sha256": "aed13931cb19cd2ae78f396b4c19ea7ed8d447ee73fc307c723dea1fe2acf7e7"
+        }
+      ]
+    },
+    "outdoors": {
+      "size": [
+        1024,
+        1024
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "cell": 256,
+      "opaque": false,
+      "reference": "output/imagegen/art-v2/references/outdoors.png",
+      "reference_sha256": "aa3c3d93dd6ad581bf90d4e851b0bb32aca4bbab7d6643a1394c34b10075f71a",
+      "assets": [
+        {
+          "id": "tree",
+          "index": 0,
+          "cell": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "rect": [
+            44,
+            16,
+            168,
+            224
+          ],
+          "size": [
+            42,
+            56
+          ],
+          "scale": 4,
+          "alpha_bounds": [
+            0,
+            10,
+            42,
+            46
+          ],
+          "original_path": "res://assets/sprites/tree.png",
+          "original_sha256": "cb926bc99e13bbbf3917117a07c692e9f7666f5bc9b7d86ee437f760b831878c"
+        },
+        {
+          "id": "tree_small",
+          "index": 1,
+          "cell": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "rect": [
+            318,
+            34,
+            132,
+            188
+          ],
+          "size": [
+            33,
+            47
+          ],
+          "scale": 4,
+          "alpha_bounds": [
+            0,
+            4,
+            33,
+            43
+          ],
+          "original_path": "res://assets/sprites/tree_small.png",
+          "original_sha256": "65dcf437f705a384203336ed48b6688102413a060262cac9f4ba6ddda9e09797"
+        },
+        {
+          "id": "fountain",
+          "index": 2,
+          "cell": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "rect": [
+            548,
+            59,
+            183,
+            138
+          ],
+          "size": [
+            61,
+            46
+          ],
+          "scale": 3,
+          "alpha_bounds": [
+            1,
+            0,
+            59,
+            46
+          ],
+          "original_path": "res://assets/sprites/fountain.png",
+          "original_sha256": "17f0022e47ea48560422dcb0822dd2052511e067a3707e456cfd2a18f84212d8"
+        },
+        {
+          "id": "bench",
+          "index": 3,
+          "cell": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "rect": [
+            788,
+            74,
+            216,
+            108
+          ],
+          "size": [
+            36,
+            18
+          ],
+          "scale": 6,
+          "alpha_bounds": [
+            3,
+            0,
+            30,
+            18
+          ],
+          "original_path": "res://assets/sprites/bench.png",
+          "original_sha256": "8d04a0921890374e49766f06bc8916eb72282b7acd488489cd78ee59cbfd6163"
+        },
+        {
+          "id": "cafe_table",
+          "index": 4,
+          "cell": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "rect": [
+            33,
+            326,
+            190,
+            115
+          ],
+          "size": [
+            38,
+            23
+          ],
+          "scale": 5,
+          "alpha_bounds": [
+            3,
+            0,
+            32,
+            23
+          ],
+          "original_path": "res://assets/sprites/cafe_table.png",
+          "original_sha256": "b66dbdff092ae1307d0e639b17c234c7378bd739764c12a0fea2a1de803c2bf4"
+        },
+        {
+          "id": "flowerpot",
+          "index": 5,
+          "cell": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "rect": [
+            348,
+            336,
+            72,
+            96
+          ],
+          "size": [
+            12,
+            16
+          ],
+          "scale": 6,
+          "alpha_bounds": [
+            0,
+            0,
+            12,
+            16
+          ],
+          "original_path": "res://assets/sprites/flowerpot.png",
+          "original_sha256": "2abb9559593dc3ba5edee975d0821e7e26bc4a7c39c6cd3c9affc5719093ebee"
+        },
+        {
+          "id": "fence",
+          "index": 6,
+          "cell": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "rect": [
+            544,
+            333,
+            192,
+            102
+          ],
+          "size": [
+            32,
+            17
+          ],
+          "scale": 6,
+          "alpha_bounds": [
+            0,
+            0,
+            31,
+            17
+          ],
+          "original_path": "res://assets/sprites/fence.png",
+          "original_sha256": "03777df9dc38da36fa869c0f4f4232b0f4343ad913fa69ddabd07bdaa1cb3bb0"
+        },
+        {
+          "id": "bunting",
+          "index": 7,
+          "cell": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "rect": [
+            800,
+            361,
+            192,
+            46
+          ],
+          "size": [
+            96,
+            23
+          ],
+          "scale": 2,
+          "alpha_bounds": [
+            14,
+            0,
+            67,
+            23
+          ],
+          "original_path": "res://assets/sprites/bunting.png",
+          "original_sha256": "45287097f5bb99523dfc6509bb8232780c240d753e4288c640d219831a873199"
+        },
+        {
+          "id": "lamp",
+          "index": 8,
+          "cell": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "rect": [
+            103,
+            542,
+            50,
+            195
+          ],
+          "size": [
+            10,
+            39
+          ],
+          "scale": 5,
+          "alpha_bounds": [
+            1,
+            1,
+            8,
+            38
+          ],
+          "original_path": "res://assets/sprites/lamp.png",
+          "original_sha256": "582ee584803f707d04c7c8767196ace47e87133cdf4d0ebc35fdb82121698be8"
+        },
+        {
+          "id": "garden_left",
+          "index": 9,
+          "cell": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "rect": [
+            312,
+            574,
+            144,
+            132
+          ],
+          "size": [
+            24,
+            22
+          ],
+          "scale": 6,
+          "alpha_bounds": [
+            0,
+            0,
+            24,
+            22
+          ],
+          "original_path": "res://assets/sprites/garden_left.png",
+          "original_sha256": "5649f65b5a60c09a6906c630a1352ae28f07736b4f05dcb58e1744eb9f329839"
+        },
+        {
+          "id": "garden_right",
+          "index": 10,
+          "cell": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "rect": [
+            568,
+            574,
+            144,
+            132
+          ],
+          "size": [
+            24,
+            22
+          ],
+          "scale": 6,
+          "alpha_bounds": [
+            0,
+            0,
+            24,
+            22
+          ],
+          "original_path": "res://assets/sprites/garden_right.png",
+          "original_sha256": "77d7bb5c889c45222606868781a511d51e4d8c952eda35db481a1d2a3eb5cbe5"
+        },
+        {
+          "id": "planter",
+          "index": 11,
+          "cell": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "rect": [
+            791,
+            570,
+            210,
+            140
+          ],
+          "size": [
+            42,
+            28
+          ],
+          "scale": 5,
+          "alpha_bounds": [
+            2,
+            6,
+            38,
+            22
+          ],
+          "original_path": "res://assets/sprites/planter.png",
+          "original_sha256": "35c7ca0eb9514791cd07f8e33f9be78534b15be7a596d3e52fbc9ec3e5cc6875"
+        },
+        {
+          "id": "planter_seeded",
+          "index": 12,
+          "cell": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "rect": [
+            23,
+            826,
+            210,
+            140
+          ],
+          "size": [
+            42,
+            28
+          ],
+          "scale": 5,
+          "alpha_bounds": [
+            2,
+            0,
+            38,
+            28
+          ],
+          "original_path": "res://assets/sprites/planter_seeded.png",
+          "original_sha256": "cfffe3ade9eb028e4528300c1a5fed56b435d40b7329538103db29c2bd321535"
+        },
+        {
+          "id": "item_oil",
+          "index": 13,
+          "cell": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "rect": [
+            330,
+            824,
+            108,
+            144
+          ],
+          "size": [
+            18,
+            24
+          ],
+          "scale": 6,
+          "alpha_bounds": [
+            2,
+            0,
+            14,
+            24
+          ],
+          "original_path": "res://assets/sprites/item_oil.png",
+          "original_sha256": "0edbafe17d6e630a657630a5be9ab24fa89f3a6c80fbb96c0c8d3de726113c9c"
+        },
+        {
+          "id": "item_seeds",
+          "index": 14,
+          "cell": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "rect": [
+            574,
+            824,
+            132,
+            144
+          ],
+          "size": [
+            22,
+            24
+          ],
+          "scale": 6,
+          "alpha_bounds": [
+            0,
+            4,
+            22,
+            20
+          ],
+          "original_path": "res://assets/sprites/item_seeds.png",
+          "original_sha256": "2819c2baec6032c79736775bf95c9ebe0ce20a63a0ca887df81c39ad093ea130"
+        },
+        {
+          "id": "item_tea",
+          "index": 15,
+          "cell": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "rect": [
+            830,
+            824,
+            132,
+            144
+          ],
+          "size": [
+            22,
+            24
+          ],
+          "scale": 6,
+          "alpha_bounds": [
+            1,
+            0,
+            20,
+            24
+          ],
+          "original_path": "res://assets/sprites/item_tea.png",
+          "original_sha256": "68eb8bda0bb63da73d5c0ecf76b673bc6b15993dce40cce9f39461fd4be5eca3"
+        }
+      ]
+    },
+    "interiors": {
+      "size": [
+        1024,
+        1024
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "cell": 256,
+      "opaque": false,
+      "reference": "output/imagegen/art-v2/references/interiors.png",
+      "reference_sha256": "28d0e4198f8058913677e0131529fb4643fd712494506ed19e51ea3bfdb0efc9",
+      "assets": [
+        {
+          "id": "bed",
+          "index": 0,
+          "cell": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "rect": [
+            63,
+            33,
+            130,
+            190
+          ],
+          "size": [
+            26,
+            38
+          ],
+          "scale": 5,
+          "alpha_bounds": [
+            1,
+            0,
+            24,
+            38
+          ],
+          "original_path": "res://assets/sprites/bed.png",
+          "original_sha256": "ba5ec77bea0bb96af4b55ab72d4d6d452fe85b36d4b9b86d8e714183549009ea"
+        },
+        {
+          "id": "table",
+          "index": 1,
+          "cell": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "rect": [
+            284,
+            60,
+            200,
+            135
+          ],
+          "size": [
+            40,
+            27
+          ],
+          "scale": 5,
+          "alpha_bounds": [
+            0,
+            1,
+            40,
+            26
+          ],
+          "original_path": "res://assets/sprites/table.png",
+          "original_sha256": "10f27283e81c7236b7c47ace3b041b0c21a47d583cbcf1ee48b2612bd4f6600a"
+        },
+        {
+          "id": "cabinet",
+          "index": 2,
+          "cell": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "rect": [
+            540,
+            58,
+            200,
+            140
+          ],
+          "size": [
+            40,
+            28
+          ],
+          "scale": 5,
+          "alpha_bounds": [
+            0,
+            0,
+            40,
+            28
+          ],
+          "original_path": "res://assets/sprites/cabinet.png",
+          "original_sha256": "1c47f8adb02a65d8ea4704ff2763dcbbec3198938faa2c8a09ef1035217d88a4"
+        },
+        {
+          "id": "bookshelf",
+          "index": 3,
+          "cell": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "rect": [
+            806,
+            47,
+            180,
+            162
+          ],
+          "size": [
+            30,
+            27
+          ],
+          "scale": 6,
+          "alpha_bounds": [
+            0,
+            0,
+            30,
+            27
+          ],
+          "original_path": "res://assets/sprites/bookshelf.png",
+          "original_sha256": "d2404accbe400b64c9ef6bc4e38cb546d19c0ae92f04eff3655685e1d11d9659"
+        },
+        {
+          "id": "window",
+          "index": 4,
+          "cell": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "rect": [
+            44,
+            297,
+            168,
+            174
+          ],
+          "size": [
+            28,
+            29
+          ],
+          "scale": 6,
+          "alpha_bounds": [
+            0,
+            0,
+            28,
+            29
+          ],
+          "original_path": "res://assets/sprites/window.png",
+          "original_sha256": "530952442411ad70af718c8e14408f7f32bd26e57b70d310103791ebafcbae24"
+        },
+        {
+          "id": "chair",
+          "index": 5,
+          "cell": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "rect": [
+            354,
+            336,
+            60,
+            96
+          ],
+          "size": [
+            10,
+            16
+          ],
+          "scale": 6,
+          "alpha_bounds": [
+            0,
+            1,
+            10,
+            15
+          ],
+          "original_path": "res://assets/sprites/chair.png",
+          "original_sha256": "a2b80bebba9f30bb648b3c61403d214ab94ed44e0858866c0b4dd415472b4bb0"
+        },
+        {
+          "id": "tea_set",
+          "index": 6,
+          "cell": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "rect": [
+            598,
+            342,
+            84,
+            84
+          ],
+          "size": [
+            14,
+            14
+          ],
+          "scale": 6,
+          "alpha_bounds": [
+            0,
+            1,
+            14,
+            13
+          ],
+          "original_path": "res://assets/sprites/tea_set.png",
+          "original_sha256": "87e1107417c210e16577222f2746e34869fcd91a124c6e132d4c6cf4b93a5b9b"
+        },
+        {
+          "id": "project_tools",
+          "index": 7,
+          "cell": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "rect": [
+            824,
+            318,
+            144,
+            132
+          ],
+          "size": [
+            24,
+            22
+          ],
+          "scale": 6,
+          "alpha_bounds": [
+            0,
+            0,
+            24,
+            22
+          ],
+          "original_path": "res://assets/sprites/project_tools.png",
+          "original_sha256": "689826b23c4b1c4c19bbcb3ff748fd0eb2359fe36ca709d3f4f6047566985df2"
+        },
+        {
+          "id": "notebooks",
+          "index": 8,
+          "cell": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "rect": [
+            32,
+            556,
+            192,
+            168
+          ],
+          "size": [
+            32,
+            28
+          ],
+          "scale": 6,
+          "alpha_bounds": [
+            3,
+            1,
+            26,
+            27
+          ],
+          "original_path": "res://assets/sprites/notebooks.png",
+          "original_sha256": "5c0c83fd73e82a0311104b43967c82432f00139621cbcf40bf41ac852c83cb3f"
+        },
+        {
+          "id": "photo",
+          "index": 9,
+          "cell": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "rect": [
+            330,
+            598,
+            108,
+            84
+          ],
+          "size": [
+            18,
+            14
+          ],
+          "scale": 6,
+          "alpha_bounds": [
+            0,
+            0,
+            18,
+            14
+          ],
+          "original_path": "res://assets/sprites/photo.png",
+          "original_sha256": "2b7986b70e275924f7312cc13d9c472e4caedea7d25b786d1b5ca6befb4a8923"
+        },
+        {
+          "id": "plant",
+          "index": 10,
+          "cell": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "rect": [
+            586,
+            568,
+            108,
+            144
+          ],
+          "size": [
+            18,
+            24
+          ],
+          "scale": 6,
+          "alpha_bounds": [
+            0,
+            4,
+            18,
+            20
+          ],
+          "original_path": "res://assets/sprites/plant.png",
+          "original_sha256": "7636f68cdb72f0ca2bbd5dc700be8bb7e73db223898ab68ddbade3606c9bd8dc"
+        },
+        {
+          "id": "project_painting",
+          "index": 11,
+          "cell": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "rect": [
+            830,
+            550,
+            132,
+            180
+          ],
+          "size": [
+            22,
+            30
+          ],
+          "scale": 6,
+          "alpha_bounds": [
+            0,
+            0,
+            21,
+            30
+          ],
+          "original_path": "res://assets/sprites/project_painting.png",
+          "original_sha256": "ff8e0718d45841bc110cbb1b8c29b1640dcc62c7c0dbe03e37cc368ca27ec320"
+        },
+        {
+          "id": "project_basket",
+          "index": 12,
+          "cell": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "rect": [
+            62,
+            836,
+            132,
+            120
+          ],
+          "size": [
+            22,
+            20
+          ],
+          "scale": 6,
+          "alpha_bounds": [
+            0,
+            0,
+            21,
+            20
+          ],
+          "original_path": "res://assets/sprites/project_basket.png",
+          "original_sha256": "9de3d37846e1f8b24a43e55edf9643517ba852795c975914993f49aa4cd31ad2"
+        },
+        {
+          "id": "project_seeds",
+          "index": 13,
+          "cell": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "rect": [
+            318,
+            839,
+            132,
+            114
+          ],
+          "size": [
+            22,
+            19
+          ],
+          "scale": 6,
+          "alpha_bounds": [
+            0,
+            0,
+            22,
+            19
+          ],
+          "original_path": "res://assets/sprites/project_seeds.png",
+          "original_sha256": "02fb0bd9d40a1060b509af41720c7210cfb9fcf5cc7bc9d33ce8f4bb0dc6eca2"
+        },
+        {
+          "id": "tea_ready",
+          "index": 14,
+          "cell": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "rect": [
+            616,
+            866,
+            48,
+            60
+          ],
+          "size": [
+            8,
+            10
+          ],
+          "scale": 6,
+          "alpha_bounds": [
+            0,
+            2,
+            8,
+            8
+          ],
+          "original_path": "res://assets/sprites/tea_ready.png",
+          "original_sha256": "a21c6b32af28d6f0b6912764299df00b7753c11c478129ff1d3f20fdfb816a04"
+        },
+        {
+          "id": "rug",
+          "index": 15,
+          "cell": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "rect": [
+            808,
+            836,
+            176,
+            120
+          ],
+          "size": [
+            88,
+            60
+          ],
+          "scale": 2,
+          "alpha_bounds": [
+            0,
+            0,
+            88,
+            60
+          ],
+          "original_path": "res://assets/sprites/rug.png",
+          "original_sha256": "380c675988a553bc66b32371911f2d58a39dd77d03aa8d9a90cd2e62c126a3dc"
+        }
+      ]
+    },
+    "terrain": {
+      "size": [
+        1024,
+        1024
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "cell": 256,
+      "opaque": true,
+      "reference": "output/imagegen/art-v2/references/terrain.png",
+      "reference_sha256": "ec3e4adddaf7c015f8ece977eae02b29b5132315ab03096910db8b2534727cb0",
+      "assets": [
+        {
+          "id": "tile_grass",
+          "index": 0,
+          "cell": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "rect": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "scale": 8,
+          "alpha_bounds": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "original_path": "res://assets/sprites/tile_grass.png",
+          "original_sha256": "9a3930f1ae251b5159af39473d3ff64036a28cc090be2f0c6099aca0617a34af"
+        },
+        {
+          "id": "tile_sand",
+          "index": 1,
+          "cell": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "rect": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "scale": 8,
+          "alpha_bounds": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "original_path": "res://assets/sprites/tile_sand.png",
+          "original_sha256": "fdfe6c011ab0b3e10e7c822aea9258699ba71dd7541c5743b59cbe37516660c5"
+        },
+        {
+          "id": "tile_plaza",
+          "index": 2,
+          "cell": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "rect": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "scale": 8,
+          "alpha_bounds": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "original_path": "res://assets/sprites/tile_plaza.png",
+          "original_sha256": "069f71db95e69d5e56f84d0a03677e91ffae01053f6e65c9f73abdbff256599b"
+        },
+        {
+          "id": "tile_wood",
+          "index": 3,
+          "cell": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "rect": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "scale": 8,
+          "alpha_bounds": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "original_path": "res://assets/sprites/tile_wood.png",
+          "original_sha256": "d602ac41754141f15138c2971e1eca161329c5c3f3ce3c233bb0122b83d4df48"
+        },
+        {
+          "id": "tile_wall",
+          "index": 4,
+          "cell": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "rect": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "scale": 8,
+          "alpha_bounds": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "original_path": "res://assets/sprites/tile_wall.png",
+          "original_sha256": "9bef3b7a5a24dc22d112378d92c06432ec22877dd1c9332954d1835fe4de48a0"
+        },
+        {
+          "id": "tile_wall_sage",
+          "index": 5,
+          "cell": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "rect": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "scale": 8,
+          "alpha_bounds": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "original_path": "res://assets/sprites/tile_wall_sage.png",
+          "original_sha256": "e9deeb7e7d7c944f3319f8bb15fbb7d177ded53b8d2bd1b79a97ec3fcaee3b28"
+        },
+        {
+          "id": "tile_wall_peach",
+          "index": 6,
+          "cell": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "rect": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "scale": 8,
+          "alpha_bounds": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "original_path": "res://assets/sprites/tile_wall_peach.png",
+          "original_sha256": "ef9e5507005b520b3b32e439fb7136c72c2718dc7db18e58dd115127f12618c9"
+        },
+        {
+          "id": "tile_wall_lavender",
+          "index": 7,
+          "cell": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "rect": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "scale": 8,
+          "alpha_bounds": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "original_path": "res://assets/sprites/tile_wall_lavender.png",
+          "original_sha256": "c5cc1d79610585c83682afb74e1ae4ce98529aa8082bbe9538d4878b034d4ade"
+        },
+        {
+          "id": "tile_soil",
+          "index": 8,
+          "cell": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "rect": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "scale": 8,
+          "alpha_bounds": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "original_path": "res://assets/sprites/tile_soil.png",
+          "original_sha256": "7d25cfbe28a59f8987b18635d2c99e7ac06a1340bb2e76bfb7ea8276546139ef"
+        },
+        {
+          "id": "tile_water",
+          "index": 9,
+          "cell": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "rect": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "scale": 8,
+          "alpha_bounds": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "original_path": "res://assets/sprites/tile_water.png",
+          "original_sha256": "d39e33700183ba56ae7eeabcccf9bab74bcce792210d170a023ea4ef4821d61a"
+        },
+        {
+          "id": "tile_rug_red",
+          "index": 10,
+          "cell": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "rect": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "scale": 8,
+          "alpha_bounds": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "original_path": "res://assets/sprites/tile_rug_red.png",
+          "original_sha256": "f158c053298d58b3687042dbbe79b11e344abfa988260de64ea137326e7a856f"
+        },
+        {
+          "id": "tile_rug_teal",
+          "index": 11,
+          "cell": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "rect": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "scale": 8,
+          "alpha_bounds": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "original_path": "res://assets/sprites/tile_rug_teal.png",
+          "original_sha256": "d7da680e369bb69e0844d23b8416351bf024137b1456e79c92c4f772e214a97c"
+        },
+        {
+          "id": "tile_stone",
+          "index": 12,
+          "cell": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "rect": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "scale": 8,
+          "alpha_bounds": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "original_path": "res://assets/sprites/tile_stone.png",
+          "original_sha256": "2470b65303ae6c8498d0fb818d6f87b4c67c408b4514b6846f6927de0c7f8408"
+        },
+        {
+          "id": "tile_roof",
+          "index": 13,
+          "cell": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "rect": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "scale": 8,
+          "alpha_bounds": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "original_path": "res://assets/sprites/tile_roof.png",
+          "original_sha256": "287d90964dceff0fd9f464d72fd8f0a600fdb5da1e89131d7fe5388d1be748e8"
+        },
+        {
+          "id": "tile_brick",
+          "index": 14,
+          "cell": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "rect": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "scale": 8,
+          "alpha_bounds": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "original_path": "res://assets/sprites/tile_brick.png",
+          "original_sha256": "882dc7f568acecb25274d7a6da772edf478d1fd1bfd04625cb59cce981658e33"
+        },
+        {
+          "id": "tile_timber",
+          "index": 15,
+          "cell": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "rect": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "size": [
+            32,
+            32
+          ],
+          "scale": 8,
+          "alpha_bounds": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "original_path": "res://assets/sprites/tile_timber.png",
+          "original_sha256": "9473c504017b5a8c9d64afb5f9e3a1c557d9a72eede4c6526e9c638c40d41572"
+        }
+      ]
+    }
+  }
+}

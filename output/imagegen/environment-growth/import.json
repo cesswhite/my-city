@@ -1,0 +1,134 @@
+{
+  "source": "output/imagegen/environment-growth/source.png",
+  "source_sha256": "fb27a876df71d344e166bb1de55ce35783b663c97b1609ee6af28cea93457c4e",
+  "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+  "palette_opaque_colors": 255,
+  "alpha_threshold": 250,
+  "assets": {
+    "tree_sapling": {
+      "size": [
+        18,
+        26
+      ],
+      "opaque_bounds": [
+        1,
+        1,
+        18,
+        25
+      ],
+      "sha256": "6923919f11704f3ef2d02fc07f86587ac4fc90a2922bf54bf9e03e81b942ea48",
+      "source_cell": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_alpha_bounds": [
+        163,
+        208,
+        347,
+        481
+      ]
+    },
+    "tree_young": {
+      "size": [
+        26,
+        36
+      ],
+      "opaque_bounds": [
+        0,
+        3,
+        26,
+        36
+      ],
+      "sha256": "896c924cc818abb7c9a48a9fdb684ff8eaef27c328eb4106e4cfdcdd200764ec",
+      "source_cell": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "source_alpha_bounds": [
+        112,
+        119,
+        402,
+        482
+      ]
+    },
+    "apple": {
+      "size": [
+        8,
+        9
+      ],
+      "opaque_bounds": [
+        0,
+        0,
+        8,
+        9
+      ],
+      "sha256": "12014c79f808b2e7d1b4d09feddc79b5ee8de7af39732e0a390078be1d466297",
+      "source_cell": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "source_alpha_bounds": [
+        186,
+        184,
+        325,
+        351
+      ]
+    },
+    "apple_golden": {
+      "size": [
+        8,
+        9
+      ],
+      "opaque_bounds": [
+        0,
+        0,
+        8,
+        9
+      ],
+      "sha256": "f690083d56caff77ed09842f983ff7bedfd2c64545e13bf8f371260d3f0c702c",
+      "source_cell": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "source_alpha_bounds": [
+        189,
+        182,
+        330,
+        351
+      ]
+    },
+    "window_closed": {
+      "size": [
+        28,
+        29
+      ],
+      "opaque_bounds": [
+        0,
+        0,
+        28,
+        29
+      ],
+      "sha256": "bd5b379b0b369f256ae9af0b9327dd1a8808368af9eddc121d2d9965621aa67f",
+      "source_cell": [
+        0,
+        1024,
+        512,
+        1536
+      ],
+      "source_alpha_bounds": [
+        99,
+        69,
+        414,
+        369
+      ]
+    }
+  }
+}

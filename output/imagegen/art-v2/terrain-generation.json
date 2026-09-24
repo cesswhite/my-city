@@ -1,0 +1,39 @@
+{
+  "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+  "catalog_verified": true,
+  "model_response": null,
+  "model_response_note": "Bundled CLI does not persist model response or token usage.",
+  "official_cli": "<IMAGEGEN_SKILL_DIR>/scripts/image_gen.py",
+  "command_arguments": [
+    "edit",
+    "--model",
+    "gpt-image-2.5-sunburst-2026-09-08",
+    "--image",
+    "output/imagegen/art-v2/references/terrain.png",
+    "--prompt-file",
+    "output/imagegen/art-v2/prompts/terrain.txt",
+    "--size",
+    "1024x1024",
+    "--quality",
+    "high",
+    "--background",
+    "opaque",
+    "--output-format",
+    "png",
+    "--no-augment",
+    "--out",
+    "output/imagegen/art-v2/sources/terrain.png"
+  ],
+  "started_at": "2026-09-24T08:24:16.548Z",
+  "fallback": false,
+  "python": ".venv/bin/python",
+  "cli_exit_status": 0,
+  "completed_at": "2026-09-24T08:25:07.083Z",
+  "privacy_redaction": {
+    "fields": [
+      "official_cli"
+    ],
+    "note": "Personal absolute installation path replaced for public documentation. Other original metadata is unchanged. Historical lineage hashes refer to the pre-redaction record bytes.",
+    "original_document_sha256": "cbe9d5135b1fb8da9612ea34d1e48ebaa00e05b51d515132bd2a8313af1f8051"
+  }
+}

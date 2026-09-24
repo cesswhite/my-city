@@ -1,0 +1,1034 @@
+{
+  "version": 1,
+  "sheets": {
+    "body": {
+      "path": "output/imagegen/body.png",
+      "grid": [
+        4,
+        4
+      ],
+      "background": "alpha",
+      "alpha_threshold": 128,
+      "source_offsets": [
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          28
+        ]
+      ]
+    },
+    "hair": {
+      "path": "output/imagegen/hair.png",
+      "grid": [
+        4,
+        4
+      ],
+      "background": "alpha",
+      "alpha_threshold": 128,
+      "source_offsets": [
+        [
+          0,
+          19
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          0,
+          36
+        ]
+      ],
+      "source_scale": 0.67
+    },
+    "hats": {
+      "path": "output/imagegen/hats.png",
+      "grid": [
+        4,
+        4
+      ],
+      "background": "alpha",
+      "alpha_threshold": 128,
+      "source_offsets": [
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          23
+        ]
+      ],
+      "source_scale": 0.75
+    },
+    "beards": {
+      "path": "output/imagegen/beards.png",
+      "grid": [
+        4,
+        4
+      ],
+      "background": "alpha",
+      "alpha_threshold": 128,
+      "source_offsets": [
+        [
+          0,
+          34
+        ],
+        [
+          -7,
+          24
+        ],
+        [
+          7,
+          39
+        ],
+        [
+          0,
+          28
+        ]
+      ],
+      "source_scale": 0.7
+    }
+  },
+  "assets": [
+    {
+      "sheet": "body",
+      "columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "crop": [
+        32,
+        0,
+        192,
+        256
+      ],
+      "size": [
+        24,
+        32
+      ],
+      "fit": "fill",
+      "trim": false,
+      "frames": 4,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "id": "char_body",
+      "mask": {
+        "any": [
+          {
+            "hue": [
+              0,
+              60
+            ],
+            "saturation": [
+              0.15,
+              1
+            ],
+            "value": [
+              0.35,
+              1
+            ]
+          }
+        ],
+        "gray": "max"
+      }
+    },
+    {
+      "sheet": "body",
+      "columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "crop": [
+        32,
+        0,
+        192,
+        256
+      ],
+      "size": [
+        24,
+        32
+      ],
+      "fit": "fill",
+      "trim": false,
+      "frames": 4,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "id": "char_shirt",
+      "mask": {
+        "any": [
+          {
+            "hue": [
+              185,
+              245
+            ],
+            "saturation": [
+              0.25,
+              1
+            ]
+          }
+        ],
+        "gray": "max",
+        "gain": 1.12
+      }
+    },
+    {
+      "sheet": "body",
+      "columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "crop": [
+        32,
+        0,
+        192,
+        256
+      ],
+      "size": [
+        24,
+        32
+      ],
+      "fit": "fill",
+      "trim": false,
+      "frames": 4,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "id": "char_pants",
+      "mask": {
+        "any": [
+          {
+            "hue": [
+              250,
+              315
+            ],
+            "saturation": [
+              0.25,
+              1
+            ]
+          }
+        ],
+        "gray": "max",
+        "gain": 1.5
+      }
+    },
+    {
+      "sheet": "body",
+      "columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "crop": [
+        32,
+        0,
+        192,
+        256
+      ],
+      "size": [
+        24,
+        32
+      ],
+      "fit": "fill",
+      "trim": false,
+      "frames": 4,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "id": "char_eyes",
+      "mask": {
+        "any": [
+          {
+            "hue": [
+              100,
+              180
+            ],
+            "saturation": [
+              0.35,
+              1
+            ],
+            "region": [
+              0,
+              0,
+              192,
+              156
+            ]
+          }
+        ],
+        "gray": "max",
+        "gain": 1.15
+      }
+    },
+    {
+      "sheet": "body",
+      "columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "crop": [
+        32,
+        0,
+        192,
+        256
+      ],
+      "size": [
+        24,
+        32
+      ],
+      "fit": "fill",
+      "trim": false,
+      "frames": 4,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "id": "char_details",
+      "mask": {
+        "any": [
+          {
+            "hue": [
+              0,
+              60
+            ],
+            "saturation": [
+              0.15,
+              1
+            ],
+            "value": [
+              0.35,
+              1
+            ]
+          },
+          {
+            "hue": [
+              185,
+              245
+            ],
+            "saturation": [
+              0.25,
+              1
+            ]
+          },
+          {
+            "hue": [
+              250,
+              315
+            ],
+            "saturation": [
+              0.25,
+              1
+            ]
+          },
+          {
+            "hue": [
+              100,
+              180
+            ],
+            "saturation": [
+              0.35,
+              1
+            ],
+            "region": [
+              0,
+              0,
+              192,
+              156
+            ]
+          }
+        ],
+        "invert": true
+      }
+    },
+    {
+      "sheet": "hair",
+      "columns": [
+        0
+      ],
+      "rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "crop": [
+        32,
+        0,
+        192,
+        256
+      ],
+      "size": [
+        24,
+        32
+      ],
+      "fit": "fill",
+      "trim": false,
+      "frames": 1,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "id": "hair_0",
+      "mask": {
+        "any": [
+          {}
+        ],
+        "gray": "max"
+      }
+    },
+    {
+      "sheet": "hair",
+      "columns": [
+        1
+      ],
+      "rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "crop": [
+        32,
+        0,
+        192,
+        256
+      ],
+      "size": [
+        24,
+        32
+      ],
+      "fit": "fill",
+      "trim": false,
+      "frames": 1,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "id": "hair_1",
+      "mask": {
+        "any": [
+          {}
+        ],
+        "gray": "max"
+      }
+    },
+    {
+      "sheet": "hair",
+      "columns": [
+        2
+      ],
+      "rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "crop": [
+        32,
+        0,
+        192,
+        256
+      ],
+      "size": [
+        24,
+        32
+      ],
+      "fit": "fill",
+      "trim": false,
+      "frames": 1,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "id": "hair_2",
+      "mask": {
+        "any": [
+          {}
+        ],
+        "gray": "max"
+      }
+    },
+    {
+      "sheet": "hair",
+      "columns": [
+        3
+      ],
+      "rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "crop": [
+        32,
+        0,
+        192,
+        256
+      ],
+      "size": [
+        24,
+        32
+      ],
+      "fit": "fill",
+      "trim": false,
+      "frames": 1,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "id": "hair_3",
+      "mask": {
+        "any": [
+          {}
+        ],
+        "gray": "max"
+      }
+    },
+    {
+      "sheet": "hats",
+      "columns": [
+        0
+      ],
+      "rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "crop": [
+        32,
+        0,
+        192,
+        256
+      ],
+      "size": [
+        24,
+        32
+      ],
+      "fit": "fill",
+      "trim": false,
+      "frames": 1,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "id": "hat_1"
+    },
+    {
+      "sheet": "hats",
+      "columns": [
+        1
+      ],
+      "rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "crop": [
+        32,
+        0,
+        192,
+        256
+      ],
+      "size": [
+        24,
+        32
+      ],
+      "fit": "fill",
+      "trim": false,
+      "frames": 1,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "id": "hat_2"
+    },
+    {
+      "sheet": "hats",
+      "columns": [
+        2
+      ],
+      "rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "crop": [
+        32,
+        0,
+        192,
+        256
+      ],
+      "size": [
+        24,
+        32
+      ],
+      "fit": "fill",
+      "trim": false,
+      "frames": 1,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "id": "hat_3"
+    },
+    {
+      "sheet": "beards",
+      "columns": [
+        0
+      ],
+      "rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "crop": [
+        32,
+        0,
+        192,
+        256
+      ],
+      "size": [
+        24,
+        32
+      ],
+      "fit": "fill",
+      "trim": false,
+      "frames": 1,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "id": "beard_1",
+      "mask": {
+        "any": [
+          {}
+        ],
+        "gray": "max"
+      }
+    },
+    {
+      "sheet": "beards",
+      "columns": [
+        1
+      ],
+      "rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "crop": [
+        32,
+        0,
+        192,
+        256
+      ],
+      "size": [
+        24,
+        32
+      ],
+      "fit": "fill",
+      "trim": false,
+      "frames": 1,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "id": "beard_2",
+      "mask": {
+        "any": [
+          {}
+        ],
+        "gray": "max"
+      }
+    }
+  ],
+  "manifest": {
+    "characters": {
+      "size": [
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "layers": [
+        {
+          "asset": "char_body",
+          "tint": "skin"
+        },
+        {
+          "asset": "char_shirt",
+          "tint": "shirt"
+        },
+        {
+          "asset": "char_pants",
+          "tint": "pants"
+        },
+        {
+          "asset": "char_eyes",
+          "tint": "eyes"
+        },
+        {
+          "asset": "char_details"
+        },
+        {
+          "variants": [
+            "hair_0",
+            "hair_1",
+            "hair_2",
+            "hair_3"
+          ],
+          "select": "hair_style",
+          "tint": "hair"
+        },
+        {
+          "variants": [
+            "",
+            "beard_1",
+            "beard_2"
+          ],
+          "select": "beard",
+          "tint": "hair"
+        },
+        {
+          "variants": [
+            "",
+            "hat_1",
+            "hat_2",
+            "hat_3"
+          ],
+          "select": "hat"
+        }
+      ]
+    },
+    "assets": {
+      "tree_sapling": {
+        "path": "res://assets/sprites/tree_sapling.png",
+        "size": [
+          18,
+          26
+        ],
+        "anchor": [
+          9,
+          26
+        ],
+        "environment_growth": {
+          "source": "output/imagegen/environment-growth/source.png",
+          "source_sha256": "fb27a876df71d344e166bb1de55ce35783b663c97b1609ee6af28cea93457c4e",
+          "source_cell": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "source_alpha_bounds": [
+            163,
+            208,
+            347,
+            481
+          ],
+          "native_size": [
+            18,
+            26
+          ],
+          "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+          "model_response": null,
+          "palette": "existing shared environment colors; nearest weighted RGB, green material protected, no dithering"
+        }
+      },
+      "tree_young": {
+        "path": "res://assets/sprites/tree_young.png",
+        "size": [
+          26,
+          36
+        ],
+        "anchor": [
+          13,
+          36
+        ],
+        "environment_growth": {
+          "source": "output/imagegen/environment-growth/source.png",
+          "source_sha256": "fb27a876df71d344e166bb1de55ce35783b663c97b1609ee6af28cea93457c4e",
+          "source_cell": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "source_alpha_bounds": [
+            112,
+            119,
+            402,
+            482
+          ],
+          "native_size": [
+            26,
+            36
+          ],
+          "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+          "model_response": null,
+          "palette": "existing shared environment colors; nearest weighted RGB, green material protected, no dithering"
+        }
+      },
+      "apple": {
+        "path": "res://assets/sprites/apple.png",
+        "size": [
+          8,
+          9
+        ],
+        "anchor": [
+          4,
+          9
+        ],
+        "environment_growth": {
+          "source": "output/imagegen/environment-growth/source.png",
+          "source_sha256": "fb27a876df71d344e166bb1de55ce35783b663c97b1609ee6af28cea93457c4e",
+          "source_cell": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "source_alpha_bounds": [
+            186,
+            184,
+            325,
+            351
+          ],
+          "native_size": [
+            8,
+            9
+          ],
+          "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+          "model_response": null,
+          "palette": "existing shared environment colors; nearest weighted RGB, green material protected, no dithering"
+        }
+      },
+      "apple_golden": {
+        "path": "res://assets/sprites/apple_golden.png",
+        "size": [
+          8,
+          9
+        ],
+        "anchor": [
+          4,
+          9
+        ],
+        "environment_growth": {
+          "source": "output/imagegen/environment-growth/source.png",
+          "source_sha256": "fb27a876df71d344e166bb1de55ce35783b663c97b1609ee6af28cea93457c4e",
+          "source_cell": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "source_alpha_bounds": [
+            189,
+            182,
+            330,
+            351
+          ],
+          "native_size": [
+            8,
+            9
+          ],
+          "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+          "model_response": null,
+          "palette": "existing shared environment colors; nearest weighted RGB, green material protected, no dithering"
+        }
+      },
+      "window_closed": {
+        "path": "res://assets/sprites/window_closed.png",
+        "size": [
+          28,
+          29
+        ],
+        "anchor": [
+          14,
+          29
+        ],
+        "environment_growth": {
+          "source": "output/imagegen/environment-growth/source.png",
+          "source_sha256": "fb27a876df71d344e166bb1de55ce35783b663c97b1609ee6af28cea93457c4e",
+          "source_cell": [
+            0,
+            1024,
+            512,
+            1536
+          ],
+          "source_alpha_bounds": [
+            99,
+            69,
+            414,
+            369
+          ],
+          "native_size": [
+            28,
+            29
+          ],
+          "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+          "model_response": null,
+          "palette": "existing shared environment colors; nearest weighted RGB, green material protected, no dithering"
+        }
+      }
+    }
+  }
+}

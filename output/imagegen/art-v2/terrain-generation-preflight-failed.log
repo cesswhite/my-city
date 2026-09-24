@@ -1,0 +1,3 @@
+OPENAI_API_KEY is set.
+Calling Image API (edit) with 1 image(s).
+Error: openai SDK not installed in the active environment. Activate the repo-selected environment first, then install it with `uv pip install openai`. If this repo uses a local virtualenv, start with `source .venv/bin/activate`; otherwise use this repo's configured shared fallback environment. If your project declares dependencies, prefer that project's normal `uv sync` flow.

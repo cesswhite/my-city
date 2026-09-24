@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "topics": [
+    {
+      "id": "lupita_meal_worry",
+      "owner_id": "lupita",
+      "subjects": [
+        "lupita"
+      ],
+      "kind": "secret",
+      "privacy": "secret",
+      "text": "A Lupita le da miedo organizar la comida vecinal y que nadie vaya; por eso todavía no quiere anunciarla.",
+      "aliases": [
+        "miedo a que nadie vaya",
+        "miedo a organizar la comida",
+        "teme organizar la comida",
+        "no quiere anunciar la comida"
+      ],
+      "seed_holders": [
+        "lupita",
+        "mateo"
+      ],
+      "origin_label": "Antes del inicio, Lupita confió deliberadamente este temor a Mateo y le pidió que lo guardara.",
+      "require_trust": 70,
+      "leakable": true,
+      "variants": [
+        "Dicen que Lupita podría aplazar la comida porque le preocupa que nadie vaya."
+      ]
+    },
+    {
+      "id": "cesar_asking_help",
+      "owner_id": "cesar",
+      "subjects": [
+        "cesar"
+      ],
+      "kind": "secret",
+      "privacy": "secret",
+      "text": "A César le da pena pedir ayuda con su bicicleta porque teme parecer una carga.",
+      "aliases": [
+        "pena pedir ayuda con la bicicleta",
+        "teme parecer una carga",
+        "vergüenza pedir ayuda con su bicicleta"
+      ],
+      "seed_holders": [
+        "cesar"
+      ],
+      "origin_label": "Temor íntimo de César, todavía no compartido con sus vecinos.",
+      "require_trust": 70,
+      "leakable": true
+    },
+    {
+      "id": "mateo_teaching_patience",
+      "owner_id": "mateo",
+      "subjects": [
+        "mateo"
+      ],
+      "kind": "fact",
+      "privacy": "personal",
+      "text": "Mateo aprendió a reparar bicicletas en el taller familiar y todavía practica cómo explicar los pasos con paciencia.",
+      "aliases": [
+        "explicar con paciencia",
+        "taller familiar",
+        "explicar los pasos"
+      ],
+      "seed_holders": [
+        "mateo"
+      ],
+      "origin_label": "Historia y aprendizaje propios de Mateo, presentes en su biografía.",
+      "require_trust": 45,
+      "leakable": false
+    },
+    {
+      "id": "ines_saved_postcards",
+      "owner_id": "ines",
+      "subjects": [
+        "ines"
+      ],
+      "kind": "secret",
+      "privacy": "secret",
+      "text": "Inés guarda una postal sin enviar porque todavía no encuentra cómo despedirse de una ciudad donde vivió.",
+      "aliases": [
+        "postal sin enviar",
+        "despedirse de una ciudad",
+        "postal que aún no envía"
+      ],
+      "seed_holders": [
+        "ines"
+      ],
+      "origin_label": "Recuerdo privado de Inés entre las postales de las ciudades donde vivió; nadie más lo conoce al inicio.",
+      "require_trust": 70,
+      "leakable": false
+    },
+    {
+      "id": "alma_preserve_corners",
+      "owner_id": "alma",
+      "subjects": [
+        "alma"
+      ],
+      "kind": "opinion",
+      "privacy": "public",
+      "text": "Alma cree que el barrio puede crecer sin borrar los rincones que guarda en sus dibujos y fotografías.",
+      "aliases": [
+        "sin borrar los rincones",
+        "conservar los rincones",
+        "dibujos y fotografías"
+      ],
+      "seed_holders": [
+        "alma"
+      ],
+      "origin_label": "Opinión de Alma sobre conservar los espacios que dibuja; no prueba que una obra los haya destruido.",
+      "require_trust": 0,
+      "leakable": false
+    },
+    {
+      "id": "lupita_mateo_admiration",
+      "owner_id": "lupita",
+      "subjects": [
+        "lupita",
+        "mateo"
+      ],
+      "kind": "opinion",
+      "privacy": "personal",
+      "text": "Lupita siente cariño y admiración por Mateo porque con él se siente escuchada.",
+      "aliases": [
+        "cariño por Mateo",
+        "Mateo la escuchó",
+        "admira a Mateo"
+      ],
+      "seed_holders": [
+        "lupita"
+      ],
+      "origin_label": "Sentimiento de Lupita después de una conversación privada con Mateo; no establece un romance ni sentimientos recíprocos de él.",
+      "require_trust": 45,
+      "leakable": true
+    },
+    {
+      "id": "mateo_lupita_busy_plans",
+      "owner_id": "mateo",
+      "subjects": [
+        "mateo",
+        "lupita"
+      ],
+      "kind": "opinion",
+      "privacy": "personal",
+      "text": "A Mateo a veces le abruman los planes de Lupita para reunir a todos, aunque aprecia que quiera incluirlo.",
+      "aliases": [
+        "le abruman los planes de Lupita",
+        "Mateo se siente abrumado",
+        "Mateo aprecia que Lupita lo incluya"
+      ],
+      "seed_holders": [
+        "mateo"
+      ],
+      "origin_label": "Impresión subjetiva de Mateo tras escuchar los planes de Lupita en aquella confidencia; no demuestra una mala intención de ella.",
+      "require_trust": 45,
+      "leakable": true
+    },
+    {
+      "id": "cesar_morning_plants",
+      "owner_id": "cesar",
+      "subjects": [
+        "cesar"
+      ],
+      "kind": "fact",
+      "privacy": "public",
+      "text": "César conserva el hábito de cuidar las plantas al amanecer, que aprendió mientras crecía en el campo.",
+      "aliases": [
+        "plantas al amanecer",
+        "creció en el campo",
+        "cuidar plantas temprano"
+      ],
+      "seed_holders": [
+        "cesar"
+      ],
+      "origin_label": "Hábito e historia propios de César; los demás deben escucharlo u observarlo para conocerlo.",
+      "require_trust": 0,
+      "leakable": false
+    }
+  ]
+}

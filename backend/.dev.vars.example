@@ -1,0 +1,5 @@
+# Copia a .dev.vars; nunca lo agregues a Git ni al proyecto/export de Godot.
+# Mínimo 32 caracteres aleatorios. El mismo token se entrega a Godot por entorno.
+MY_CITY_DEV_TOKEN=
+TYPESAFE_API_KEY=
+OPENAI_API_KEY=

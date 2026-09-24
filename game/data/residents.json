@@ -1,0 +1,565 @@
+[
+  {
+    "id": "cesar",
+    "name": "César",
+    "role": "Vecino y horticultor",
+    "biography": "Creció en el campo con su papá. Acaba de mudarse a la colonia y conserva el hábito de cuidar plantas al amanecer.",
+    "personality": [
+      "paciente",
+      "reservado",
+      "servicial"
+    ],
+    "goal": "Quiero aprender a reparar mi bicicleta y conocer a mis vecinos.",
+    "appearance": {
+      "skin": 1,
+      "hair": 1,
+      "hair_style": 0,
+      "eyes": 1,
+      "beard": 1,
+      "hat": 1,
+      "shirt": 0,
+      "pants": 1
+    },
+    "pos": [
+      236.0,
+      210.0
+    ],
+    "schedule": [
+      {
+        "start": 0,
+        "end": 420,
+        "place": "casa",
+        "label": "Descanso"
+      },
+      {
+        "start": 420,
+        "end": 540,
+        "place": "huerto",
+        "label": "Cuidar las plantas"
+      },
+      {
+        "start": 540,
+        "end": 660,
+        "place": "cafe",
+        "label": "Desayunar y conversar"
+      },
+      {
+        "start": 660,
+        "end": 780,
+        "place": "huerto",
+        "label": "Revisar el huerto"
+      },
+      {
+        "start": 780,
+        "end": 900,
+        "place": "plaza",
+        "label": "Comida y paseo"
+      },
+      {
+        "start": 900,
+        "end": 1080,
+        "place": "taller",
+        "label": "Aprender del taller"
+      },
+      {
+        "start": 1080,
+        "end": 1260,
+        "place": "plaza",
+        "label": "Convivir con vecinos"
+      },
+      {
+        "start": 1260,
+        "end": 1440,
+        "place": "casa",
+        "label": "Descanso"
+      }
+    ],
+    "room": "street",
+    "home_id": "cesar",
+    "home_story": "Una fotografía del campo y las botas de su papá recuerdan de dónde viene. Guarda semillas para compartir.",
+    "work_profile": {
+      "interests": [
+        "farm",
+        "gather",
+        "build"
+      ],
+      "capabilities": [
+        "farm",
+        "gather",
+        "build",
+        "explore"
+      ],
+      "responsibilities": [
+        {
+          "place": "huerto",
+          "start": 420,
+          "end": 540,
+          "label": "cuidar las plantas",
+          "compatible": [
+            "farm"
+          ]
+        }
+      ],
+      "reserve_energy": 20,
+      "max_minutes": 60
+    }
+  },
+  {
+    "id": "lupita",
+    "name": "Lupita",
+    "role": "Organizadora vecinal",
+    "biography": "Creció en la ciudad con su mamá y su papá. Le gusta reunir a sus vecinos, aunque también disfruta momentos tranquilos.",
+    "personality": [
+      "curiosa",
+      "sociable",
+      "considerada"
+    ],
+    "goal": "Quiero organizar una comida vecinal y aprender a cultivar hierbas.",
+    "appearance": {
+      "skin": 2,
+      "hair": 0,
+      "hair_style": 2,
+      "eyes": 0,
+      "beard": 0,
+      "hat": 0,
+      "shirt": 1,
+      "pants": 0
+    },
+    "pos": [
+      264.0,
+      215.0
+    ],
+    "schedule": [
+      {
+        "start": 0,
+        "end": 450,
+        "place": "casa",
+        "label": "Descanso"
+      },
+      {
+        "start": 450,
+        "end": 600,
+        "place": "cafe",
+        "label": "Desayuno tranquilo"
+      },
+      {
+        "start": 600,
+        "end": 780,
+        "place": "plaza",
+        "label": "Organizar actividades"
+      },
+      {
+        "start": 780,
+        "end": 900,
+        "place": "cafe",
+        "label": "Comida vecinal"
+      },
+      {
+        "start": 900,
+        "end": 1080,
+        "place": "huerto",
+        "label": "Aprender sobre plantas"
+      },
+      {
+        "start": 1080,
+        "end": 1260,
+        "place": "plaza",
+        "label": "Encuentro de vecinos"
+      },
+      {
+        "start": 1260,
+        "end": 1440,
+        "place": "casa",
+        "label": "Descanso"
+      }
+    ],
+    "room": "street",
+    "home_id": "lupita",
+    "home_story": "Un tablero de reuniones, recuerdos de su familia y una mesa grande esperan a sus amigos.",
+    "work_profile": {
+      "interests": [
+        "gather",
+        "build",
+        "explore",
+        "farm"
+      ],
+      "capabilities": [
+        "gather",
+        "build",
+        "explore",
+        "farm"
+      ],
+      "responsibilities": [
+        {
+          "place": "plaza",
+          "start": 660,
+          "end": 720,
+          "label": "organizar la reunión vecinal",
+          "compatible": [
+            "build"
+          ]
+        }
+      ],
+      "reserve_energy": 20,
+      "max_minutes": 60
+    }
+  },
+  {
+    "id": "mateo",
+    "name": "Mateo",
+    "role": "Encargado del taller",
+    "biography": "Creció con sus abuelos y aprendió a reparar bicicletas en el taller familiar. Está practicando cómo explicar su trabajo con paciencia.",
+    "personality": [
+      "metódico",
+      "bromista",
+      "independiente"
+    ],
+    "goal": "Quiero arreglar la bicicleta de César y compartir lo que sé.",
+    "appearance": {
+      "skin": 3,
+      "hair": 2,
+      "hair_style": 1,
+      "eyes": 2,
+      "beard": 2,
+      "hat": 2,
+      "shirt": 2,
+      "pants": 1
+    },
+    "pos": [
+      386.0,
+      178.0
+    ],
+    "schedule": [
+      {
+        "start": 0,
+        "end": 420,
+        "place": "casa",
+        "label": "Descanso"
+      },
+      {
+        "start": 420,
+        "end": 540,
+        "place": "cafe",
+        "label": "Desayunar"
+      },
+      {
+        "start": 540,
+        "end": 780,
+        "place": "taller",
+        "label": "Reparar bicicletas"
+      },
+      {
+        "start": 780,
+        "end": 840,
+        "place": "plaza",
+        "label": "Pausa para comer"
+      },
+      {
+        "start": 840,
+        "end": 1080,
+        "place": "taller",
+        "label": "Compartir el oficio"
+      },
+      {
+        "start": 1080,
+        "end": 1260,
+        "place": "plaza",
+        "label": "Pasear por la colonia"
+      },
+      {
+        "start": 1260,
+        "end": 1440,
+        "place": "casa",
+        "label": "Descanso"
+      }
+    ],
+    "room": "street",
+    "home_id": "mateo",
+    "home_story": "Las herramientas heredadas de sus abuelos conviven con una bicicleta que todavía está reparando.",
+    "work_profile": {
+      "interests": [
+        "craft",
+        "build",
+        "gather"
+      ],
+      "capabilities": [
+        "craft",
+        "build",
+        "gather",
+        "explore"
+      ],
+      "responsibilities": [
+        {
+          "place": "taller",
+          "start": 600,
+          "end": 720,
+          "label": "atender el taller",
+          "compatible": [
+            "craft",
+            "build"
+          ]
+        }
+      ],
+      "reserve_energy": 20,
+      "max_minutes": 60
+    }
+  },
+  {
+    "id": "ines",
+    "name": "Inés",
+    "role": "Encargada del café",
+    "biography": "Vivió en varias ciudades antes de abrir este café. Aprendió una receta sencilla de té y disfruta escuchar historias de sus visitantes.",
+    "personality": [
+      "observadora",
+      "creativa",
+      "atenta"
+    ],
+    "goal": "Quiero enseñar mi receta de té y conocer las historias de la colonia.",
+    "appearance": {
+      "skin": 0,
+      "hair": 3,
+      "hair_style": 2,
+      "eyes": 3,
+      "beard": 0,
+      "hat": 0,
+      "shirt": 3,
+      "pants": 2
+    },
+    "pos": [
+      110.0,
+      178.0
+    ],
+    "schedule": [
+      {
+        "start": 0,
+        "end": 420,
+        "place": "casa",
+        "label": "Descanso"
+      },
+      {
+        "start": 420,
+        "end": 780,
+        "place": "cafe",
+        "label": "Atender el café"
+      },
+      {
+        "start": 780,
+        "end": 840,
+        "place": "plaza",
+        "label": "Pausa de comida"
+      },
+      {
+        "start": 840,
+        "end": 1080,
+        "place": "cafe",
+        "label": "Preparar té y enseñar"
+      },
+      {
+        "start": 1080,
+        "end": 1170,
+        "place": "huerto",
+        "label": "Buscar inspiración entre plantas"
+      },
+      {
+        "start": 1170,
+        "end": 1260,
+        "place": "plaza",
+        "label": "Escuchar historias"
+      },
+      {
+        "start": 1260,
+        "end": 1440,
+        "place": "casa",
+        "label": "Descanso"
+      }
+    ],
+    "room": "street",
+    "home_id": "ines",
+    "home_story": "Frascos de té y postales de las ciudades donde vivió llenan sus estantes.",
+    "work_profile": {
+      "interests": [
+        "cook",
+        "farm",
+        "gather"
+      ],
+      "capabilities": [
+        "cook",
+        "farm",
+        "gather",
+        "build"
+      ],
+      "responsibilities": [
+        {
+          "place": "cafe",
+          "start": 420,
+          "end": 600,
+          "label": "atender el café",
+          "compatible": [
+            "cook"
+          ]
+        },
+        {
+          "place": "cafe",
+          "start": 840,
+          "end": 960,
+          "label": "preparar el servicio del café",
+          "compatible": [
+            "cook"
+          ]
+        }
+      ],
+      "reserve_energy": 20,
+      "max_minutes": 60
+    }
+  },
+  {
+    "id": "alma",
+    "name": "Alma",
+    "role": "Ilustradora de la colonia",
+    "biography": "Siempre ha vivido en la colonia. Guarda fotografías de sus cambios y dibuja los espacios que quiere conservar.",
+    "personality": [
+      "imaginativa",
+      "directa",
+      "protectora"
+    ],
+    "goal": "Quiero montar una exposición con las historias de mis vecinos.",
+    "appearance": {
+      "skin": 1,
+      "hair": 1,
+      "hair_style": 1,
+      "eyes": 1,
+      "beard": 0,
+      "hat": 3,
+      "shirt": 4,
+      "pants": 0
+    },
+    "pos": [
+      386.0,
+      254.0
+    ],
+    "schedule": [
+      {
+        "start": 0,
+        "end": 480,
+        "place": "casa",
+        "label": "Descanso"
+      },
+      {
+        "start": 480,
+        "end": 600,
+        "place": "huerto",
+        "label": "Dibujar las plantas"
+      },
+      {
+        "start": 600,
+        "end": 780,
+        "place": "plaza",
+        "label": "Fotografiar la colonia"
+      },
+      {
+        "start": 780,
+        "end": 900,
+        "place": "cafe",
+        "label": "Comida y bocetos"
+      },
+      {
+        "start": 900,
+        "end": 1080,
+        "place": "taller",
+        "label": "Dibujar el taller"
+      },
+      {
+        "start": 1080,
+        "end": 1260,
+        "place": "plaza",
+        "label": "Compartir ilustraciones"
+      },
+      {
+        "start": 1260,
+        "end": 1440,
+        "place": "casa",
+        "label": "Descanso"
+      }
+    ],
+    "room": "street",
+    "home_id": "alma",
+    "home_story": "Sus paredes guardan dibujos y fotografías de la colonia a través de los años.",
+    "work_profile": {
+      "interests": [
+        "explore",
+        "build",
+        "farm",
+        "gather"
+      ],
+      "capabilities": [
+        "explore",
+        "build",
+        "farm",
+        "gather"
+      ],
+      "responsibilities": [
+        {
+          "place": "plaza",
+          "start": 1080,
+          "end": 1140,
+          "label": "compartir sus ilustraciones",
+          "compatible": [
+            "build"
+          ]
+        }
+      ],
+      "reserve_energy": 20,
+      "max_minutes": 60
+    }
+  },
+  {
+    "id": "player",
+    "name": "Tú",
+    "role": "Nuevo habitante",
+    "biography": "Llegas a la colonia con una historia por escribir.",
+    "personality": [
+      "curioso",
+      "amable"
+    ],
+    "goal": "Conocer a mis vecinos y aprender algo que pueda compartir.",
+    "appearance": {
+      "skin": 1,
+      "hair": 0,
+      "hair_style": 0,
+      "eyes": 0,
+      "beard": 0,
+      "hat": 0,
+      "shirt": 5,
+      "pants": 0
+    },
+    "pos": [
+      192.0,
+      230.0
+    ],
+    "schedule": [],
+    "room": "street",
+    "home_id": "player",
+    "home_story": "Una postal de bienvenida, una bicicleta por reparar y una jardinera vacía esperan las primeras historias de tu nuevo hogar.",
+    "work_profile": {
+      "interests": [
+        "gather",
+        "farm",
+        "craft",
+        "cook",
+        "build",
+        "explore"
+      ],
+      "capabilities": [
+        "gather",
+        "farm",
+        "craft",
+        "cook",
+        "build",
+        "explore"
+      ],
+      "responsibilities": [],
+      "reserve_energy": 20,
+      "max_minutes": 60
+    }
+  }
+]

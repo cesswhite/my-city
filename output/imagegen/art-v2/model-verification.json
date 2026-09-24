@@ -1,0 +1,11 @@
+{
+  "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+  "catalog_http": 200,
+  "catalog_model_id": "gpt-image-2.5-sunburst-2026-09-08",
+  "checked_on": "2026-09-24",
+  "verification": "GET official /v1/models/exact-id before generation, performed by agent jev_bridge. Catalog availability is not a generation result.",
+  "tool": "official bundled imagegen/scripts/image_gen.py",
+  "route": "Established project CLI pipeline with explicit model, per AGENTS and docs/sprite-catalog.md.",
+  "format": "png",
+  "fallback": false
+}

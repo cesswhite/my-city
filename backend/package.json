@@ -1,0 +1,21 @@
+{
+  "name": "my-city-backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/local-config.mjs && wrangler dev --local --ip 127.0.0.1 --port 8787",
+    "config:local": "node scripts/local-config.mjs",
+    "configure": "node scripts/local-config.mjs",
+    "check": "tsc --noEmit",
+    "test": "bun test",
+    "test:godot": "bun tests/godot_fixture.ts",
+    "build": "wrangler deploy --dry-run --outdir dist"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "5.20260923.1",
+    "@types/bun": "1.4.2",
+    "typescript": "7.0.2",
+    "wrangler": "4.137.0"
+  },
+  "license": "MIT"
+}

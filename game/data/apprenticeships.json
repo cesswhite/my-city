@@ -1,0 +1,194 @@
+{
+  "version": 1,
+  "initial_coins": 20,
+  "shop": {
+    "room": "street",
+    "radius": 24,
+    "id": "shop"
+  },
+  "items": {
+    "aceite": {
+      "name": "Aceite para cadena",
+      "price": 5,
+      "quest_id": "bicicleta_de_mateo"
+    },
+    "semillas": {
+      "name": "Semillas de cempasúchil",
+      "price": 3,
+      "quest_id": "jardin_de_alma"
+    },
+    "hojas_te": {
+      "name": "Hojas de té",
+      "price": 2,
+      "quest_id": "te_de_ines"
+    },
+    "kit_bicicleta": {
+      "name": "Kit de reparación de Mateo"
+    },
+    "bicicleta_averiada": {
+      "name": "Bicicleta por reparar"
+    },
+    "bicicleta": {
+      "name": "Tu bicicleta reparada"
+    },
+    "kit_jardin": {
+      "name": "Maceta, tierra, semillas y regadera"
+    },
+    "jardin_plantado": {
+      "name": "Jardín recién plantado"
+    },
+    "kit_te": {
+      "name": "Tetera, agua y hojas de té"
+    },
+    "taza_te": {
+      "name": "Taza de té preparada"
+    },
+    "taza_cafe": {
+      "name": "Taza de café"
+    }
+  },
+  "apprenticeships": [
+    {
+      "id": "bicicleta_de_mateo",
+      "title": "La bicicleta que vuelve a rodar",
+      "mentor_id": "mateo",
+      "place": "taller",
+      "lore": "Mateo aprendió a reparar bicicletas con su abuelo. La tuya espera averiada en casa: consigue aceite para la cadena y él te enseñará a devolverla al camino.",
+      "materials": {
+        "aceite": 1
+      },
+      "procedure_id": "reparar_bicicleta",
+      "procedure_name": "Reparar una bicicleta",
+      "practice_station": {
+        "id": "bicycle",
+        "room": "player",
+        "radius": 24
+      },
+      "kit": {
+        "kit_bicicleta": 1
+      },
+      "consumes": {
+        "kit_bicicleta": 1,
+        "bicicleta_averiada": 1
+      },
+      "produces": {
+        "bicicleta": 1
+      },
+      "unlock": "montar_bicicleta",
+      "steps": [
+        {
+          "id": "colocar_bicicleta",
+          "label": "Colocar la bicicleta en el soporte"
+        },
+        {
+          "id": "lubricar_cadena",
+          "label": "Limpiar y lubricar la cadena"
+        },
+        {
+          "id": "ajustar_frenos",
+          "label": "Ajustar los frenos"
+        },
+        {
+          "id": "probar_ruedas",
+          "label": "Comprobar ruedas y frenos"
+        }
+      ],
+      "short_title": "Bicicleta"
+    },
+    {
+      "id": "jardin_de_alma",
+      "title": "Un jardín para recordar",
+      "mentor_id": "alma",
+      "place": "huerto",
+      "lore": "Alma dibuja las flores que su familia cuidaba en el barrio. Quiere enseñarte a sembrar cempasúchil para que su historia también crezca en tu casa.",
+      "materials": {
+        "semillas": 1
+      },
+      "procedure_id": "plantar_jardin",
+      "procedure_name": "Sembrar un jardín",
+      "practice_station": {
+        "id": "planting",
+        "room": "player",
+        "radius": 24
+      },
+      "kit": {
+        "kit_jardin": 1
+      },
+      "consumes": {
+        "kit_jardin": 1
+      },
+      "produces": {
+        "jardin_plantado": 1
+      },
+      "unlock": "cuidar_jardin",
+      "steps": [
+        {
+          "id": "preparar_tierra",
+          "label": "Preparar la tierra de la maceta"
+        },
+        {
+          "id": "sembrar_semillas",
+          "label": "Sembrar las semillas a poca profundidad"
+        },
+        {
+          "id": "regar_suave",
+          "label": "Regar sin encharcar"
+        },
+        {
+          "id": "ubicar_luz",
+          "label": "Situar la maceta junto a la luz"
+        }
+      ],
+      "short_title": "Cultivo"
+    },
+    {
+      "id": "te_de_ines",
+      "title": "Una taza de bienvenida",
+      "mentor_id": "ines",
+      "place": "cafe",
+      "lore": "Inés aprendió a recibir a sus vecinos con té en cada ciudad donde vivió. Te enseña su receta para que puedas ofrecer una taza en tu propio hogar.",
+      "materials": {
+        "hojas_te": 1
+      },
+      "procedure_id": "preparar_te",
+      "procedure_name": "Preparar té",
+      "practice_station": {
+        "id": "tea_station",
+        "room": "player",
+        "radius": 24
+      },
+      "kit": {
+        "kit_te": 1
+      },
+      "consumes": {
+        "kit_te": 1
+      },
+      "produces": {
+        "taza_te": 1
+      },
+      "unlock": "servir_te",
+      "steps": [
+        {
+          "id": "llenar_tetera",
+          "label": "Llenar la tetera con agua"
+        },
+        {
+          "id": "calentar_agua",
+          "label": "Calentar el agua"
+        },
+        {
+          "id": "agregar_te",
+          "label": "Agregar las hojas de té"
+        },
+        {
+          "id": "servir",
+          "label": "Servir una taza"
+        }
+      ],
+      "short_title": "Té"
+    }
+  ],
+  "initial_inventory": {
+    "bicicleta_averiada": 1
+  }
+}

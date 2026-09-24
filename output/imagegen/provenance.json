@@ -1,0 +1,118 @@
+{
+  "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+  "date": "2026-09-23",
+  "tool": "bundled imagegen/scripts/image_gen.py",
+  "quality": "high",
+  "output_format": "png",
+  "notes": "Model explicitly passed to official CLI. Image bytes do not independently attest the model; metadata records this session invocation. Final native sprites are deterministic crops/resizing/masks; no new generation during import.",
+  "sources": [
+    {
+      "id": "body",
+      "path": "output/imagegen/body.png",
+      "prompt": "output/imagegen/prompts/body.txt",
+      "sha256": "ae94fa7a629c397562c848e2e23257734669700876dac20e6f274e38b0e39a56",
+      "prompt_sha256": "b87b5b1205706bb49719484643e4dd05dc89d77c8ff10da9f9b9b335e5f904d3",
+      "mode": "generate-batch",
+      "reference": null,
+      "width": 1024,
+      "height": 1024,
+      "has_alpha": true
+    },
+    {
+      "id": "buildings",
+      "path": "output/imagegen/buildings.png",
+      "prompt": "output/imagegen/prompts/buildings.txt",
+      "sha256": "e306daeba2e1eec8f0de9df5b5ec83b750d1da7caf80854c11224960a887b354",
+      "prompt_sha256": "bf9ce5a7d73bc3ca8878b98e3351cca71526d5d4837e777eeb917e94ea050ec2",
+      "mode": "generate-batch",
+      "reference": null,
+      "width": 1536,
+      "height": 1024,
+      "has_alpha": true
+    },
+    {
+      "id": "terrain",
+      "path": "output/imagegen/terrain.png",
+      "prompt": "output/imagegen/prompts/terrain.txt",
+      "sha256": "69426fc838de03f5c66f4f539eed406c29d4c62cbd1f5d403ea0d93700853090",
+      "prompt_sha256": "6a1a1dcd2014d05b712d86eb53882e0a16099991ab93e77dc8379903f4053ea4",
+      "mode": "generate-batch",
+      "reference": null,
+      "width": 1024,
+      "height": 1024,
+      "has_alpha": false
+    },
+    {
+      "id": "outdoors",
+      "path": "output/imagegen/outdoors.png",
+      "prompt": "output/imagegen/prompts/outdoors.txt",
+      "sha256": "97a8049428bacd329ddec233389169252093951637347563105910748c851b4a",
+      "prompt_sha256": "c4ef20bb63fbf23fb4d46bdd4e121fbfcf8e3932eaa5a2a9bbefeee1105fcea3",
+      "mode": "generate-batch",
+      "reference": null,
+      "width": 1024,
+      "height": 1024,
+      "has_alpha": true
+    },
+    {
+      "id": "interiors",
+      "path": "output/imagegen/interiors.png",
+      "prompt": "output/imagegen/prompts/interiors.txt",
+      "sha256": "e4223dcf7569fa86832bdedb4fc3ff7522bd5034180de60cce8396c427bcf6dd",
+      "prompt_sha256": "156d1dfaff29bfa17880572c3e96c6c61978c9194a037e9bb2f727f6ec448ffd",
+      "mode": "generate-batch",
+      "reference": null,
+      "width": 1024,
+      "height": 1024,
+      "has_alpha": true
+    },
+    {
+      "id": "hair",
+      "path": "output/imagegen/hair.png",
+      "prompt": "output/imagegen/prompts/hair.txt",
+      "sha256": "be2ee6a0c6b8745b150a38a9183136d298020a4e35a71b665838d14994451e34",
+      "prompt_sha256": "e4593731a1b5ddd79c3d92a99308b21c727cb0ec94c2c8e2cb91b75b538cd780",
+      "mode": "edit",
+      "reference": "output/imagegen/body.png",
+      "width": 1024,
+      "height": 1024,
+      "has_alpha": true
+    },
+    {
+      "id": "hats",
+      "path": "output/imagegen/hats.png",
+      "prompt": "output/imagegen/prompts/hats.txt",
+      "sha256": "c8197f153cee7161db37a3cca6dc9e6bcd80eb9c5b71fdd12b1c1c5142739267",
+      "prompt_sha256": "a37a06d501bdcbe68be9fdaa1ed77d2043e4bf451023ddb8dcf9c7f54344f11f",
+      "mode": "edit",
+      "reference": "output/imagegen/body.png",
+      "width": 1024,
+      "height": 1024,
+      "has_alpha": true
+    },
+    {
+      "id": "beards",
+      "path": "output/imagegen/beards.png",
+      "prompt": "output/imagegen/prompts/beards.txt",
+      "sha256": "b583bb401fe964719c7939f2a6f09b6fecda28e0ea556446427b912b89da6540",
+      "prompt_sha256": "43a265953f32d2e04392599826c5330c4568ca6341d7d98b7a639019a321b75d",
+      "mode": "edit",
+      "reference": "output/imagegen/body.png",
+      "width": 1024,
+      "height": 1024,
+      "has_alpha": true
+    },
+    {
+      "id": "ui",
+      "path": "output/imagegen/ui.png",
+      "prompt": "output/imagegen/prompts/ui.txt",
+      "sha256": "e63c1524add3b6220a43329f524396274129e981bb6a39ca820a9b2c80daf5c5",
+      "prompt_sha256": "b94654ad6e22753bd976692cb09f23e0afbb0ab2c6c0534224636a9c20acb5de",
+      "mode": "generate",
+      "reference": null,
+      "width": 1024,
+      "height": 1024,
+      "has_alpha": true
+    }
+  ]
+}

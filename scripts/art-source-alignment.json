@@ -1,0 +1,243 @@
+{
+  "version": 1,
+  "note": "Measured opaque bounds of the inspected GPT Images 2.5 output. Objects cross cell borders, so cells are not inferred crops. Keep original native alpha envelope and bottom anchor; fit uniformly without distorting X/Y.",
+  "buildings": {
+    "cafe": [
+      40,
+      73,
+      433,
+      407
+    ],
+    "homes": [
+      558,
+      118,
+      462,
+      352
+    ],
+    "alma_home": [
+      1152,
+      102,
+      336,
+      368
+    ],
+    "workshop": [
+      39,
+      612,
+      511,
+      330
+    ],
+    "player_home": [
+      646,
+      602,
+      344,
+      340
+    ],
+    "shop": [
+      1146,
+      648,
+      326,
+      283
+    ]
+  },
+  "outdoors": {
+    "tree": [
+      31,
+      46,
+      207,
+      215
+    ],
+    "tree_small": [
+      315,
+      49,
+      148,
+      197
+    ],
+    "fountain": [
+      528,
+      62,
+      224,
+      175
+    ],
+    "bench": [
+      802,
+      93,
+      197,
+      124
+    ],
+    "cafe_table": [
+      32,
+      319,
+      198,
+      143
+    ],
+    "flowerpot": [
+      338,
+      330,
+      99,
+      123
+    ],
+    "fence": [
+      534,
+      336,
+      210,
+      120
+    ],
+    "bunting": [
+      803,
+      355,
+      197,
+      78
+    ],
+    "lamp": [
+      108,
+      522,
+      51,
+      224
+    ],
+    "garden_left": [
+      295,
+      574,
+      170,
+      148
+    ],
+    "garden_right": [
+      560,
+      574,
+      168,
+      148
+    ],
+    "planter": [
+      798,
+      595,
+      203,
+      124
+    ],
+    "planter_seeded": [
+      28,
+      826,
+      211,
+      149
+    ],
+    "item_oil": [
+      341,
+      807,
+      97,
+      168
+    ],
+    "item_seeds": [
+      563,
+      831,
+      162,
+      148
+    ],
+    "item_tea": [
+      834,
+      819,
+      134,
+      163
+    ]
+  },
+  "interiors": {
+    "bed": [
+      52,
+      48,
+      150,
+      221
+    ],
+    "table": [
+      280,
+      91,
+      215,
+      144
+    ],
+    "cabinet": [
+      536,
+      77,
+      214,
+      168
+    ],
+    "bookshelf": [
+      797,
+      59,
+      204,
+      194
+    ],
+    "window": [
+      29,
+      313,
+      206,
+      203
+    ],
+    "chair": [
+      337,
+      339,
+      101,
+      156
+    ],
+    "tea_set": [
+      563,
+      364,
+      142,
+      127
+    ],
+    "project_tools": [
+      801,
+      330,
+      178,
+      177
+    ],
+    "notebooks": [
+      44,
+      561,
+      180,
+      200
+    ],
+    "photo": [
+      320,
+      607,
+      139,
+      110
+    ],
+    "plant": [
+      557,
+      586,
+      167,
+      179
+    ],
+    "project_painting": [
+      808,
+      545,
+      174,
+      231
+    ],
+    "project_basket": [
+      39,
+      820,
+      172,
+      160
+    ],
+    "project_seeds": [
+      298,
+      821,
+      182,
+      156
+    ],
+    "tea_ready": [
+      606,
+      876,
+      83,
+      78
+    ],
+    "rug": [
+      765,
+      822,
+      236,
+      154
+    ]
+  },
+  "source_sha256": {
+    "buildings": "1b1e08fb1af77c71ee2aa4f583c0f1baeb55fbf7f8a6f0b5f8a3245e3786aea0",
+    "outdoors": "d09cf00f14e40d37f9104d2681c2437f405632ee3cc748e5a2feabef4be1ef84",
+    "interiors": "d008cc70f863e0acf36b26e927458e2de404a59c7e23a8168ee23d184fd39d76"
+  }
+}

@@ -1,0 +1,29 @@
+Edit this exact 4 by 4 terrain atlas. Keep the 1024 by 1024 canvas, all sixteen 256 by 256 cells, the cell order and original material identities. Each cell is a 32 by 32 game tile enlarged exactly 8 times. Pixel art for My City, a warm rural neighborhood. HARD GRID: each drawn pixel is a solid 8 by 8 square. No half-size details, no antialiasing. Opaque PNG.
+
+The present version is too busy when tiled across a whole room. Make it MUCH calmer and simpler. Do not add more texture. The houses, people and furniture will provide the detail; this is their quiet ground. Each material uses only three nearby colors, except rugs and water which can use five. No dithering, noise, scattered speckle, contrasty mottling, gradients or bevels. Each cell must tile seamlessly on both axes, no perimeter border or edge shading. No text or labels.
+
+Row 1, left to right:
+1. Meadow: at least 94 percent uninterrupted solid warm sage green #9aae74. Exactly two tiny grass tuft clusters, each only 2 by 2 logical pixels, in nearby colors #8fa369 and #a8ba82. NO flowers, stones or bright yellow dots. Tufts blend into the grass, not black strokes.
+2. Sandy path: at least 96 percent uninterrupted warm sand #e1c394. Exactly two tiny low contrast pebble clusters #d3b58b and #ead1aa, each 1 by 2 logical pixels. No gravel, white glitter, diagonal bands or grass.
+3. Plaza paving: cream #e8d8b7 slabs with narrow muted #c6b79c grout. Every square is 8 by 8 logical pixels. The slab face is flat, with only one subtle 1-pixel corner highlight, NO speckles or decorative patterns.
+4. Timber floor: light warm honey #c39360, horizontal long floorboards with a muted one-pixel #ac8055 joint every 8 logical pixels and a few offset end joins. No dark stripes, grain or knots. Use #cea372 sparingly as a flat board variation. Calm, lighter than the furniture.
+
+Row 2 are interior plaster walls. Make these essentially SOLID COLORS, not wallpaper. No stripes, cracks, stucco flecks, diagonal mottles or camouflage patches. At most one barely visible 2 by 2 pixel group in one corner of a tile, color difference below 3 percent.
+5. Cream plaster #eee0c4.
+6. Sage plaster #bec7a7.
+7. Peach plaster #e9bba0.
+8. Lavender plaster #c3b7cb.
+
+Row 3:
+9. Fertile soil: medium rich brown #785039 with only three connected soft clod shapes #825a40, #6b4737. No plants, seeds, rocks or high contrast furrows. Quiet enough to read green crops on top.
+10. Pond water: flat teal #397c83 with four short horizontal low contrast ripple clusters #51959a and #2d6974. No foam, white glitter or diagonal texture.
+11. Rust woven rug: warm muted rust #a45f45 and a restrained cream #d9bd83 geometric pattern, with one teal accent #477871. Widely spaced small original diamond and cross motifs. NO high contrast dot grid.
+12. Teal woven rug: muted teal #477871, restrained cream #d9bd83 small original diamond and cross motifs with warm rust accents #a45f45. Widely spaced, NO high contrast dot grid.
+
+Row 4:
+13. Gray stone: broad warm gray #99998a irregular but readable interlocking slabs, quiet #838679 joints and #b0ae9a upper edge, no pebbles or noisy surface.
+14. Terracotta roof tile rows: same orange clay as the village, #be714b main, #975540 lower shadow, #d28f5f top edge, regular structural rows, no surface grain.
+15. Brick: #b77752 main, narrow muted cream #cbb08b mortar, #a0684a lower edge; no pockmarks, no glossy highlights.
+16. Vertical timber: #986c46 main, subdued #7f5b3f narrow joins, #aa8055 broad plane variation. No wavy grain, knots or noise.
+
+Keep original pixel art identity and deliberate square-pixel construction. This is a restrained environment texture set, not a high-detail illustration. Do not copy any existing game textures. No objects or decoration outside this precise specification.

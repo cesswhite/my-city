@@ -1,0 +1,37 @@
+{
+  "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+  "catalog_verified": true,
+  "model_response": null,
+  "official_cli": "<IMAGEGEN_SKILL_DIR>/scripts/image_gen.py",
+  "command_arguments": [
+    "edit",
+    "--model",
+    "gpt-image-2.5-sunburst-2026-09-08",
+    "--image",
+    "output/imagegen/art-v2/sources/terrain.png",
+    "--prompt-file",
+    "output/imagegen/art-v2/prompts/terrain-calm.txt",
+    "--size",
+    "1024x1024",
+    "--quality",
+    "high",
+    "--background",
+    "opaque",
+    "--output-format",
+    "png",
+    "--no-augment",
+    "--out",
+    "output/imagegen/art-v2/sources/terrain-calm.png"
+  ],
+  "started_at": "2026-09-24T08:32:32.882Z",
+  "fallback": false,
+  "cli_exit_status": 0,
+  "completed_at": "2026-09-24T08:33:19.448Z",
+  "privacy_redaction": {
+    "fields": [
+      "official_cli"
+    ],
+    "note": "Personal absolute installation path replaced for public documentation. Other original metadata is unchanged. Historical lineage hashes refer to the pre-redaction record bytes.",
+    "original_document_sha256": "e3819bd4d904dc0bc5b8d3a8d8cca4c1b561a3eee7e4bd93de80d498c51d2a52"
+  }
+}

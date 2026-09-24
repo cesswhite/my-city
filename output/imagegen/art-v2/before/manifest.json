@@ -1,0 +1,947 @@
+{
+  "characters": {
+    "size": [
+      24,
+      32
+    ],
+    "anchor": [
+      12,
+      30
+    ],
+    "layers": [
+      {
+        "asset": "char_body",
+        "tint": "skin"
+      },
+      {
+        "asset": "char_shirt",
+        "tint": "shirt"
+      },
+      {
+        "asset": "char_pants",
+        "tint": "pants"
+      },
+      {
+        "asset": "char_eyes",
+        "tint": "eyes"
+      },
+      {
+        "asset": "char_details"
+      },
+      {
+        "variants": [
+          "hair_0",
+          "hair_1",
+          "hair_2",
+          "hair_3"
+        ],
+        "select": "hair_style",
+        "tint": "hair"
+      },
+      {
+        "variants": [
+          "",
+          "beard_1",
+          "beard_2"
+        ],
+        "select": "beard",
+        "tint": "hair"
+      },
+      {
+        "variants": [
+          "",
+          "hat_1",
+          "hat_2",
+          "hat_3"
+        ],
+        "select": "hat"
+      }
+    ]
+  },
+  "generation": {
+    "model": "gpt-image-2.5-sunburst-2026-09-08",
+    "date": "2026-09-23",
+    "format": "png",
+    "sources": "output/imagegen",
+    "prompts": "output/imagegen/prompts",
+    "mode": "official imagegen CLI generate-batch + edit + generate",
+    "processing": "Measured alpha crops, nearest-neighbor native size, binary alpha, calibrated material masks; no procedural art fallback."
+  },
+  "version": 1,
+  "assets": {
+    "char_body": {
+      "path": "res://assets/sprites/char_body.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "frame_size": [
+        24,
+        32
+      ],
+      "frames": 4,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ]
+    },
+    "char_shirt": {
+      "path": "res://assets/sprites/char_shirt.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "frame_size": [
+        24,
+        32
+      ],
+      "frames": 4,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ]
+    },
+    "char_pants": {
+      "path": "res://assets/sprites/char_pants.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "frame_size": [
+        24,
+        32
+      ],
+      "frames": 4,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ]
+    },
+    "char_eyes": {
+      "path": "res://assets/sprites/char_eyes.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "frame_size": [
+        24,
+        32
+      ],
+      "frames": 4,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ]
+    },
+    "char_details": {
+      "path": "res://assets/sprites/char_details.png",
+      "size": [
+        96,
+        128
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "frame_size": [
+        24,
+        32
+      ],
+      "frames": 4,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ]
+    },
+    "hair_0": {
+      "path": "res://assets/sprites/hair_0.png",
+      "size": [
+        24,
+        128
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "frame_size": [
+        24,
+        32
+      ],
+      "frames": 1,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ]
+    },
+    "hair_1": {
+      "path": "res://assets/sprites/hair_1.png",
+      "size": [
+        24,
+        128
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "frame_size": [
+        24,
+        32
+      ],
+      "frames": 1,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ]
+    },
+    "hair_2": {
+      "path": "res://assets/sprites/hair_2.png",
+      "size": [
+        24,
+        128
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "frame_size": [
+        24,
+        32
+      ],
+      "frames": 1,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ]
+    },
+    "hair_3": {
+      "path": "res://assets/sprites/hair_3.png",
+      "size": [
+        24,
+        128
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "frame_size": [
+        24,
+        32
+      ],
+      "frames": 1,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ]
+    },
+    "hat_1": {
+      "path": "res://assets/sprites/hat_1.png",
+      "size": [
+        24,
+        128
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "frame_size": [
+        24,
+        32
+      ],
+      "frames": 1,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ]
+    },
+    "hat_2": {
+      "path": "res://assets/sprites/hat_2.png",
+      "size": [
+        24,
+        128
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "frame_size": [
+        24,
+        32
+      ],
+      "frames": 1,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ]
+    },
+    "hat_3": {
+      "path": "res://assets/sprites/hat_3.png",
+      "size": [
+        24,
+        128
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "frame_size": [
+        24,
+        32
+      ],
+      "frames": 1,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ]
+    },
+    "beard_1": {
+      "path": "res://assets/sprites/beard_1.png",
+      "size": [
+        24,
+        128
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "frame_size": [
+        24,
+        32
+      ],
+      "frames": 1,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ]
+    },
+    "beard_2": {
+      "path": "res://assets/sprites/beard_2.png",
+      "size": [
+        24,
+        128
+      ],
+      "anchor": [
+        12,
+        30
+      ],
+      "frame_size": [
+        24,
+        32
+      ],
+      "frames": 1,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ]
+    },
+    "cafe": {
+      "path": "res://assets/sprites/cafe.png",
+      "size": [
+        100,
+        90
+      ]
+    },
+    "homes": {
+      "path": "res://assets/sprites/homes.png",
+      "size": [
+        96,
+        76
+      ]
+    },
+    "alma_home": {
+      "path": "res://assets/sprites/alma_home.png",
+      "size": [
+        68,
+        74
+      ]
+    },
+    "workshop": {
+      "path": "res://assets/sprites/workshop.png",
+      "size": [
+        110,
+        72
+      ]
+    },
+    "player_home": {
+      "path": "res://assets/sprites/player_home.png",
+      "size": [
+        70,
+        70
+      ]
+    },
+    "shop": {
+      "path": "res://assets/sprites/shop.png",
+      "size": [
+        54,
+        46
+      ]
+    },
+    "tile_grass": {
+      "path": "res://assets/sprites/tile_grass.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "tile_sand": {
+      "path": "res://assets/sprites/tile_sand.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "tile_plaza": {
+      "path": "res://assets/sprites/tile_plaza.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "tile_wood": {
+      "path": "res://assets/sprites/tile_wood.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "tile_wall": {
+      "path": "res://assets/sprites/tile_wall.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "tile_wall_sage": {
+      "path": "res://assets/sprites/tile_wall_sage.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "tile_wall_peach": {
+      "path": "res://assets/sprites/tile_wall_peach.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "tile_wall_lavender": {
+      "path": "res://assets/sprites/tile_wall_lavender.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "tile_soil": {
+      "path": "res://assets/sprites/tile_soil.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "tile_water": {
+      "path": "res://assets/sprites/tile_water.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "tile_rug_red": {
+      "path": "res://assets/sprites/tile_rug_red.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "tile_rug_teal": {
+      "path": "res://assets/sprites/tile_rug_teal.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "tile_stone": {
+      "path": "res://assets/sprites/tile_stone.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "tile_roof": {
+      "path": "res://assets/sprites/tile_roof.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "tile_brick": {
+      "path": "res://assets/sprites/tile_brick.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "tile_timber": {
+      "path": "res://assets/sprites/tile_timber.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "rug": {
+      "path": "res://assets/sprites/rug.png",
+      "size": [
+        88,
+        60
+      ]
+    },
+    "exit_mat": {
+      "path": "res://assets/sprites/exit_mat.png",
+      "size": [
+        32,
+        18
+      ]
+    },
+    "tree": {
+      "path": "res://assets/sprites/tree.png",
+      "size": [
+        42,
+        56
+      ]
+    },
+    "tree_small": {
+      "path": "res://assets/sprites/tree_small.png",
+      "size": [
+        33,
+        47
+      ]
+    },
+    "fountain": {
+      "path": "res://assets/sprites/fountain.png",
+      "size": [
+        61,
+        46
+      ]
+    },
+    "bench": {
+      "path": "res://assets/sprites/bench.png",
+      "size": [
+        36,
+        18
+      ]
+    },
+    "cafe_table": {
+      "path": "res://assets/sprites/cafe_table.png",
+      "size": [
+        38,
+        23
+      ]
+    },
+    "planter": {
+      "path": "res://assets/sprites/planter.png",
+      "size": [
+        42,
+        28
+      ]
+    },
+    "garden": {
+      "path": "res://assets/sprites/garden.png",
+      "size": [
+        107,
+        72
+      ]
+    },
+    "flowerpot": {
+      "path": "res://assets/sprites/flowerpot.png",
+      "size": [
+        12,
+        16
+      ]
+    },
+    "fence": {
+      "path": "res://assets/sprites/fence.png",
+      "size": [
+        32,
+        17
+      ]
+    },
+    "bunting": {
+      "path": "res://assets/sprites/bunting.png",
+      "size": [
+        96,
+        23
+      ]
+    },
+    "bicycle_fixed": {
+      "path": "res://assets/sprites/bicycle_fixed.png",
+      "size": [
+        34,
+        24
+      ]
+    },
+    "bicycle_broken": {
+      "path": "res://assets/sprites/bicycle_broken.png",
+      "size": [
+        34,
+        24
+      ]
+    },
+    "item_oil": {
+      "path": "res://assets/sprites/item_oil.png",
+      "size": [
+        18,
+        24
+      ]
+    },
+    "item_seeds": {
+      "path": "res://assets/sprites/item_seeds.png",
+      "size": [
+        22,
+        24
+      ]
+    },
+    "item_tea": {
+      "path": "res://assets/sprites/item_tea.png",
+      "size": [
+        22,
+        24
+      ]
+    },
+    "lamp": {
+      "path": "res://assets/sprites/lamp.png",
+      "size": [
+        10,
+        39
+      ]
+    },
+    "garden_left": {
+      "path": "res://assets/sprites/garden_left.png",
+      "size": [
+        24,
+        22
+      ]
+    },
+    "garden_right": {
+      "path": "res://assets/sprites/garden_right.png",
+      "size": [
+        24,
+        22
+      ]
+    },
+    "bed": {
+      "path": "res://assets/sprites/bed.png",
+      "size": [
+        26,
+        38
+      ]
+    },
+    "table": {
+      "path": "res://assets/sprites/table.png",
+      "size": [
+        40,
+        27
+      ]
+    },
+    "cabinet": {
+      "path": "res://assets/sprites/cabinet.png",
+      "size": [
+        40,
+        28
+      ]
+    },
+    "bookshelf": {
+      "path": "res://assets/sprites/bookshelf.png",
+      "size": [
+        30,
+        27
+      ]
+    },
+    "window": {
+      "path": "res://assets/sprites/window.png",
+      "size": [
+        28,
+        29
+      ]
+    },
+    "chair": {
+      "path": "res://assets/sprites/chair.png",
+      "size": [
+        10,
+        16
+      ]
+    },
+    "tea_set": {
+      "path": "res://assets/sprites/tea_set.png",
+      "size": [
+        14,
+        14
+      ]
+    },
+    "project_tools": {
+      "path": "res://assets/sprites/project_tools.png",
+      "size": [
+        24,
+        22
+      ]
+    },
+    "notebooks": {
+      "path": "res://assets/sprites/notebooks.png",
+      "size": [
+        32,
+        28
+      ]
+    },
+    "photo": {
+      "path": "res://assets/sprites/photo.png",
+      "size": [
+        18,
+        14
+      ]
+    },
+    "plant": {
+      "path": "res://assets/sprites/plant.png",
+      "size": [
+        18,
+        24
+      ]
+    },
+    "project_painting": {
+      "path": "res://assets/sprites/project_painting.png",
+      "size": [
+        22,
+        30
+      ]
+    },
+    "project_basket": {
+      "path": "res://assets/sprites/project_basket.png",
+      "size": [
+        22,
+        20
+      ]
+    },
+    "project_seeds": {
+      "path": "res://assets/sprites/project_seeds.png",
+      "size": [
+        22,
+        19
+      ]
+    },
+    "tea_ready": {
+      "path": "res://assets/sprites/tea_ready.png",
+      "size": [
+        8,
+        10
+      ]
+    },
+    "planter_seeded": {
+      "path": "res://assets/sprites/planter_seeded.png",
+      "size": [
+        42,
+        28
+      ]
+    },
+    "ui_button_normal": {
+      "path": "res://assets/sprites/ui_button_normal.png",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ui_button_hover": {
+      "path": "res://assets/sprites/ui_button_hover.png",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ui_button_primary": {
+      "path": "res://assets/sprites/ui_button_primary.png",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ui_button_pressed": {
+      "path": "res://assets/sprites/ui_button_pressed.png",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ui_panel": {
+      "path": "res://assets/sprites/ui_panel.png",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ui_message_panel": {
+      "path": "res://assets/sprites/ui_message_panel.png",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ui_input": {
+      "path": "res://assets/sprites/ui_input.png",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ui_input_focus": {
+      "path": "res://assets/sprites/ui_input_focus.png",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ui_button_disabled": {
+      "path": "res://assets/sprites/ui_button_disabled.png",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ui_tooltip": {
+      "path": "res://assets/sprites/ui_tooltip.png",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ui_tab_selected": {
+      "path": "res://assets/sprites/ui_tab_selected.png",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ui_focus_outline": {
+      "path": "res://assets/sprites/ui_focus_outline.png",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ui_scroll_track": {
+      "path": "res://assets/sprites/ui_scroll_track.png",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ui_scroll_thumb": {
+      "path": "res://assets/sprites/ui_scroll_thumb.png",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ui_scroll_active": {
+      "path": "res://assets/sprites/ui_scroll_active.png",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ui_button_secondary": {
+      "path": "res://assets/sprites/ui_button_secondary.png",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "bicycle_riding": {
+      "path": "res://assets/sprites/bicycle_riding.png",
+      "size": [
+        160,
+        128
+      ],
+      "frame_size": [
+        40,
+        32
+      ],
+      "frames": 4,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "anchor": [
+        20,
+        30
+      ],
+      "opaque_bounds": {
+        "down": [
+          11,
+          4,
+          17,
+          27
+        ],
+        "left": [
+          3,
+          10,
+          34,
+          21
+        ],
+        "right": [
+          3,
+          10,
+          34,
+          21
+        ],
+        "up": [
+          11,
+          4,
+          17,
+          27
+        ]
+      }
+    }
+  }
+}

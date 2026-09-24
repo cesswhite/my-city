@@ -1,0 +1,376 @@
+{
+  "model_requested": "gpt-image-2.5-sunburst-2026-09-08",
+  "model_catalog_verified": "gpt-image-2.5-sunburst-2026-09-08",
+  "model_catalog_http": 200,
+  "model_response": null,
+  "model_response_note": "The official imagegen CLI does not persist response model metadata.",
+  "official_cli": "<IMAGEGEN_SKILL_DIR>/scripts/image_gen.py",
+  "command_arguments": [
+    "generate",
+    "--model",
+    "gpt-image-2.5-sunburst-2026-09-08",
+    "--prompt-file",
+    "output/imagegen/hud-icons-prompt.txt",
+    "--size",
+    "1024x1024",
+    "--quality",
+    "high",
+    "--background",
+    "transparent",
+    "--output-format",
+    "png",
+    "--no-augment",
+    "--out",
+    "output/imagegen/hud-icons-source.png"
+  ],
+  "started_at": "2026-09-23T22:53:46.109Z",
+  "fallback": false,
+  "completed_at": "2026-09-23T22:54:25.409Z",
+  "cli_exit_status": 0,
+  "api_generation_accepted": true,
+  "source_sha256": "beaa2952c9b3e27fe4f19736a8a3878e824ae03e2a86cb1d8828a448fa7566ad",
+  "atlas_sha256": "c9834ec003e0b72048643a02ba70a67e80674f7702a29b314478b86cbc67b747",
+  "prompt_sha256": "ddfaa39829b10c7a17fce42115469470f849909f2e3f69961aaec2951ded9355",
+  "import": {
+    "script": "output/imagegen/hud-icons-import.py",
+    "output": "game/assets/sprites/hud_icons.png",
+    "size": [
+      64,
+      64
+    ],
+    "native_icon": [
+      16,
+      16
+    ],
+    "processing": "Per-cell alpha crop, nearest-neighbor fit within14×14, binary alpha, three-color quantization; generated silhouettes only.",
+    "icons": [
+      {
+        "id": "pause",
+        "source_cell": [
+          0,
+          0,
+          256,
+          256
+        ],
+        "alpha_crop": [
+          68,
+          75,
+          209,
+          232
+        ],
+        "native_visible_size": [
+          13,
+          14
+        ],
+        "accent": "sage"
+      },
+      {
+        "id": "play",
+        "source_cell": [
+          256,
+          0,
+          256,
+          256
+        ],
+        "alpha_crop": [
+          61,
+          66,
+          206,
+          240
+        ],
+        "native_visible_size": [
+          12,
+          14
+        ],
+        "accent": "terracotta"
+      },
+      {
+        "id": "eye",
+        "source_cell": [
+          512,
+          0,
+          256,
+          256
+        ],
+        "alpha_crop": [
+          20,
+          91,
+          220,
+          221
+        ],
+        "native_visible_size": [
+          14,
+          9
+        ],
+        "accent": "sage"
+      },
+      {
+        "id": "hand",
+        "source_cell": [
+          768,
+          0,
+          256,
+          256
+        ],
+        "alpha_crop": [
+          30,
+          47,
+          221,
+          243
+        ],
+        "native_visible_size": [
+          14,
+          14
+        ],
+        "accent": "gold"
+      },
+      {
+        "id": "save",
+        "source_cell": [
+          0,
+          256,
+          256,
+          256
+        ],
+        "alpha_crop": [
+          52,
+          46,
+          227,
+          223
+        ],
+        "native_visible_size": [
+          14,
+          14
+        ],
+        "accent": "terracotta"
+      },
+      {
+        "id": "menu",
+        "source_cell": [
+          256,
+          256,
+          256,
+          256
+        ],
+        "alpha_crop": [
+          56,
+          56,
+          220,
+          224
+        ],
+        "native_visible_size": [
+          14,
+          14
+        ],
+        "accent": "sage"
+      },
+      {
+        "id": "person",
+        "source_cell": [
+          512,
+          256,
+          256,
+          256
+        ],
+        "alpha_crop": [
+          46,
+          44,
+          209,
+          228
+        ],
+        "native_visible_size": [
+          12,
+          14
+        ],
+        "accent": "terracotta"
+      },
+      {
+        "id": "journal",
+        "source_cell": [
+          768,
+          256,
+          256,
+          256
+        ],
+        "alpha_crop": [
+          49,
+          38,
+          206,
+          224
+        ],
+        "native_visible_size": [
+          12,
+          14
+        ],
+        "accent": "sage"
+      },
+      {
+        "id": "home",
+        "source_cell": [
+          0,
+          512,
+          256,
+          256
+        ],
+        "alpha_crop": [
+          45,
+          25,
+          232,
+          206
+        ],
+        "native_visible_size": [
+          14,
+          14
+        ],
+        "accent": "terracotta"
+      },
+      {
+        "id": "bicycle",
+        "source_cell": [
+          256,
+          512,
+          256,
+          256
+        ],
+        "alpha_crop": [
+          16,
+          52,
+          242,
+          202
+        ],
+        "native_visible_size": [
+          14,
+          9
+        ],
+        "accent": "sage"
+      },
+      {
+        "id": "spark",
+        "source_cell": [
+          512,
+          512,
+          256,
+          256
+        ],
+        "alpha_crop": [
+          48,
+          32,
+          209,
+          214
+        ],
+        "native_visible_size": [
+          12,
+          14
+        ],
+        "accent": "gold"
+      },
+      {
+        "id": "clock",
+        "source_cell": [
+          768,
+          512,
+          256,
+          256
+        ],
+        "alpha_crop": [
+          32,
+          20,
+          223,
+          212
+        ],
+        "native_visible_size": [
+          13,
+          13
+        ],
+        "accent": "gold"
+      },
+      {
+        "id": "energy",
+        "source_cell": [
+          0,
+          768,
+          256,
+          256
+        ],
+        "alpha_crop": [
+          70,
+          16,
+          206,
+          205
+        ],
+        "native_visible_size": [
+          10,
+          14
+        ],
+        "accent": "gold"
+      },
+      {
+        "id": "coin",
+        "source_cell": [
+          256,
+          768,
+          256,
+          256
+        ],
+        "alpha_crop": [
+          32,
+          16,
+          214,
+          198
+        ],
+        "native_visible_size": [
+          14,
+          14
+        ],
+        "accent": "gold"
+      },
+      {
+        "id": "seed",
+        "source_cell": [
+          512,
+          768,
+          256,
+          256
+        ],
+        "alpha_crop": [
+          41,
+          18,
+          215,
+          197
+        ],
+        "native_visible_size": [
+          14,
+          14
+        ],
+        "accent": "sage"
+      },
+      {
+        "id": "people",
+        "source_cell": [
+          768,
+          768,
+          256,
+          256
+        ],
+        "alpha_crop": [
+          23,
+          23,
+          228,
+          195
+        ],
+        "native_visible_size": [
+          14,
+          12
+        ],
+        "accent": "terracotta"
+      }
+    ]
+  },
+  "privacy_redaction": {
+    "fields": [
+      "official_cli"
+    ],
+    "note": "Personal absolute installation path replaced for public documentation. Other original metadata is unchanged. Historical lineage hashes refer to the pre-redaction record bytes.",
+    "original_document_sha256": "4f39e62103c03ad21860dc912fe36506ce3a46fc9efb278e19496eb5139a58dd"
+  }
+}
